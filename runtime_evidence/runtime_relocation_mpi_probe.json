@@ -1,0 +1,156 @@
+{
+  "status": "PASS",
+  "scope": "Relocated Linux runtime imports, exact offline-template resolution, independent NSIDE8 scalar transform and MPI gather",
+  "host": "lxlogin003.ihep.ac.cn",
+  "platform": "Linux-5.14.0-687.34.1.el9_8.x86_64-x86_64-with-glibc2.34",
+  "libc": [
+    "glibc",
+    "2.34"
+  ],
+  "python": "3.12.11",
+  "versions": {
+    "numpy": "2.2.5",
+    "scipy": "1.14.1",
+    "healpy": "1.19.0",
+    "astropy": "7.2.0",
+    "pysm3": "3.4.4",
+    "numba": "0.61.2",
+    "mpi4py": "4.1.1",
+    "h5py": "3.13.0",
+    "setuptools": "80.9.0"
+  },
+  "MPI_library_version": "Open MPI v5.0.8, package: Open MPI conda@fd1695381c62 Distribution, ident: 5.0.8, repo rev: v5.0.8, May 30, 2025\u0000",
+  "rank_reports": [
+    {
+      "rank": 0,
+      "size": 5,
+      "hostname": "lxlogin003.ihep.ac.cn",
+      "executable": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python3.12",
+      "prefix": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime",
+      "MPI_vendor": [
+        "Open MPI",
+        [
+          5,
+          0,
+          8
+        ]
+      ],
+      "loaded_MPI_libraries": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/libmpi.so.40.40.7",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/libopen-pal.so.80.0.5"
+      ],
+      "old_environment_paths_loaded": [],
+      "marker_matches_prefix": true
+    },
+    {
+      "rank": 1,
+      "size": 5,
+      "hostname": "lxlogin003.ihep.ac.cn",
+      "executable": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python3.12",
+      "prefix": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime",
+      "MPI_vendor": [
+        "Open MPI",
+        [
+          5,
+          0,
+          8
+        ]
+      ],
+      "loaded_MPI_libraries": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/libmpi.so.40.40.7",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/libopen-pal.so.80.0.5"
+      ],
+      "old_environment_paths_loaded": [],
+      "marker_matches_prefix": true
+    },
+    {
+      "rank": 2,
+      "size": 5,
+      "hostname": "lxlogin003.ihep.ac.cn",
+      "executable": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python3.12",
+      "prefix": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime",
+      "MPI_vendor": [
+        "Open MPI",
+        [
+          5,
+          0,
+          8
+        ]
+      ],
+      "loaded_MPI_libraries": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/libmpi.so.40.40.7",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/libopen-pal.so.80.0.5"
+      ],
+      "old_environment_paths_loaded": [],
+      "marker_matches_prefix": true
+    },
+    {
+      "rank": 3,
+      "size": 5,
+      "hostname": "lxlogin003.ihep.ac.cn",
+      "executable": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python3.12",
+      "prefix": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime",
+      "MPI_vendor": [
+        "Open MPI",
+        [
+          5,
+          0,
+          8
+        ]
+      ],
+      "loaded_MPI_libraries": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/libmpi.so.40.40.7",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/libopen-pal.so.80.0.5"
+      ],
+      "old_environment_paths_loaded": [],
+      "marker_matches_prefix": true
+    },
+    {
+      "rank": 4,
+      "size": 5,
+      "hostname": "lxlogin003.ihep.ac.cn",
+      "executable": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python3.12",
+      "prefix": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime",
+      "MPI_vendor": [
+        "Open MPI",
+        [
+          5,
+          0,
+          8
+        ]
+      ],
+      "loaded_MPI_libraries": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/libmpi.so.40.40.7",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/libopen-pal.so.80.0.5"
+      ],
+      "old_environment_paths_loaded": [],
+      "marker_matches_prefix": true
+    }
+  ],
+  "sys_path": [
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test",
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test",
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/python312.zip",
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/python3.12",
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/python3.12/lib-dynload",
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/lib/python3.12/site-packages"
+  ],
+  "offline_template_paths": [
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/dust_gnilc/gnilc_dust_template_nside2048_2023.02.10.fits",
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/synch/synch_template_nside2048_2023.02.25.fits",
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ame_t_new.fits",
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ame_nu_peak_0.fits",
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/emissivity.txt",
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ame2_t_new.fits",
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ff_t_new.fits"
+  ],
+  "small_transform": {
+    "nside": 8,
+    "lmax": 16,
+    "iter": 3,
+    "pol": false,
+    "input": "independently constructed all-ones scalar map",
+    "finite": true,
+    "monopole_C_ell": 12.566307234917726
+  }
+}

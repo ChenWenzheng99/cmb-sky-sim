@@ -1,0 +1,29 @@
+{
+  "array": 225188,
+  "audit": [
+    {
+      "AllocCPUS": "1",
+      "ElapsedRaw": "112",
+      "End": "Unknown",
+      "ExitCode": "0:0",
+      "JobID": "225245",
+      "MaxRSS": "",
+      "NodeList": "aliws021",
+      "ReqCPUS": "1",
+      "ReqMem": "4G",
+      "Start": "2026-10-11T16:15:51",
+      "State": "RUNNING"
+    }
+  ],
+  "completed_exit0_count": 490,
+  "expanded_task_count": 490,
+  "expected_bulk_tasks": 490,
+  "failures": [],
+  "parent_task_state_counts": {
+    "COMPLETED": 490
+  },
+  "queried_at_utc": "20261011T081743Z",
+  "sacct_path": "/home/chen/output/data_paper/cmb_sehgal2010_release/evidence/campaign_sacct_20261011T081743Z.psv",
+  "sacct_sha256": "cf9077511de4cb1550f2a3e9492d7c005182ff38eef06a1f067ea85c9015fd11",
+  "unexpanded_pending_estimate": 0
+}

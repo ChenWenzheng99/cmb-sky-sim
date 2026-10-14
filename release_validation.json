@@ -1,0 +1,119 @@
+{
+  "status": "PASS_SCOPED_SOURCE_RUNTIME_CHECKS",
+  "release": "ali_sky 1.1.0",
+  "default_coordinate": "G",
+  "coordinate_basis": "Published new CMB FITS G header; owner-declared fallback for headerless XFG/noise; headerless source kappa physical frame is not independently recertified",
+  "checks": {
+    "software_unit_tests": 32,
+    "observation_tests": 23,
+    "noise_tests": 9,
+    "local_complete_suite": "PASS",
+    "delivered_runtime_current_source_suite": "PASS",
+    "example_configuration_count": 6,
+    "launcher_help": "PASS",
+    "shell_syntax": "PASS",
+    "exclusive_new_CMB_selection": "PASS",
+    "discrepant_legacy_CMB_ignored": "PASS",
+    "missing_new_CMB_no_legacy_fallback": "PASS",
+    "noise_numerical_source_unchanged": true,
+    "default_published_CMB_ID0_header_sidecar": "PASS"
+  },
+  "cmb_default": {
+    "selected_path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/A_NEW_WORK_ILC/mmDL_maps_2048/00000/lensedcmb_new_00000.fits",
+    "legacy_path_present_but_ignored": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/A_NEW_WORK_ILC/mmDL_maps_2048/00000/lensedcmb_00000.fits",
+    "header": {
+      "NSIDE": 2048,
+      "ORDERING": "RING",
+      "COORDSYS": "G",
+      "POLCCONV": "COSMO",
+      "TUNIT1": "uK_CMB",
+      "TUNIT2": "uK_CMB",
+      "TUNIT3": "uK_CMB",
+      "REALID": 0,
+      "RNGSEED": 3130196835,
+      "UNLLMAX": 5999,
+      "DEFLMAX": 6143,
+      "THSHA": "0a334b85c91c73465a2dd3f9a26c7c52d08ae3303f855e8f0817cb827557e9bc",
+      "KPSHA": "8e145f1f6e759147c5a9d94d5433b0685c1e7a9695af810ef51b0ebf022873ca"
+    },
+    "sidecar": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/A_NEW_WORK_ILC/mmDL_maps_2048/00000/lensedcmb_new_00000.json",
+      "sha256": "f850ace992c0f08b9aae6cd9f718147c3190fd35abdbf0f71e138ab3d7025778"
+    },
+    "pixel_data_read": false,
+    "full_FITS_sha256_recomputed": false,
+    "primary": "Sehgal2010 CAMB primary, r=0",
+    "lensing": "Corresponding actual mmDL kappa",
+    "frame_caveat": "A headerless local kappa frame is not physically re-certified by this producer. The owner's G declaration differs from the upstream native mmDL ICRS provenance; no unrecorded intermediate rotation is inferred."
+  },
+  "source_installation": {
+    "cluster_path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.1",
+    "code_version": "1.1.0",
+    "runtime": "Read-only symlink to existing immutable 1.0 dependency runtime",
+    "templates": "Read-only symlink to existing immutable seven-template collection",
+    "new_runtime_relocation_claimed": false
+  },
+  "report_files": [
+    {
+      "path": "provenance/release_1.1_source_validation.json",
+      "sha256": "73394fa3bf99b6c3c892001c7162bc1f79132424883bca0da546dffe5c4187bf"
+    },
+    {
+      "path": "provenance/release_1.1_cluster_validation.json",
+      "sha256": "8e86067dd18a19e9fa254f9fb83fce5c17a1c9fe5252a2b6db3088770f23c244"
+    },
+    {
+      "path": "provenance/release_1.0_validation.json",
+      "sha256": "594c30f6a856d61d193120ce6b922b517287e7f23f3c818d0d902e64958e7a81"
+    }
+  ],
+  "tested_core_sources": [
+    {
+      "path": "ali_sky/__init__.py",
+      "sha256": "185f37b08a7438607f45a0c77b8e590c754fb4b20061802434e5790eb69b48b0"
+    },
+    {
+      "path": "ali_sky/cli.py",
+      "sha256": "40dc4686350186eb5dca990979ed00d5ae7423b070bc74959a4fcf3e3f83a1c2"
+    },
+    {
+      "path": "ali_sky/config.py",
+      "sha256": "fe646f269bd2c88382831999605a402d36c79a1ee46624e92332daf6a27bbd1d"
+    },
+    {
+      "path": "ali_sky/coordinates.py",
+      "sha256": "545b4b3de3118341edbcdca8f7c7e92f01bef9d84d1bfded3e5cb72d5ee0aaf9"
+    },
+    {
+      "path": "ali_sky/foregrounds.py",
+      "sha256": "0ecc3f0e32e368a50301cb76b5923b535d148874f36f31723804fdc7805bebce"
+    },
+    {
+      "path": "ali_sky/io.py",
+      "sha256": "220d7a78b4381025aeb2a573139ef6cf773a261a67b850246edd437cdc2f03e6"
+    },
+    {
+      "path": "ali_sky/noise.py",
+      "sha256": "9b0543558ae715516c427d345445a333acb79fc1fe64690580dc3854992fcef0"
+    },
+    {
+      "path": "ali_sky/observation.py",
+      "sha256": "ae58d58e9e62b9440d600d96a93139dec89cf0626968b0607713d58947f47dc3"
+    },
+    {
+      "path": "ali_sky/sed.py",
+      "sha256": "b706b34041d1eb305600c17101055837435bcb597cd4f11787ed100afc395662"
+    }
+  ],
+  "historical_validation": {
+    "release": "ali_sky 1.0.0",
+    "path": "provenance/release_1.0_validation.json",
+    "scope": "Historical native2048/MPI integration used its recorded 1.0 source hashes and legacy CMB selection; its results are not relabelled as a new 1.1 native observation run"
+  },
+  "scope_limits": [
+    "32 source tests use independently generated small native-grid fixtures; they are not downgrades of production maps.",
+    "Default new CMB source checks read only current header/sidecar; full production pixels and SHA were not reread by this software probe.",
+    "The full portable bundle carries unchanged dependency runtime and seven offline templates; large sky maps remain external.",
+    "No scientific Monte Carlo certification or independent physical frame recertification is implied."
+  ]
+}

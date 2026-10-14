@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "runtime": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/runtime",
+  "commands": [
+    {
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/runtime/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "contourpy==1.3.3"
+      ],
+      "exit_code": 0,
+      "log": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/logs/runtime_final_setup_0.log",
+      "sha256": "8f74927cddf2648caeec94f61fe5118d6138870029c5d354bb65a0eae5c5f075"
+    },
+    {
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/runtime/bin/python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "exit_code": 0,
+      "log": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/logs/runtime_final_setup_1.log",
+      "sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+    },
+    {
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/runtime/bin/python",
+        "-c",
+        "import camb,lenspyx,healpy,numpy,ducc0,mpi4py,inspect,importlib.metadata as m,json;print(json.dumps({n:m.version(n) for n in [\"camb\",\"lenspyx\",\"healpy\",\"numpy\",\"ducc0\",\"mpi4py\",\"contourpy\"]}));print(lenspyx.__file__);print(inspect.signature(lenspyx.alm2lenmap))"
+      ],
+      "exit_code": 0,
+      "log": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/logs/runtime_final_setup_2.log",
+      "sha256": "1d34ec11183efce95553c03172990c887fcf371e33376373a14f80a2e81c2e1f"
+    }
+  ],
+  "vendor_manifest": "lenspyx_vendor_manifest.json",
+  "legacy_library_compatibility": "Exact original43 numerical/data files unchanged. NumPy1.26.4 retains longfloat/longcomplex aliases; compatiblecontourpy1.3.3. Packaging backend alone updated.",
+  "versions": {
+    "camb": "1.6.1",
+    "lenspyx": "2.0.0",
+    "numpy": "1.26.4",
+    "healpy": "1.19.0",
+    "ducc0": "0.38.0",
+    "contourpy": "1.3.3"
+  },
+  "elapsed_seconds": 12.486103057861328
+}

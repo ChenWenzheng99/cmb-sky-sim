@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "release": "ali_sky 1.0.0",
+  "default_coordinate": "G",
+  "coordinate_basis": "Owner-declared fallback for missing-header inputs; historical upstream C/ICRS evidence remains separate; not independently certified",
+  "checks": {
+    "software_unit_tests": 30,
+    "current_relocated_runtime": "PASS",
+    "example_configuration_count": 6,
+    "real_serial_MPI_pixel_seed_comparisons": 72,
+    "native_noise_job": 224657,
+    "native_observation_job": 224659,
+    "native_validation_job": 224801,
+    "native_nside": 2048,
+    "native_observation_frequencies_GHz": [
+      95,
+      150
+    ],
+    "source_native_resolution_preserved": true,
+    "95GHz_PySM_components_generated_cached_checked": 4,
+    "native_observation_total_values_finite": 301989888,
+    "mask_outside_TQU_exact_zero": true,
+    "production_slurm_helpers_mock_checked": true
+  },
+  "report_files": [
+    {
+      "path": "provenance/independent_validation.json",
+      "sha256": "63ab4adffcdd473de38431e56ac3d9c708ad9b73ce17b65ee6ec766a16d2af5e"
+    },
+    {
+      "path": "provenance/noise_runtime_validation_summary.json",
+      "sha256": "38ffe756b5c2078f6fb8b3ea341e28e34fb4eb43596088bc55e6f1d7796be469"
+    },
+    {
+      "path": "provenance/noise_mpi_audit.json",
+      "sha256": "c45189bb6a8591b305fc97f088163a8b46a9d5cb816a7fb8aabee2ad91c034fd"
+    },
+    {
+      "path": "provenance/noise_native2048_audit.json",
+      "sha256": "054c6054b5507af8dac48096d5eb62690b456adeef2b9e0f6568f0b8c463b5af"
+    },
+    {
+      "path": "provenance/current_relocated_source_validation.json",
+      "sha256": "124944540ce8bab69d8ddf3a7af4288b27ce3c2efded5752b1d75cb3d9c6aaeb"
+    },
+    {
+      "path": "provenance/native_integration_audit.json",
+      "sha256": "883d0eee70747962638bb9779ab272238d3d16e38fc54c6b326844343880b816"
+    },
+    {
+      "path": "provenance/local_evidence_review.json",
+      "sha256": "9e78fd40baf11573a543ccaa13383f8c1c49d9db71712450648603e6817adae7"
+    },
+    {
+      "path": "provenance/live_noise_inventory.json",
+      "sha256": "5074f10e200e374c1c86362bd406864cc5de467567475cd6443b1916f1b0a684"
+    }
+  ],
+  "tested_core_sources": [
+    {
+      "path": "ali_sky/__init__.py",
+      "sha256": "5b7997b7b9c1858678326bbc40a47816415e1f7f13ae9189f5d38b71870b60ec"
+    },
+    {
+      "path": "ali_sky/cli.py",
+      "sha256": "40dc4686350186eb5dca990979ed00d5ae7423b070bc74959a4fcf3e3f83a1c2"
+    },
+    {
+      "path": "ali_sky/config.py",
+      "sha256": "fe646f269bd2c88382831999605a402d36c79a1ee46624e92332daf6a27bbd1d"
+    },
+    {
+      "path": "ali_sky/coordinates.py",
+      "sha256": "545b4b3de3118341edbcdca8f7c7e92f01bef9d84d1bfded3e5cb72d5ee0aaf9"
+    },
+    {
+      "path": "ali_sky/foregrounds.py",
+      "sha256": "0ecc3f0e32e368a50301cb76b5923b535d148874f36f31723804fdc7805bebce"
+    },
+    {
+      "path": "ali_sky/io.py",
+      "sha256": "a30c37e88fc0b8b61acbb3977f23b1fbca4d2a5cb2140ac929f9a42517a1ba59"
+    },
+    {
+      "path": "ali_sky/noise.py",
+      "sha256": "9b0543558ae715516c427d345445a333acb79fc1fe64690580dc3854992fcef0"
+    },
+    {
+      "path": "ali_sky/observation.py",
+      "sha256": "d499bf1ef12761644c1ed589c4f585a6104d595983634785bf482c89b90299b4"
+    },
+    {
+      "path": "ali_sky/sed.py",
+      "sha256": "b706b34041d1eb305600c17101055837435bcb597cd4f11787ed100afc395662"
+    }
+  ],
+  "scope_limits": [
+    "Small MPI controls are freshly generated native8/16 fixtures, not reduced production maps.",
+    "Native2048 integration validates forward production, serialization, masks and cache provenance; it is not a native legacy-seed pixel reproduction or Monte Carlo inference certification.",
+    "Full portable bundle contains runtime and seven offline PySM templates; large repository sky maps remain external inputs."
+  ]
+}

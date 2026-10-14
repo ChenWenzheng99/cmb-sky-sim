@@ -1,0 +1,22 @@
+{
+  "instrument": "LAT",
+  "nside": 2048,
+  "frequencies_GHz": [150],
+  "ids": [0],
+  "noise_ids": [0],
+  "coordinate": "G",
+  "repository": {
+    "sky_coordinate": "G",
+    "noise_coordinate": "G",
+    "mask_coordinate": "C",
+    "frame_basis": "Dataset-owner declaration on 2026-10-11 for sky/noise G; upstream ICRS evidence is retained separately"
+  },
+  "add_noise": true,
+  "use_repository_mask": true,
+  "galactic_presets": {"dust": "d9", "synchrotron": "s4", "freefree": "f1", "ame": "a1"},
+  "lmax": 6143,
+  "harmonic_iter": 1,
+  "cache_dir": "../cache",
+  "output_dir": "../outputs/observe_lat150",
+  "overwrite": false
+}

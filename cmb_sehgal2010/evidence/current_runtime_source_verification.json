@@ -1,0 +1,558 @@
+{
+  "schema": "lenspyx_vendored_and_execution_sources_v1",
+  "status": "PASS_VENDORED43_INSTALLED41_DUCC_EXECUTION_ROUTE",
+  "release_root": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010",
+  "runtime_prefix": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/runtime",
+  "installed_lenspyx": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/runtime/lib/python3.12/site-packages/lenspyx",
+  "vendored_root": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/vendor/lenspyx-2.0.0",
+  "manifest_sha256": "f50fae7874ecb87416802646fa909afa46e4e61e9c294508c42348d0d370a72e",
+  "helper_sha256": "83e1f7360ab52f8cb31b49052558f090ebfb7ed69a07174d2293c4d1107ba770",
+  "versions": {
+    "lenspyx": "2.0.0",
+    "ducc0": "0.38.0",
+    "numpy": "1.26.4"
+  },
+  "python": "3.12.11",
+  "vendored_source_files_checked": 43,
+  "installed_python_data_files_checked": 41,
+  "source_only_Fortran_files_checked": 2,
+  "source_only_Fortran_paths": [
+    "lenspyx/fortran/remapping.f90",
+    "lenspyx/shts/shts.f90"
+  ],
+  "file_checks": [
+    {
+      "relative_path": "lenspyx/__init__.py",
+      "bytes": 65,
+      "expected_sha256": "310a6036ec64287e114b0ef9689276757557152b193af992f7909d268ae25d41",
+      "vendored_sha256": "310a6036ec64287e114b0ef9689276757557152b193af992f7909d268ae25d41",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "310a6036ec64287e114b0ef9689276757557152b193af992f7909d268ae25d41",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/angles.py",
+      "bytes": 3785,
+      "expected_sha256": "b5b150ae6df1e741cd4484a895cf8f45dbcfa2ae4804b8cf456e097e3af01fde",
+      "vendored_sha256": "b5b150ae6df1e741cd4484a895cf8f45dbcfa2ae4804b8cf456e097e3af01fde",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "b5b150ae6df1e741cd4484a895cf8f45dbcfa2ae4804b8cf456e097e3af01fde",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/cachers.py",
+      "bytes": 1981,
+      "expected_sha256": "c5af630fb8103f44443701835297e93ada3d0987f5988e9d008b82590e84281d",
+      "vendored_sha256": "c5af630fb8103f44443701835297e93ada3d0987f5988e9d008b82590e84281d",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "c5af630fb8103f44443701835297e93ada3d0987f5988e9d008b82590e84281d",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/data/cls/FFP10_wdipole_lensedCls.dat",
+      "bytes": 462368,
+      "expected_sha256": "7b0bfb4502248500aa55318dfd168d47dc2caa24cc3d8fef65d12c595c45a387",
+      "vendored_sha256": "7b0bfb4502248500aa55318dfd168d47dc2caa24cc3d8fef65d12c595c45a387",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "7b0bfb4502248500aa55318dfd168d47dc2caa24cc3d8fef65d12c595c45a387",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/data/cls/FFP10_wdipole_lenspotentialCls.dat",
+      "bytes": 784113,
+      "expected_sha256": "a8410ac5a17fb10c2ab34ab2af72b810bc197c04b361b5f238bf6a4ab5849635",
+      "vendored_sha256": "a8410ac5a17fb10c2ab34ab2af72b810bc197c04b361b5f238bf6a4ab5849635",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "a8410ac5a17fb10c2ab34ab2af72b810bc197c04b361b5f238bf6a4ab5849635",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/data/cls/FFP10_wdipole_params.ini",
+      "bytes": 1850,
+      "expected_sha256": "8fc94a191d41cb171a91a6030ad0abec5b2320821e210a5244fdcafb25da8786",
+      "vendored_sha256": "8fc94a191d41cb171a91a6030ad0abec5b2320821e210a5244fdcafb25da8786",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "8fc94a191d41cb171a91a6030ad0abec5b2320821e210a5244fdcafb25da8786",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/fortran/__init__.py",
+      "bytes": 0,
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "vendored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/fortran/remapping.f90",
+      "bytes": 15305,
+      "expected_sha256": "254ec53e2b7e197f0827c42e092c11b77327ea82589a52632b7dfe576f566a28",
+      "vendored_sha256": "254ec53e2b7e197f0827c42e092c11b77327ea82589a52632b7dfe576f566a28",
+      "classification": "source_only_Fortran",
+      "installed_present": false,
+      "installed_sha256": null,
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/lensing.py",
+      "bytes": 5972,
+      "expected_sha256": "166e50578353fb83e42830d0064c995d041759dd96712e0027fbcc5a4d1d4371",
+      "vendored_sha256": "166e50578353fb83e42830d0064c995d041759dd96712e0027fbcc5a4d1d4371",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "166e50578353fb83e42830d0064c995d041759dd96712e0027fbcc5a4d1d4371",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/remapping/__init__.py",
+      "bytes": 43,
+      "expected_sha256": "3f06f1972653d4b706a55ebd855da2b7fa7d6c3f44037e2c289661681f1cdbfa",
+      "vendored_sha256": "3f06f1972653d4b706a55ebd855da2b7fa7d6c3f44037e2c289661681f1cdbfa",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "3f06f1972653d4b706a55ebd855da2b7fa7d6c3f44037e2c289661681f1cdbfa",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/remapping/deflection.py",
+      "bytes": 102,
+      "expected_sha256": "1da43875f40e5686ec2b88a5ee38ce562e76a6d823609fd4100af1319ae47241",
+      "vendored_sha256": "1da43875f40e5686ec2b88a5ee38ce562e76a6d823609fd4100af1319ae47241",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "1da43875f40e5686ec2b88a5ee38ce562e76a6d823609fd4100af1319ae47241",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/remapping/deflection_028.py",
+      "bytes": 32754,
+      "expected_sha256": "72b28df89f23a7abb8877789e98d0ff8e81c63a65d5954b3a1e64c7011e4368b",
+      "vendored_sha256": "72b28df89f23a7abb8877789e98d0ff8e81c63a65d5954b3a1e64c7011e4368b",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "72b28df89f23a7abb8877789e98d0ff8e81c63a65d5954b3a1e64c7011e4368b",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/remapping/deflection_029.py",
+      "bytes": 4398,
+      "expected_sha256": "223481e99305b072a48499a82ce5906d1198e63a698fcd709b8bf21adac1ea12",
+      "vendored_sha256": "223481e99305b072a48499a82ce5906d1198e63a698fcd709b8bf21adac1ea12",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "223481e99305b072a48499a82ce5906d1198e63a698fcd709b8bf21adac1ea12",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/remapping/utils_angles.py",
+      "bytes": 3945,
+      "expected_sha256": "8b498337f897259fa9fae0e122dedbcbc1e3edc7b45144cf0bda6bbb4f9d0dc2",
+      "vendored_sha256": "8b498337f897259fa9fae0e122dedbcbc1e3edc7b45144cf0bda6bbb4f9d0dc2",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "8b498337f897259fa9fae0e122dedbcbc1e3edc7b45144cf0bda6bbb4f9d0dc2",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/remapping/utils_geom.py",
+      "bytes": 15439,
+      "expected_sha256": "8bb6daddb031f2fae417c0a4cdc9ff886f3886f389fa6e312bb97d76f17a71c2",
+      "vendored_sha256": "8bb6daddb031f2fae417c0a4cdc9ff886f3886f389fa6e312bb97d76f17a71c2",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "8bb6daddb031f2fae417c0a4cdc9ff886f3886f389fa6e312bb97d76f17a71c2",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/shts/__init__.py",
+      "bytes": 2,
+      "expected_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "vendored_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "75a11da44c802486bc6f65640aa48a730f0f684c5c07a42ba3cd1735eb3fb070",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/shts/shts.f90",
+      "bytes": 32885,
+      "expected_sha256": "c5068d7ddeb35216393bec7b748b2db758e0319af7f1bb273c279b6387a19780",
+      "vendored_sha256": "c5068d7ddeb35216393bec7b748b2db758e0319af7f1bb273c279b6387a19780",
+      "classification": "source_only_Fortran",
+      "installed_present": false,
+      "installed_sha256": null,
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/shts/shts.py",
+      "bytes": 6426,
+      "expected_sha256": "5df4bae415bc9be85865968331eb0b914535d57fd1db8d7890fa6dc22e02bdeb",
+      "vendored_sha256": "5df4bae415bc9be85865968331eb0b914535d57fd1db8d7890fa6dc22e02bdeb",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "5df4bae415bc9be85865968331eb0b914535d57fd1db8d7890fa6dc22e02bdeb",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/sims.py",
+      "bytes": 5342,
+      "expected_sha256": "9cf930fa9baccc798d556e89290e72415e203fa7bf49c8d16c9f05048d6c9611",
+      "vendored_sha256": "9cf930fa9baccc798d556e89290e72415e203fa7bf49c8d16c9f05048d6c9611",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "9cf930fa9baccc798d556e89290e72415e203fa7bf49c8d16c9f05048d6c9611",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/2829.py",
+      "bytes": 5058,
+      "expected_sha256": "c00aa38cf6860d9e4783ee56867f67c5d6f81745fc3bedb3a3b6121990c84d84",
+      "vendored_sha256": "c00aa38cf6860d9e4783ee56867f67c5d6f81745fc3bedb3a3b6121990c84d84",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "c00aa38cf6860d9e4783ee56867f67c5d6f81745fc3bedb3a3b6121990c84d84",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/__init__.py",
+      "bytes": 0,
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "vendored_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/aliasing.py",
+      "bytes": 3652,
+      "expected_sha256": "661a31611838dfe4cafe3c00c479e7a5417a6bd76f0e15e47832d329718b8f4e",
+      "vendored_sha256": "661a31611838dfe4cafe3c00c479e7a5417a6bd76f0e15e47832d329718b8f4e",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "661a31611838dfe4cafe3c00c479e7a5417a6bd76f0e15e47832d329718b8f4e",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/anglesatpoles.py",
+      "bytes": 1790,
+      "expected_sha256": "95b6bdf88940570234665a43f6e24e464ba3f88ecaa216be426d47529b9506b2",
+      "vendored_sha256": "95b6bdf88940570234665a43f6e24e464ba3f88ecaa216be426d47529b9506b2",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "95b6bdf88940570234665a43f6e24e464ba3f88ecaa216be426d47529b9506b2",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/cmplxvsreal.py",
+      "bytes": 1113,
+      "expected_sha256": "9d95630ab5d0db7a9324f538a1a4bf18c9815fb41cc03a8eb85cf16d26ee8556",
+      "vendored_sha256": "9d95630ab5d0db7a9324f538a1a4bf18c9815fb41cc03a8eb85cf16d26ee8556",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "9d95630ab5d0db7a9324f538a1a4bf18c9815fb41cc03a8eb85cf16d26ee8556",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/fibonacci.py",
+      "bytes": 906,
+      "expected_sha256": "1278b76fa658eeb2a6156fae6192600cf7fc2b9c7817612cd57a3cd6d3230184",
+      "vendored_sha256": "1278b76fa658eeb2a6156fae6192600cf7fc2b9c7817612cd57a3cd6d3230184",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "1278b76fa658eeb2a6156fae6192600cf7fc2b9c7817612cd57a3cd6d3230184",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/gclm2lenmap.py",
+      "bytes": 4247,
+      "expected_sha256": "dcb3f4fb3cc95b338446f4ef16146fc596b5687197861bc282b827837cd98f8a",
+      "vendored_sha256": "dcb3f4fb3cc95b338446f4ef16146fc596b5687197861bc282b827837cd98f8a",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "dcb3f4fb3cc95b338446f4ef16146fc596b5687197861bc282b827837cd98f8a",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/helper.py",
+      "bytes": 4139,
+      "expected_sha256": "f797b5b84a1fbe61520c574f5692051c26423aaaa24921d8cee12c9b06fb5ad2",
+      "vendored_sha256": "f797b5b84a1fbe61520c574f5692051c26423aaaa24921d8cee12c9b06fb5ad2",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "f797b5b84a1fbe61520c574f5692051c26423aaaa24921d8cee12c9b06fb5ad2",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/lensaliasing.py",
+      "bytes": 5076,
+      "expected_sha256": "f2936e2202482ff6991ef9e183c47e1c6d983e74decdaeae5e3ca181e55ea7c8",
+      "vendored_sha256": "f2936e2202482ff6991ef9e183c47e1c6d983e74decdaeae5e3ca181e55ea7c8",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "f2936e2202482ff6991ef9e183c47e1c6d983e74decdaeae5e3ca181e55ea7c8",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/lensgclm.py",
+      "bytes": 4026,
+      "expected_sha256": "725227df68a8eb2d134df7191d09a1ed9372cdf7e9ca32a891275501049f8696",
+      "vendored_sha256": "725227df68a8eb2d134df7191d09a1ed9372cdf7e9ca32a891275501049f8696",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "725227df68a8eb2d134df7191d09a1ed9372cdf7e9ca32a891275501049f8696",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/lensing.py",
+      "bytes": 1676,
+      "expected_sha256": "40cd7e9c022c5a782a1f35d93d78f9767d529b9590cf897375f6cac9e6ba636a",
+      "vendored_sha256": "40cd7e9c022c5a782a1f35d93d78f9767d529b9590cf897375f6cac9e6ba636a",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "40cd7e9c022c5a782a1f35d93d78f9767d529b9590cf897375f6cac9e6ba636a",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/polrot.py",
+      "bytes": 3319,
+      "expected_sha256": "14f239bf2f8c84182eab139372b9a471962961d9c81b58b337e99892b9366418",
+      "vendored_sha256": "14f239bf2f8c84182eab139372b9a471962961d9c81b58b337e99892b9366418",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "14f239bf2f8c84182eab139372b9a471962961d9c81b58b337e99892b9366418",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/splits.py",
+      "bytes": 1111,
+      "expected_sha256": "7bbbbb4e9feea27e9796d771233565ae51509324cfd156bf1d820a2d2591b5ba",
+      "vendored_sha256": "7bbbbb4e9feea27e9796d771233565ae51509324cfd156bf1d820a2d2591b5ba",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "7bbbbb4e9feea27e9796d771233565ae51509324cfd156bf1d820a2d2591b5ba",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/strongscal_bwd.py",
+      "bytes": 2168,
+      "expected_sha256": "aac8200198da32bade47460d090b1f123aa52d6c0548e2a971c6ed0e05a9951e",
+      "vendored_sha256": "aac8200198da32bade47460d090b1f123aa52d6c0548e2a971c6ed0e05a9951e",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "aac8200198da32bade47460d090b1f123aa52d6c0548e2a971c6ed0e05a9951e",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/strongscal_fwd.py",
+      "bytes": 2109,
+      "expected_sha256": "d4f88c4ebc2df3bf8ca70c270a1dccf41064444fa7d237fb398737e06b284c2a",
+      "vendored_sha256": "d4f88c4ebc2df3bf8ca70c270a1dccf41064444fa7d237fb398737e06b284c2a",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "d4f88c4ebc2df3bf8ca70c270a1dccf41064444fa7d237fb398737e06b284c2a",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/test_A.py",
+      "bytes": 1116,
+      "expected_sha256": "538d816c458e3b934c0fd2bc5ece0a330201241300ea51137b40ad8a3f0f8522",
+      "vendored_sha256": "538d816c458e3b934c0fd2bc5ece0a330201241300ea51137b40ad8a3f0f8522",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "538d816c458e3b934c0fd2bc5ece0a330201241300ea51137b40ad8a3f0f8522",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/test_FFP10fwd.py",
+      "bytes": 4968,
+      "expected_sha256": "693b7d374a9f039f7dae4f827ab89c29ea2a02e7787f5a58e1faab5e6338a20b",
+      "vendored_sha256": "693b7d374a9f039f7dae4f827ab89c29ea2a02e7787f5a58e1faab5e6338a20b",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "693b7d374a9f039f7dae4f827ab89c29ea2a02e7787f5a58e1faab5e6338a20b",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/test_epsilon.py",
+      "bytes": 3722,
+      "expected_sha256": "d93b13462614b6e71a988769315c0d7caed420ef4ed866f38ae127d200917011",
+      "vendored_sha256": "d93b13462614b6e71a988769315c0d7caed420ef4ed866f38ae127d200917011",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "d93b13462614b6e71a988769315c0d7caed420ef4ed866f38ae127d200917011",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/test_funkypointing.py",
+      "bytes": 1224,
+      "expected_sha256": "488c7765be1cb96d1ac1b9ec7d64f8252db0d295fca084030c1117fb882906fd",
+      "vendored_sha256": "488c7765be1cb96d1ac1b9ec7d64f8252db0d295fca084030c1117fb882906fd",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "488c7765be1cb96d1ac1b9ec7d64f8252db0d295fca084030c1117fb882906fd",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/test_nocurlshts.py",
+      "bytes": 3286,
+      "expected_sha256": "ec7bbfd0864b1e448a5aeaabe46e524df2afd8be175ae069a4c57e386d3c070c",
+      "vendored_sha256": "ec7bbfd0864b1e448a5aeaabe46e524df2afd8be175ae069a4c57e386d3c070c",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "ec7bbfd0864b1e448a5aeaabe46e524df2afd8be175ae069a4c57e386d3c070c",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/theta_interpol.py",
+      "bytes": 1146,
+      "expected_sha256": "1fcd537c3791d1e39eaf752298588c73f02f6a2ba5f6e97b03d32484759dcad9",
+      "vendored_sha256": "1fcd537c3791d1e39eaf752298588c73f02f6a2ba5f6e97b03d32484759dcad9",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "1fcd537c3791d1e39eaf752298588c73f02f6a2ba5f6e97b03d32484759dcad9",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/tests/u2nu.py",
+      "bytes": 1982,
+      "expected_sha256": "6682cc037b50225e1c2779247054de5407691d5e39f480bf98dec73b2d015f2c",
+      "vendored_sha256": "6682cc037b50225e1c2779247054de5407691d5e39f480bf98dec73b2d015f2c",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "6682cc037b50225e1c2779247054de5407691d5e39f480bf98dec73b2d015f2c",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/utils.py",
+      "bytes": 8471,
+      "expected_sha256": "aafc1454874d8a10f9c63085b8b232ae43d84b81dfb7ca7b9a8985b9bc72ad8d",
+      "vendored_sha256": "aafc1454874d8a10f9c63085b8b232ae43d84b81dfb7ca7b9a8985b9bc72ad8d",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "aafc1454874d8a10f9c63085b8b232ae43d84b81dfb7ca7b9a8985b9bc72ad8d",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    },
+    {
+      "relative_path": "lenspyx/utils_hp.py",
+      "bytes": 7952,
+      "expected_sha256": "043ed5be5a3bd5ce0cd173054f69689c7eb01a6fa440ef4670dbaf4fe637af4f",
+      "vendored_sha256": "043ed5be5a3bd5ce0cd173054f69689c7eb01a6fa440ef4670dbaf4fe637af4f",
+      "classification": "installed_Python_or_data",
+      "installed_present": true,
+      "installed_sha256": "043ed5be5a3bd5ce0cd173054f69689c7eb01a6fa440ef4670dbaf4fe637af4f",
+      "vendored_exact": true,
+      "installed_exact_when_required": true
+    }
+  ],
+  "backend_flags": {
+    "deflection028_HAS_DUCCPOINTING": true,
+    "deflection028_HAS_DUCCROTATE": true,
+    "deflection028_HAS_DUCCGRADONLY": true,
+    "deflection029_HAS_DUCCROTATE": true,
+    "deflection029_HAS_DUCCGRADONLY": true,
+    "deflection028_HAS_FORTRAN": false,
+    "deflection029_HAS_FORTRAN": false
+  },
+  "compiled_lenspyx_extensions_found": [],
+  "active_source_route": [
+    {
+      "relative_path": "lensing.py",
+      "first_line": 22,
+      "last_line": 82,
+      "function": "alm2lenmap",
+      "source_sha256": "166e50578353fb83e42830d0064c995d041759dd96712e0027fbcc5a4d1d4371"
+    },
+    {
+      "relative_path": "remapping/deflection_029.py",
+      "first_line": 28,
+      "last_line": 67,
+      "function": "deflection.gclm2lenmap",
+      "source_sha256": "223481e99305b072a48499a82ce5906d1198e63a698fcd709b8bf21adac1ea12"
+    },
+    {
+      "relative_path": "remapping/deflection_028.py",
+      "first_line": 129,
+      "last_line": 143,
+      "function": "deflection._build_d1",
+      "source_sha256": "72b28df89f23a7abb8877789e98d0ff8e81c63a65d5954b3a1e64c7011e4368b"
+    },
+    {
+      "relative_path": "remapping/deflection_028.py",
+      "first_line": 145,
+      "last_line": 215,
+      "function": "deflection._build_angles",
+      "source_sha256": "72b28df89f23a7abb8877789e98d0ff8e81c63a65d5954b3a1e64c7011e4368b"
+    },
+    {
+      "relative_path": "remapping/utils_geom.py",
+      "first_line": 141,
+      "last_line": 150,
+      "function": "Geom.synthesis",
+      "source_sha256": "8bb6daddb031f2fae417c0a4cdc9ff886f3886f389fa6e312bb97d76f17a71c2"
+    }
+  ],
+  "route": [
+    "lenspyx.alm2lenmap",
+    "lensing.deflection_029.deflection",
+    "ducc0.sht.experimental.synthesis_general",
+    "ducc0.misc.get_deflected_angles",
+    "ducc0.misc.lensing_rotate"
+  ],
+  "conclusion": "The retained alm2lenmap forward T/QU path uses ducc synthesis, pointing and polarization rotation. The two original F90 files are preserved in vendor, are not compiled into this wheel and are not used by this execution route.",
+  "scope": "Read-only original-file hashes, dedicated-prefix imports and active-function/capability inspection; no native map generation, SHT, compilation, environment mutation or ready-marker write.",
+  "limitations": [
+    "The check does not claim legacy APIs that directly require optional Fortran extensions are available.",
+    "A small-array or native remapping numerical validation is separate from this source/backend check."
+  ]
+}

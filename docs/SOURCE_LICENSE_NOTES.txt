@@ -1,0 +1,164 @@
+SOURCE, CITATION AND LICENSE RECORD FOR MAIN_REVISE
+Scientific-source verification date: 13 October 2026
+Software distribution update: 14 October 2026
+
+Scope
+This record documents the scientific input sources, three versioned generation
+packages, and the declarations used in main_revise.tex. It is not a complete
+redistribution audit of every library in the portable Python/MPI runtime.
+The planned archival repository is Science Data Bank (ScienceDB), RDTM
+community: https://www.scidb.cn/rdtm. At the author's request, TB-scale
+transfer and DOI/CSTR registration are deferred. No dataset-specific
+identifier or landing page has been issued. The archival access policy and
+original-data and original-code licenses remain pending. This record does
+not assign a license to the dataset.
+
+1. Scientific inputs and citations
+
+mmDL convergence and extragalactic fields
+  Provider: public NERSC mmDL archive.
+  https://portal.nersc.gov/project/cmb/data/generic/mmDL/README
+  Han, Sehgal and Villaescusa-Navarro (2021), Physical Review D 104, 123521.
+  https://doi.org/10.1103/PhysRevD.104.123521
+  Training-simulation context: Sehgal et al. (2010), ApJ 709, 920-936.
+  https://doi.org/10.1088/0004-637X/709/2/920
+  The provider offers several frequency channels. This work selects the
+  148 GHz tSZ, CIB and radio maps as the frequency-scaling references, together
+  with the same-index convergence and kSZ maps. The upstream lensed CMB maps
+  are not the CMB input branch described in main_revise.
+
+CMB primary and remapping
+  Primary spectra: CAMB 1.6.1, with the declared Sehgal2010 parameter completion.
+  Lewis, Challinor and Lasenby (2000), ApJ 538, 473-476.
+  https://doi.org/10.1086/309179
+  Unlensed CMB sky realizations are drawn from these spectra. The implementation
+  represents them harmonically and passes their coefficients, together with
+  the deflection derived from the matched mmDL convergence, to lenspyx 2.0.0.
+  The manuscript's unlensed-maps step describes the underlying sky realization;
+  it does not imply that an intermediate unlensed FITS file is written.
+  Reinecke, Belkner and Carron (2023), Astronomy & Astrophysics 678, A165.
+  https://doi.org/10.1051/0004-6361/202346717
+
+Galactic components
+  PySM 3.4.4, presets d9 / s4 / f1 / a1, respectively thermal dust,
+  synchrotron, free-free and anomalous microwave emission.
+  Thorne et al. (2017), MNRAS 469, 2821-2833.
+  https://doi.org/10.1093/mnras/stx949
+  Zonca et al. (2021), Journal of Open Source Software 6(67), 3783.
+  https://doi.org/10.21105/joss.03783
+  Actual input-template URLs and SHA256 hashes are recorded in
+  release_package/runtime_evidence/template_manifest.json.
+  The generation record is evidence/galfg_new/Gal_FG_manifest.json.
+
+Noise configurations
+  Source: release_package/provenance/mpi_red_noise.py and the distributed
+  SAT/LAT configuration examples. These are reference simulation parameters;
+  no measured Ali instrument performance is inferred from the configuration.
+  White and red angular-power terms define the map-level Gaussian noise model.
+
+Pixelization
+  Gorski et al. (2005), ApJ 622, 759-771.
+  https://doi.org/10.1086/427976
+
+2. Version-specific software terms
+
+CAMB 1.6.1
+  https://github.com/cmbant/CAMB/blob/1.6.1/LICENCE.txt
+  The file states LGPL version 3 or later with additional conditions and
+  retained upstream notices. It also contains the documentation license.
+  Its additional publication condition requires a paper using CAMB results
+  to be submitted to arXiv at or before journal submission, and the arXiv
+  version to be updated to the accepted journal version upon acceptance.
+  Confirmed bugs must be reported. The license and notices must accompany
+  software/documentation copies, including modifications. The complete
+  versioned text, rather than this summary, governs the software.
+  The downloaded tag notice is byte-identical to the notice in the archived
+  CAMB 1.6.1 wheel used by the CMB-generation extension.
+
+PySM 3.4.4
+  https://github.com/galsci/pysm/blob/3.4.4/LICENSE
+  BSD-3-Clause. Source and binary redistributions retain the prescribed
+  copyright, conditions and disclaimer; the copyright-holder and contributor
+  names cannot be used to endorse a derivative without permission.
+  This software notice is recorded separately from input-template permissions.
+
+lenspyx 2.0.0
+  https://github.com/carronj/lenspyx/blob/v2.0.0/LICENSE.txt
+  MIT license text with an additional condition requiring confirmed bugs to
+  be reported promptly. The copyright and permission notices are retained.
+  The downloaded tag notice is byte-identical to the vendored 2.0.0 notice.
+
+Upstream mmDL generator, for provenance
+  https://github.com/dwhan89/cosmikyu/blob/master/LICENSE
+  The cosmikyu software repository has an Apache-2.0 license. This is recorded
+  as a software fact; it is not taken as a license grant for the separately
+  hosted NERSC simulation maps. This manuscript uses the supplied mmDL maps.
+
+3. Input-map permissions and project release status
+
+mmDL simulation maps
+  No explicit map-specific redistribution license was identified in the
+  retrieved provider README or the mmDL directory index. This is a statement
+  about those inspected documents, not a determination that permission cannot
+  exist elsewhere. Redistribution permission remains to be established.
+
+PySM input templates
+  No explicit template-data redistribution license was identified in the
+  retrieved NERSC template-directory index or the pysm-data repository root.
+  The actual template URLs are preserved in the local manifests. Permission
+  for a public deposit containing these inherited templates remains pending.
+  https://portal.nersc.gov/project/cmb/pysm-data/
+  https://github.com/galsci/pysm-data
+
+This dataset and its original scripts
+  ScienceDB is the planned archival repository. DOI/CSTR registration and
+  bulk transfer are deferred by the author; the dataset landing page,
+  archival open/restricted access policy, and data/code licenses are pending.
+  No CC-BY, MIT or other blanket license is assigned by this document.
+  The current working archive is accessed using an authorised IHEP account
+  with the necessary filesystem permissions. A public deposit and reviewer
+  access arrangement are not asserted to exist.
+  Companion software: https://github.com/ChenWenzheng99/cmb-sky-sim
+  Versioned distribution: https://github.com/ChenWenzheng99/cmb-sky-sim/releases/tag/v1.1.0
+  Public software availability does not assign an original-code license.
+  Data access and reuse-permission requests: Yang Liu, liuy92@ihep.ac.cn; Hong Li,
+  hongli@ihep.ac.cn. These are the corresponding authors supplied by the user.
+
+4. Manuscript declarations
+
+AIGC: full use is disclosed for code inspection, analysis/generation scripts,
+figure production, literature/license-source retrieval and drafting. The
+statement places verification responsibility with the authors; it does not
+claim that all author review has already been completed.
+
+Ethics: the study uses simulated sky maps and involves no human participants,
+animal experiments or restricted social-media data.
+
+Confirmed author order: Wen-Zheng Chen, Yang Liu, Hong Li. Both institutional
+affiliations and all three ORCIDs are included in main_revise.tex and in
+sciencedb_submission/authors.csv; ORCID names were checked against the public
+ORCID records. Yang Liu and Hong Li are corresponding authors.
+Competing interests, named CRediT assignments, funding, additional institutional
+acknowledgments and original-release licenses await author confirmation.
+
+5. Evidence and manuscript files
+
+Versioned notices, provider pages, and a URL/SHA256 manifest are retained in:
+  evidence/main_revise_sources_20261013/
+  evidence/main_revise_sources_20261013/source_manifest.json
+
+Publication metadata for the seven scientific references were checked against
+their arXiv/publisher records and DOI registration metadata. The revised
+manuscript cites these references and the mmDL provider documentation using:
+  references_revise.bib
+
+The CAMB reference uses its complete journal title. The mmDL journal title is
+"Deep learning simulations of the microwave sky"; its longer arXiv title
+begins with "MillimeterDL". These refer to the same DOI and publication.
+
+GitHub packaging note
+The paths above retain their original manuscript-workspace provenance. In this
+repository, release_package/ paths map to the repository root; the supplied
+third_party_notices/, runtime_evidence/ and cmb_sehgal2010/ records accompany
+the source. Upstream source papers and PySM template data are fetched from
+recorded provider URLs, rather than redistributed as repository files.

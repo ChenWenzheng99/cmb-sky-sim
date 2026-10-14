@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "scope": "Independent input/schema/conversion/hash checks; no CAMB solve or harmonics",
+  "theory_manifest_sha256": "3662ac4b44e758e323aad77beed5cbee2752ff6a1712dfe7ab985f4856aa3aca",
+  "theory_archive": {
+    "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/cmb_sehgal2010_install_probe_20261011/theory/outputs/sehgal2010_theory.npz",
+    "bytes": 1143204,
+    "sha256": "0a334b85c91c73465a2dd3f9a26c7c52d08ae3303f855e8f0817cb827557e9bc"
+  },
+  "checks": {
+    "raw_Cl_units_columns": true,
+    "D_ell_once": true,
+    "unlensed_BB_r0": true,
+    "covariance_positive_semidefinite": true,
+    "phi_PP_normalization": true,
+    "primary5999_phi6143_cutoffs": true,
+    "zero_phi_identity": true,
+    "sigma8_normalization": true,
+    "all_input_artifact_hashes": true
+  },
+  "derived_input_ombh2": 0.0221804,
+  "derived_input_omch2": 0.11090200000000001,
+  "sigma8_relative_error": 2.220446049250313e-15,
+  "quadrature_1p4_vs2_fractional_auto_or_TE_cross_scale_25_999": {
+    "TT": 1.8715358043902214e-12,
+    "EE": 1.2291405507162054e-11,
+    "BB": 1.1758224879605865e-09,
+    "TE": 4.826455342710102e-14
+  },
+  "primary_source_checks": [
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/cmb_sehgal2010_install_probe_20261011/theory/source_evidence/Sehgal2010_simulations.pdf",
+      "bytes": 4007524,
+      "sha256": "33571fc58edeac2f7ffa1217137286470d17fd75aa430af1fd6576016b22f163"
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/cmb_sehgal2010_install_probe_20261011/theory/source_evidence/sehgal.py",
+      "bytes": 41041,
+      "sha256": "1db6a7da2276b29548694f7f8bb6b45fd5ad3855a5a2e538f2ceef9a96a0f366"
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/cmb_sehgal2010_install_probe_20261011/theory/source_evidence/bode_almost_wmap5_lmax_1e4_scalCls.dat",
+      "bytes": 824468,
+      "sha256": "3b3aee929b5ed0585d4290373cddae1338d4842e39ff9629bea5b2e4e2b9fd4d"
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/cmb_sehgal2010_install_probe_20261011/theory/source_evidence/CAMB_1.6.1_model.py",
+      "bytes": 49451,
+      "sha256": "16326b432841ade1d7ff375512646e43adad302fda22a3603776784d5bc08862"
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/cmb_sehgal2010_install_probe_20261011/theory/source_evidence/CAMB_1.6.1_results.py",
+      "bytes": 84931,
+      "sha256": "4f69299514d36b998a374c3f1799c357ba90c99fd36b66273b5a4dac119a0a3c"
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/cmb_sehgal2010_install_probe_20261011/theory/source_evidence/CAMB_1.6.1_correlations.py",
+      "bytes": 32201,
+      "sha256": "052d34aa018815f45d06341767227c6e900d5868abe8190200988dda93666c24"
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/cmb_sehgal2010_install_probe_20261011/theory/source_evidence/CAMB_1.6.1_nonlinear.py",
+      "bytes": 4112,
+      "sha256": "1dc8ea9afb068f450f4724b10887faea91cecd0b075b0029c10daae7571e69db"
+    }
+  ],
+  "completion_note": "Declared tau/neutrino/helium/TCMB/recombination choices define this reference and are not recovered original author inputs."
+}

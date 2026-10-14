@@ -1,0 +1,18 @@
+{
+  "instrument": "LAT",
+  "nside": 2048,
+  "frequencies_GHz": [150],
+  "ids": [0],
+  "noise_ids": [0],
+  "coordinate": "G",
+  "repository": {"sky_coordinate": "G", "noise_coordinate": "G"},
+  "mask": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/A_NEW_WORK_MAIN/sim/mask_c/AliCPT_LAT_cross_PLANCK_2048_bi_C.fits",
+  "mask_coordinate": "C",
+  "use_repository_mask": false,
+  "add_noise": true,
+  "lmax": 6143,
+  "harmonic_iter": 1,
+  "cache_dir": "../cache",
+  "output_dir": "../outputs/with_mask",
+  "overwrite": false
+}

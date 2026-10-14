@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "Please cite the companion data paper when available, this software version, and the relevant upstream sources listed in the documentation."
+title: "CMB sky simulation and observation synthesis tools"
+type: software
+version: 1.1.0
+date-released: 2026-10-14
+repository-code: "https://github.com/ChenWenzheng99/cmb-sky-sim"
+url: "https://github.com/ChenWenzheng99/cmb-sky-sim"
+authors:
+  - family-names: Chen
+    given-names: Wen-Zheng
+    orcid: "https://orcid.org/0009-0002-5467-525X"
+  - family-names: Liu
+    given-names: Yang
+    orcid: "https://orcid.org/0009-0005-6637-3031"
+  - family-names: Li
+    given-names: Hong
+    orcid: "https://orcid.org/0000-0002-7903-8196"
+keywords:
+  - Cosmic microwave background
+  - CMB lensing
+  - Galactic foregrounds
+  - Extragalactic foregrounds
+  - Full-sky simulations
+  - Instrumental and atmospheric noise
+abstract: >-
+  Source and installation tools for reproducible SAT/LAT noise realizations,
+  configurable observation synthesis, and Sehgal2010-based CAMB/lenspyx CMB
+  generation using matched archived mmDL convergence maps. The large input
+  sky maps are held separately; the software license decision is pending.

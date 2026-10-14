@@ -1,0 +1,14 @@
+{
+  "status": "FAILED_EXPORT_CHECK_NOT_COMPLETE_THEORY",
+  "job": "225058",
+  "terminal_sacct": [
+    "225058|FAILED|1:0|00:00:52|aliws006",
+    "225058.batch|FAILED|1:0|00:00:52|aliws006"
+  ],
+  "log_remote_path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/logs/theory_225058.log",
+  "log_sha256": "6baa88e480ff2ccf67fdad999fc73b9a493625537bb483d636ebb8bbd2052e59",
+  "failure": "One ell=0 C-to-D roundtrip entry: correlations.lensed_cls temperature monopole nonzero while ell(ell+1) is zero; all reported ell>=1 residuals are roundoff. No successful outputs asserted.",
+  "maximum_reported_relative_roundoff_elsewhere": 2.05707448e-16,
+  "changes_performed": "Read-only job/log inspection; no source edit, new CAMB calculation or submission",
+  "checked_utc": "2026-10-11T07:41:01.153114+00:00"
+}

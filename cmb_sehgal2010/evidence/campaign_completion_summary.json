@@ -1,0 +1,119 @@
+{
+  "formal_audit": {
+    "elapsed_seconds": 160,
+    "exit_code": "0:0",
+    "job_id": 225245,
+    "report_path": "/home/chen/output/data_paper/cmb_sehgal2010_release/evidence/campaign_status_final.json",
+    "report_sha256": "4400419037feef0d38b12dd0494a2606858aed51df9c16579cabd50cc9049343",
+    "scope": {
+      "new_maps": "Stat identity and header/checksum-card presence checked; no new full-map hash or data-checksum recomputation",
+      "old_maps": "All 500 size/mtime_ns/inode tuples compared; no old full-content hashes",
+      "pixel_validation": "Full finite/statistics/checksum validation is recorded by the frozen producer; independent pilot science evidence is separate",
+      "science_certification": false,
+      "small_artifacts": "Every COMPLETE sidecar and input_spectra NPZ independently SHA256 hashed",
+      "source_kappa": "Stat identity and producer-recorded SHA256 checked; no independent full-kappa rehash"
+    },
+    "state": "COMPLETED"
+  },
+  "frozen_at_utc": "2026-10-11T08:21:28.252349+00:00",
+  "monitoring_mutated_source_files": false,
+  "monitoring_status_frozen": true,
+  "monitoring_submitted_jobs": false,
+  "notes": [
+    "No final status tool rerun: consumed existing afterok audit report",
+    "Stat identity is not independent full-content SHA256 certification of old maps",
+    "Frozen producer recorded full native finite/serialized data checks; independent pilot science gate is separate"
+  ],
+  "outputs": {
+    "count": 500,
+    "kappa500_stat_tuples_unchanged": true,
+    "large_output_hashes_reread_by_monitor": false,
+    "new_FITS_GB_decimal": 603.98496,
+    "new_FITS_bytes_total": 603984960000,
+    "old500_stat_tuples_unchanged": true,
+    "producer_sha256": "d1704baf4c18ef641fca1440266634289b2ea0d31a42e2670f38ff18c9d2dfac",
+    "recorded_kappa_SHA256_unique_count": 499,
+    "recorded_output_SHA256_unique_count": 500,
+    "seed_unique_count": 500,
+    "theory_archive_sha256": "0a334b85c91c73465a2dd3f9a26c7c52d08ae3303f855e8f0817cb827557e9bc"
+  },
+  "production_jobs": {
+    "MaxRSS_note": "Slurm recorded sampled peak; this is not an independent allocator peak measurement",
+    "all500_terminal_completed_exit0": true,
+    "bulk_array": 225188,
+    "bulk_count": 490,
+    "elapsed_seconds_max": 148,
+    "elapsed_seconds_min": 55,
+    "excluded_nodes_used": false,
+    "max_batch_MaxRSS_KiB": 6173484,
+    "nodes": [
+      "aliws006",
+      "aliws009",
+      "aliws011",
+      "aliws012",
+      "aliws014",
+      "aliws020",
+      "aliws037",
+      "aliws038",
+      "aliws039",
+      "aliws040",
+      "aliws041",
+      "aliws042",
+      "aliws043",
+      "aliws044",
+      "aliws045",
+      "aliws046",
+      "aliws047",
+      "aliws048"
+    ],
+    "pilot_array": 225110,
+    "pilot_count": 10,
+    "realization_ids_exact_0_499": true
+  },
+  "runtime_version_signature_count": 1,
+  "runtime_versions": {
+    "astropy": "7.2.0",
+    "camb": "1.6.1",
+    "ducc0": "0.38.0",
+    "healpy": "1.19.0",
+    "lenspyx": "2.0.0",
+    "lenspyx_lensing_source": {
+      "bytes": 5972,
+      "mtime_ns": 1791703563000000000,
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/runtime/lib/python3.12/site-packages/lenspyx/lensing.py",
+      "sha256": "166e50578353fb83e42830d0064c995d041759dd96712e0027fbcc5a4d1d4371"
+    },
+    "lenspyx_module_path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/runtime/lib/python3.12/site-packages/lenspyx/__init__.py",
+    "mpi4py": "4.1.1",
+    "numpy": "1.26.4",
+    "python": "3.12.11"
+  },
+  "source_before_inventory": {
+    "bytes": 401594,
+    "device": 1167499402,
+    "inode": 144117370070319744,
+    "mode": 420,
+    "mtime_ns": 1791704822000000000,
+    "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/evidence/before_source_inventory.json",
+    "sha256": "581fe26bb3e84a18ad2e3ece6154ae2cfbe8058efbfe55bb2bc16daa78c58f49"
+  },
+  "status": "FROZEN_COMPLETE_500_MAP_CAMPAIGN",
+  "terminal_sacct": {
+    "columns": [
+      "JobID",
+      "State",
+      "ExitCode",
+      "ElapsedRaw",
+      "NodeList",
+      "MaxRSS",
+      "ReqCPUS",
+      "ReqMem",
+      "Start",
+      "End",
+      "AllocCPUS"
+    ],
+    "path": "/home/chen/output/data_paper/cmb_sehgal2010_release/evidence/campaign_terminal_sacct.psv",
+    "row_count": 1002,
+    "sha256": "6d0ccb63e9e017a8f99be484bfdf47f3bb823fcb0d99307ac8322b8688018d72"
+  }
+}

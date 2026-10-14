@@ -1,0 +1,19 @@
+{
+  "instrument": "LAT",
+  "nside": 2048,
+  "frequencies_GHz": [150],
+  "ids": [0],
+  "noise_ids": [0],
+  "coordinate": "G",
+  "repository": {"sky_coordinate": "G", "mask_coordinate": "C"},
+  "noise_dir": "../outputs/noise_lat",
+  "noise_pattern": "{instrument}/{frequency}/noise_{id:05d}.fits",
+  "noise_coordinate": "G",
+  "add_noise": true,
+  "use_repository_mask": true,
+  "lmax": 6143,
+  "harmonic_iter": 1,
+  "cache_dir": "../cache",
+  "output_dir": "../outputs/use_existing_noise",
+  "overwrite": false
+}

@@ -1,0 +1,68 @@
+{
+  "summary": {
+    "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/validation/pilot_summary/native_cmb_pilot_10.npz",
+    "sha256": "8e127f83d4a8850d22a68412dd4f8cbdab7b46c26a37036e472169534d6591ae"
+  },
+  "summary_metadata_sha256": "00ffef151645edf320ed8be4978d06b304625a1c96f037665be42c4119e562ab",
+  "outputs": {
+    "pdf": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/validation/figures/native_cmb_pilot_10.pdf",
+      "bytes": 43628,
+      "sha256": "05473d4a90b628d54c4cf0a9db5d1a5018ca2e8c2520438a31b460238c3b5a2e"
+    },
+    "png": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/validation/figures/native_cmb_pilot_10.png",
+      "bytes": 351497,
+      "sha256": "56f9005c37c4a459c0b0ddf208b2c7ba32369cfec2e3c5882a493b99125c67fd"
+    }
+  },
+  "script_sha256": "2e2e30fff2834a9c11049e23b2f52cabf52d194d18caaa5cfdc163e30d569511",
+  "source_nside": 2048,
+  "IDs": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "spectrum_order": [
+    "TT",
+    "EE",
+    "BB",
+    "TE"
+  ],
+  "ell_display_interval": "[25,1000)",
+  "bin_quantity": "2ell+1 weighted D_ell",
+  "shade": "sample SD ddof1; not SEM",
+  "main_reference": "self_consistent_CAMB",
+  "references": [
+    "self_consistent_CAMB",
+    "producer_bandlimit_CAMB",
+    "conditional_actual_mean_kappa_2point"
+  ],
+  "TE_lower_panel": "signed difference divided by sqrt(main-reference TT*EE), no TE ratio",
+  "no_fitted_lensing_amplitude": true,
+  "shade_bounds": {
+    "TT": {
+      "sample_SD_lower_minimum_uK2": 1080.979828247812,
+      "negative_lower_log_display_bins": 0
+    },
+    "EE": {
+      "sample_SD_lower_minimum_uK2": 0.054077835200094244,
+      "negative_lower_log_display_bins": 0
+    },
+    "BB": {
+      "sample_SD_lower_minimum_uK2": 0.0004295698942800981,
+      "negative_lower_log_display_bins": 0
+    },
+    "TE": {
+      "sample_SD_lower_minimum_uK2": -130.83526208273182,
+      "negative_lower_log_display_bins": 0
+    }
+  }
+}

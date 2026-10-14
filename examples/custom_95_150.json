@@ -1,0 +1,23 @@
+{
+  "instrument": "CUSTOM",
+  "nside": 2048,
+  "channels": [
+    {"frequency_GHz": 95, "nlev_uK_arcmin": 6.0, "beam_fwhm_arcmin": 2.2, "include_red": false},
+    {"frequency_GHz": 150, "nlev_uK_arcmin": 6.3, "beam_fwhm_arcmin": 1.4, "include_red": false}
+  ],
+  "ids": [0],
+  "noise_ids": [0],
+  "seed": 20261011,
+  "scale_factor": 1,
+  "coordinate": "G",
+  "mpi_ranks": 5,
+  "repository": {"sky_coordinate": "G", "noise_coordinate": "G", "mask_coordinate": "C"},
+  "add_noise": true,
+  "use_repository_mask": true,
+  "galactic_presets": {"dust": "d9", "synchrotron": "s4", "freefree": "f1", "ame": "a1"},
+  "lmax": 6143,
+  "harmonic_iter": 1,
+  "cache_dir": "../cache",
+  "output_dir": "../outputs/custom_95_150",
+  "overwrite": false
+}

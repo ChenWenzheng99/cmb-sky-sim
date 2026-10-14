@@ -1,0 +1,27 @@
+{
+  "source_host": "lxlogin.ihep.ac.cn",
+  "source_path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/A_NEW_WORK_ILC/lensed_CMB_generation.py",
+  "source_bytes": 3000,
+  "source_mtime_seconds": 1791702113,
+  "source_sha256": "ab7c9bb4dfc0f1bcdfbbb04cf7658a8feb73837193618a8013067111de141d21",
+  "snapshot_filename": "lensed_CMB_generation.py",
+  "snapshot_sha256": "ab7c9bb4dfc0f1bcdfbbb04cf7658a8feb73837193618a8013067111de141d21",
+  "snapshot_readonly": true,
+  "preserved_production_settings": {
+    "nside": 2048,
+    "unlensed_lmax": 5999,
+    "unlensed_mmax": 5999,
+    "kappa_lmax": 6143,
+    "kappa_map2alm_default_iter": 3,
+    "deflection_lmax": 6143,
+    "remapping_epsilon": 1e-6,
+    "phi_monopole": "zero",
+    "phi_dipole": "retained"
+  },
+  "original_unsafe_behaviors_not_copied": [
+    "implicit unrecorded random seed",
+    "private unused import dependencies",
+    "overwrite=True for output maps",
+    "missing FITS coordinate/unit provenance"
+  ]
+}

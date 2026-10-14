@@ -1,0 +1,302 @@
+{
+  "status": "PASS",
+  "python": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python",
+  "python_version": "3.12.11",
+  "source_directory": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test",
+  "scope": "current source 30 small unit tests plus CLI help and six config validations; no MPI/no native2048 regeneration",
+  "source_files": [
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/ali_sky/__init__.py",
+      "sha256": "5b7997b7b9c1858678326bbc40a47816415e1f7f13ae9189f5d38b71870b60ec",
+      "bytes": 72,
+      "mtime_ns": 1791700119000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/ali_sky/cli.py",
+      "sha256": "40dc4686350186eb5dca990979ed00d5ae7423b070bc74959a4fcf3e3f83a1c2",
+      "bytes": 6448,
+      "mtime_ns": 1791700119000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/ali_sky/config.py",
+      "sha256": "fe646f269bd2c88382831999605a402d36c79a1ee46624e92332daf6a27bbd1d",
+      "bytes": 8864,
+      "mtime_ns": 1791700119000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/ali_sky/coordinates.py",
+      "sha256": "545b4b3de3118341edbcdca8f7c7e92f01bef9d84d1bfded3e5cb72d5ee0aaf9",
+      "bytes": 2107,
+      "mtime_ns": 1791700119000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/ali_sky/foregrounds.py",
+      "sha256": "0ecc3f0e32e368a50301cb76b5923b535d148874f36f31723804fdc7805bebce",
+      "bytes": 5070,
+      "mtime_ns": 1791700120000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/ali_sky/io.py",
+      "sha256": "a30c37e88fc0b8b61acbb3977f23b1fbca4d2a5cb2140ac929f9a42517a1ba59",
+      "bytes": 6172,
+      "mtime_ns": 1791700120000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/ali_sky/noise.py",
+      "sha256": "9b0543558ae715516c427d345445a333acb79fc1fe64690580dc3854992fcef0",
+      "bytes": 16510,
+      "mtime_ns": 1791700120000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/ali_sky/observation.py",
+      "sha256": "d499bf1ef12761644c1ed589c4f585a6104d595983634785bf482c89b90299b4",
+      "bytes": 9575,
+      "mtime_ns": 1791700120000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/ali_sky/sed.py",
+      "sha256": "b706b34041d1eb305600c17101055837435bcb597cd4f11787ed100afc395662",
+      "bytes": 1595,
+      "mtime_ns": 1791700120000000000
+    }
+  ],
+  "test_files": [
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/tests/test_noise.py",
+      "sha256": "64b50bdd810c9f7b561d5eaab0468bdff9f3e46e502eb49bef7fd32d95b37489",
+      "bytes": 13257,
+      "mtime_ns": 1791700120000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/tests/test_observation.py",
+      "sha256": "a622207af8bc1114636bc333744058a58fd0af0be0fd40a40c1007026a6b0bd6",
+      "bytes": 29006,
+      "mtime_ns": 1791700120000000000
+    }
+  ],
+  "example_files": [
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/examples/custom_95_150.json",
+      "sha256": "41767dd269e26870c363518f3440a205fa5f4228c10b282c608c5d47c1e58432",
+      "bytes": 738,
+      "mtime_ns": 1791700120000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/examples/noise_lat.json",
+      "sha256": "709f2bbec46cc35817e7550c2f64b8f4a5faeb493259969791bd7f534095b84d",
+      "bytes": 276,
+      "mtime_ns": 1791700120000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/examples/noise_sat.json",
+      "sha256": "71bb7c5df59050500e94a6b96cf4b3c303f4943f7172ef76fae5fbe690440eb3",
+      "bytes": 276,
+      "mtime_ns": 1791700120000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/examples/observe_lat150.json",
+      "sha256": "64704f9dfa4152bc66fe86f91438559afe14457d1b7eb500f1ea09636787bebd",
+      "bytes": 631,
+      "mtime_ns": 1791700120000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/examples/use_existing_noise.json",
+      "sha256": "9ef99895aa8bf42de14a13826aeb0c6439382c34f2fda4fce409e7518f00f0ff",
+      "bytes": 512,
+      "mtime_ns": 1791700120000000000
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/examples/with_mask.json",
+      "sha256": "6dade025e4411f8d23057bc87342970466075601e8a0ad6782cc0554d26493db",
+      "bytes": 524,
+      "mtime_ns": 1791700120000000000
+    }
+  ],
+  "OMP_NUM_THREADS": "1",
+  "runs": [
+    {
+      "name": "unittest30_current_source",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/tests",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 3.219050677958876,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/validation/unittest30_current_source.log",
+        "sha256": "1197dcb5372a275df679c79fe0cc319396034fabe68640ad0d9d21fbe0a3800b",
+        "bytes": 4985,
+        "mtime_ns": 1791700126000000000
+      }
+    },
+    {
+      "name": "CLI_help",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "--help"
+      ],
+      "returncode": 0,
+      "seconds": 0.9297280418686569,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/validation/CLI_help.log",
+        "sha256": "d4d6f8be8fa541150345c70c5a0ae56b7968aa17778b31daa3aec17774ebd25a",
+        "bytes": 518,
+        "mtime_ns": 1791700127000000000
+      }
+    },
+    {
+      "name": "config_custom_95_150",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "validate-config",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/examples/custom_95_150.json",
+        "--mode",
+        "observe"
+      ],
+      "returncode": 0,
+      "seconds": 0.9940578939858824,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/validation/config_custom_95_150.log",
+        "sha256": "c9fc791c893ff0c673974779a6440ed14aa95c94dc98cbdce0f53ca95130c4a8",
+        "bytes": 2453,
+        "mtime_ns": 1791700128000000000
+      },
+      "mode": "observe",
+      "coordinate": "G"
+    },
+    {
+      "name": "config_noise_lat",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "validate-config",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/examples/noise_lat.json",
+        "--mode",
+        "noise"
+      ],
+      "returncode": 0,
+      "seconds": 0.9760607280768454,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/validation/config_noise_lat.log",
+        "sha256": "7b635513d2615f1e046bfa65b0ab7399bb8b741bb164cdff643806aee8dbbad5",
+        "bytes": 2863,
+        "mtime_ns": 1791700129000000000
+      },
+      "mode": "noise",
+      "coordinate": "G"
+    },
+    {
+      "name": "config_noise_sat",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "validate-config",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/examples/noise_sat.json",
+        "--mode",
+        "noise"
+      ],
+      "returncode": 0,
+      "seconds": 0.9626925019547343,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/validation/config_noise_sat.log",
+        "sha256": "7b52a7a847314c3adcf85a16523fa7e7668d0e2def7196631f24013e1e8e84da",
+        "bytes": 2763,
+        "mtime_ns": 1791700130000000000
+      },
+      "mode": "noise",
+      "coordinate": "G"
+    },
+    {
+      "name": "config_observe_lat150",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "validate-config",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/examples/observe_lat150.json",
+        "--mode",
+        "observe"
+      ],
+      "returncode": 0,
+      "seconds": 0.8990144350100309,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/validation/config_observe_lat150.log",
+        "sha256": "95aa316a44200b845b922e73170fc0663b60409d0c3105ea1c798660548c2e7e",
+        "bytes": 2207,
+        "mtime_ns": 1791700131000000000
+      },
+      "mode": "observe",
+      "coordinate": "G"
+    },
+    {
+      "name": "config_use_existing_noise",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "validate-config",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/examples/use_existing_noise.json",
+        "--mode",
+        "observe"
+      ],
+      "returncode": 0,
+      "seconds": 0.8916512778960168,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/validation/config_use_existing_noise.log",
+        "sha256": "f62bd9ad90b35eea64e1163bebba6f39852dfc8648639a3df28910252d6dd871",
+        "bytes": 2329,
+        "mtime_ns": 1791700132000000000
+      },
+      "mode": "observe",
+      "coordinate": "G"
+    },
+    {
+      "name": "config_with_mask",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/relocation_test/runtime/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "validate-config",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/examples/with_mask.json",
+        "--mode",
+        "observe"
+      ],
+      "returncode": 0,
+      "seconds": 1.1308232070878148,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/current_source_test/validation/config_with_mask.log",
+        "sha256": "435e0fe03449c85c5e4148e5dfd0f73ee3abf69b8d1d81f42a1e1559610d4d62",
+        "bytes": 2304,
+        "mtime_ns": 1791700133000000000
+      },
+      "mode": "observe",
+      "coordinate": "G"
+    }
+  ],
+  "versions": {
+    "numpy": "2.2.5",
+    "healpy": "1.19.0",
+    "astropy": "7.2.0",
+    "pysm3": "3.4.4",
+    "mpi4py": "4.1.1"
+  },
+  "unit_test_count": 30,
+  "example_config_count": 6
+}

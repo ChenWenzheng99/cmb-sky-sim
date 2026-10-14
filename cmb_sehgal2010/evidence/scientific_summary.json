@@ -1,0 +1,135 @@
+{
+  "schema": "sehgal2010_cmb_release_scientific_summary_v1",
+  "validation_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "nside": 2048,
+  "spectral_range": "25 <= ell < 1000",
+  "bin_width": 25,
+  "shading": "mean of 10 plus/minus sample SD with ddof=1",
+  "primary_gate": "PASS_NUMERICAL_AND_PRIMARY_GATE",
+  "pure_CAMB_metrics": {
+    "TT": {
+      "amplitude_mean": 1.0004712548008703,
+      "amplitude_mean_minus1_pct": 0.047125480087029104,
+      "amplitude_sample_SD_ddof1": 0.001652063035723074,
+      "amplitude_mean_SEM": 0.0005224282031057032,
+      "amplitude_student_t_df9": 0.9020470144391148,
+      "maximum_absolute_bin_student_t_df9": 4.397487728682876,
+      "bin_shape_is_formal_gate": true,
+      "median_bin_ratio_minus1_pct": 0.03951143952032332,
+      "minimum_bin_ratio": 0.9923641073404099,
+      "maximum_bin_ratio": 1.0281640171530364
+    },
+    "EE": {
+      "amplitude_mean": 0.9994749545598548,
+      "amplitude_mean_minus1_pct": -0.05250454401451998,
+      "amplitude_sample_SD_ddof1": 0.0016569055594333614,
+      "amplitude_mean_SEM": 0.0005239595435604909,
+      "amplitude_student_t_df9": -1.0020724817365285,
+      "maximum_absolute_bin_student_t_df9": 7.176668895030444,
+      "bin_shape_is_formal_gate": true,
+      "median_bin_ratio_minus1_pct": -0.08018278359896991,
+      "minimum_bin_ratio": 0.987804011012725,
+      "maximum_bin_ratio": 1.014888704715687
+    },
+    "BB": {
+      "amplitude_mean": 0.9933382666767974,
+      "amplitude_mean_minus1_pct": -0.6661733323202634,
+      "amplitude_sample_SD_ddof1": 0.0015873210093838136,
+      "amplitude_mean_SEM": 0.0005019549767490356,
+      "amplitude_student_t_df9": -13.271575403730537,
+      "maximum_absolute_bin_student_t_df9": 16.62793556025206,
+      "bin_shape_is_formal_gate": false,
+      "median_bin_ratio_minus1_pct": -0.39132452429925246,
+      "minimum_bin_ratio": 0.982805059700848,
+      "maximum_bin_ratio": 1.0102259460048857
+    },
+    "TE": {
+      "amplitude_mean": 1.0020884390695435,
+      "amplitude_mean_minus1_pct": 0.20884390695434796,
+      "amplitude_sample_SD_ddof1": 0.0039951637094412995,
+      "amplitude_mean_SEM": 0.0012633816947081654,
+      "amplitude_student_t_df9": 1.6530547167900023,
+      "maximum_absolute_bin_student_t_df9": 4.938254554937332,
+      "bin_shape_is_formal_gate": true,
+      "maximum_absolute_residual_over_sqrt_TT_EE": 0.009097067476161262,
+      "TE_ratio_used": false
+    }
+  },
+  "conditional_actual_kappa_metrics": {
+    "TT": {
+      "amplitude_mean": 1.0005778245326273,
+      "amplitude_mean_minus1_pct": 0.05778245326273357,
+      "amplitude_sample_SD_ddof1": 0.0016525675142053619,
+      "amplitude_mean_SEM": 0.0005225877332091606,
+      "amplitude_student_t_df9": 1.1056986146210728,
+      "maximum_absolute_bin_student_t_df9": 4.401280006812576,
+      "bin_shape_is_formal_gate": true,
+      "median_bin_ratio_minus1_pct": 0.030523262735515644,
+      "minimum_bin_ratio": 0.9923036579565107,
+      "maximum_bin_ratio": 1.028188989714708
+    },
+    "EE": {
+      "amplitude_mean": 0.9999520470058922,
+      "amplitude_mean_minus1_pct": -0.004795299410775833,
+      "amplitude_sample_SD_ddof1": 0.0016570642400367448,
+      "amplitude_mean_SEM": 0.0005240097227732091,
+      "amplitude_student_t_df9": -0.09151164954340425,
+      "maximum_absolute_bin_student_t_df9": 5.184956687890162,
+      "bin_shape_is_formal_gate": true,
+      "median_bin_ratio_minus1_pct": 0.028671471571706242,
+      "minimum_bin_ratio": 0.9887886754895601,
+      "maximum_bin_ratio": 1.0149380917947577
+    },
+    "BB": {
+      "amplitude_mean": 0.9996050246203433,
+      "amplitude_mean_minus1_pct": -0.03949753796567146,
+      "amplitude_sample_SD_ddof1": 0.0016026090402212114,
+      "amplitude_mean_SEM": 0.0005067894765875424,
+      "amplitude_student_t_df9": -0.7793677609808988,
+      "maximum_absolute_bin_student_t_df9": 7.06066775159432,
+      "bin_shape_is_formal_gate": false,
+      "median_bin_ratio_minus1_pct": 0.01586384027592036,
+      "minimum_bin_ratio": 0.9900784212762684,
+      "maximum_bin_ratio": 1.0151573654256805
+    },
+    "TE": {
+      "amplitude_mean": 1.0003482216368043,
+      "amplitude_mean_minus1_pct": 0.03482216368042579,
+      "amplitude_sample_SD_ddof1": 0.00398991418744693,
+      "amplitude_mean_SEM": 0.0012617216500952298,
+      "amplitude_student_t_df9": 0.27598926972361576,
+      "maximum_absolute_bin_student_t_df9": 3.487711128257646,
+      "bin_shape_is_formal_gate": true,
+      "maximum_absolute_residual_over_sqrt_TT_EE": 0.009031610267565247,
+      "TE_ratio_used": false
+    }
+  },
+  "numeric_iteration_control": {
+    "status": "PASS",
+    "same_native_map": true,
+    "lmax": 1024,
+    "primary_iter": 3,
+    "control_iter": 1,
+    "maximum_absolute_fractional_auto_or_TE_correlation_scale": 6.394661584059223e-08,
+    "maximum_fraction_of_pilot_mean_SEM": 1.7046568455529856e-05,
+    "TE_denominator": "sqrt(main_TT_D_b*main_EE_D_b), not TE_D_b",
+    "per_spectrum_maximum_relative": {
+      "TT": 6.8108241103180995e-09,
+      "EE": 3.36120344490615e-09,
+      "BB": 6.394661584059223e-08,
+      "TE": 2.9641632981171467e-09
+    }
+  },
+  "interpretation": "TT, EE and TE pass the predeclared approximate primary amplitude/shape checks. BB has a sub-percent aggregate offset relative to the self-consistent CAMB lens model which is statistically resolved in this pilot; it is not a PASS of the pure-CAMB BB equality hypothesis. The same-primary conditional reference using the actual mean mmDL kappa two-point power reduces the aggregate BB amplitude offset to -0.0395 percent. This is evidence consistent with a lens-input difference, not proof of a unique physical cause. No fitted lensing amplitude or kappa rescaling is applied. Validation only covers the stated pilot/range, not all 500 maps or high ell."
+}

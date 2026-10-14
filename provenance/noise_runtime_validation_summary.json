@@ -1,0 +1,702 @@
+{
+  "status": "PASS",
+  "MPI_audit": {
+    "path": "/home/chen/output/data_paper/evidence/cluster_runtime_package_audit/runtime_noise/noise_mpi_audit.json",
+    "sha256": "c45189bb6a8591b305fc97f088163a8b46a9d5cb816a7fb8aabee2ad91c034fd"
+  },
+  "native_audit": {
+    "path": "/home/chen/output/data_paper/evidence/cluster_runtime_package_audit/noise_native2048_audit.json",
+    "sha256": "054c6054b5507af8dac48096d5eb62690b456adeef2b9e0f6568f0b8c463b5af"
+  },
+  "fresh_environment_noise_unit_tests": 9,
+  "MPI_actual_rank_count_probe": 5,
+  "MPI_campaign_count": 6,
+  "MPI_pixel_and_seed_comparison_count": 72,
+  "verified_local_copy_comparisons": [
+    {
+      "frequency_GHz": 27.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 27.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 40.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 40.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 90.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 90.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 150.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 150.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 225.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 225.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 280.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 280.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 27.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 27.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 40.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 40.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 90.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 90.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 150.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 150.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 225.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 225.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 280.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 280.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 27.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 27.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 40.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 40.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 90.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 90.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 150.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 150.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 225.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 225.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 280.0,
+      "id": 0,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 280.0,
+      "id": 1,
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 27.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 27.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 40.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 40.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 90.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 90.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 150.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 150.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 225.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 225.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 280.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 280.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 27.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 27.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 40.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 40.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 90.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 90.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 150.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 150.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 225.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 225.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 280.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 280.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 27.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 27.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 40.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 40.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 90.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 90.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 150.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 150.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 225.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 225.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 280.0,
+      "id": 0,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    },
+    {
+      "frequency_GHz": 280.0,
+      "id": 1,
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "copied_FITS_sha_verified": true,
+      "copied_pixels_bitexact_to_serial": true
+    }
+  ],
+  "all_campaign_files": 12,
+  "all_resume_tasks_reused": true,
+  "changed_seed_negative_controls_all12_rejected": true,
+  "native_job": {
+    "id": 224657,
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed": "00:02:21",
+    "cpus": 32,
+    "requested_memory": "16G",
+    "MaxRSS_K": 2556692,
+    "node": "aliws014",
+    "sacct": [
+      "224657|rel_native_noise|COMPLETED|0:0|00:02:21|32|16G||aliws014",
+      "224657.batch|batch|COMPLETED|0:0|00:02:21|32||2556692K|aliws014"
+    ]
+  },
+  "native_product": {
+    "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_noise_test/LAT/150/noise_00000.fits",
+    "bytes": 1207967040,
+    "mtime_ns": 1791699410000000000,
+    "sha256": "4b8d0888c501580970c44560335f062a090eed8ceac7cb46cc2a1ed849ec64ac",
+    "coordinate": "G",
+    "coordinate_from_FITS_header": true,
+    "assumed_coordinate_if_header_missing": null,
+    "unit_assumption_if_header_missing": null
+  },
+  "native_full_finite_pixel_count": 150994944,
+  "native_full_finite_field_count": 3,
+  "native_FITS_header_checksum_SHA_validation": "PASS",
+  "scope": {
+    "MPI_maps": "new native8/16 LAT6bands x IDs0,1, scalar T/Q/U; complete bitexact comparisons with serial",
+    "native2048": "one new native LAT150 ID0 G-coordinate realization, source-model convention and complete serialization conformance",
+    "native_not_claimed": "not a native2048 original-producer pixel comparison or Monte Carlo spectrum validation; original archive random seeds remain unrecorded"
+  },
+  "implementation_unchanged_noise_sha256": "9b0543558ae715516c427d345445a333acb79fc1fe64690580dc3854992fcef0",
+  "scheduler_submission_note": "Initial sbatch lacked explicit regular QoS and was rejected before creating a job; corrected wrapper submitted the sole native job224657."
+}

@@ -1,0 +1,486 @@
+{
+  "schema": "sehgal2010_camb_theory_v1",
+  "status": "COMPLETE_THEORY_WITH_DECLARED_ASSUMPTIONS",
+  "configuration": {
+    "schema": "sehgal2010_camb_theory_v1",
+    "expected_camb_version": "1.6.1",
+    "published_parameters": {
+      "Omega_b": 0.044,
+      "Omega_m": 0.264,
+      "Omega_Lambda_rounded": 0.736,
+      "h": 0.71,
+      "ns": 0.96,
+      "sigma8_linear_z0": 0.8,
+      "source": "https://arxiv.org/abs/0908.0540",
+      "location": "Section 1, printed page 2; arXiv 0908.0540v3"
+    },
+    "completion_assumptions": {
+      "tau": 0.08,
+      "tau_status": "Explicit CAMB completion, motivated by approximate gas-model optical depth in Sehgal2010 Section 2.4.2; original CAMB tau has not been recovered",
+      "mnu_eV": 0.0,
+      "num_massive_neutrinos": 0,
+      "N_eff": 3.046,
+      "YHe": 0.24,
+      "TCMB_K": 2.7255,
+      "pivot_scalar_Mpc_inverse": 0.05,
+      "r": 0.0,
+      "nrun": 0.0,
+      "nrunrun": 0.0,
+      "Omega_K": 0.0,
+      "w": -1.0,
+      "wa": 0.0,
+      "reionization": "CAMB TanhReionization default shape with explicit optical depth",
+      "recombination": "CAMB default Recfast",
+      "status": "These choices define this calculation; they are not a recovered original Sehgal/Bode CAMB ini"
+    },
+    "calculation": {
+      "table_lmax": 6500,
+      "lens_margin": 150,
+      "k_eta_max_per_internal_ell": 20.0,
+      "matter_kmax_Mpc_inverse": 5.0,
+      "accuracy_boost": 2.0,
+      "l_accuracy_boost": 2.0,
+      "l_sample_boost": 2.0,
+      "lens_potential_accuracy": 2,
+      "cutoff_control_output_lmax": 1024,
+      "cutoff_control_sampling_factor": 1.4,
+      "cutoff_control_check_sampling_factor": 2.0,
+      "accurate_BB": false,
+      "halofit_version": "original",
+      "halofit_reference": "Smith et al. 2003; https://arxiv.org/abs/astro-ph/0207664",
+      "trial_As": 2.1e-09,
+      "sigma8_relative_tolerance": 1e-06,
+      "normalization": "Two complete CAMB solves with identical numerical settings: As_final=As_trial*(0.8/sigma8_trial)^2; recompute nonlinear lensing at final As"
+    },
+    "producer_cutoffs": {
+      "nside": 2048,
+      "primary_lmax": 5999,
+      "kappa_deflection_lmax": 6143,
+      "primary_margin_below_3nside_minus_1": 144,
+      "basis": "Matched original retained generator; theoretical table support does not change the producer bandlimit"
+    },
+    "output_dir": "outputs",
+    "source_manifest": "source_evidence/source_manifest.json"
+  },
+  "configuration_canonical_sha256": "b40e260629cf1360acabb914a4155f83078d5a741aa6920a25b75c8d0f99a9da",
+  "configuration_file": {
+    "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/theory/sehgal2010_config.json",
+    "sha256": "f26943ea571abf7c02336faf99b18d929339a03a6d698ebd6e659f2eed8d0686"
+  },
+  "producer_cutoffs": {
+    "nside": 2048,
+    "primary_lmax": 5999,
+    "kappa_deflection_lmax": 6143,
+    "primary_margin_below_3nside_minus_1": 144,
+    "basis": "Matched original retained generator; theoretical table support does not change the producer bandlimit"
+  },
+  "array_contract": {
+    "ell": {
+      "shape": [
+        6501
+      ],
+      "dtype": "int64",
+      "units": "dimensionless"
+    },
+    "unlensed_raw_cl": {
+      "shape": [
+        6501,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "lensed_raw_cl": {
+      "shape": [
+        6501,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "unlensed_D_ell": {
+      "shape": [
+        6501,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "lensed_D_ell": {
+      "shape": [
+        6501,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "phi_raw_cl": {
+      "shape": [
+        6501
+      ],
+      "dtype": "float64",
+      "units": "dimensionless"
+    },
+    "phi_PP": {
+      "shape": [
+        6501
+      ],
+      "dtype": "float64",
+      "units": "dimensionless"
+    },
+    "producer_unlensed_raw_cl": {
+      "shape": [
+        6501,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "producer_cutoff_ell": {
+      "shape": [
+        1025
+      ],
+      "dtype": "int64",
+      "units": "dimensionless"
+    },
+    "producer_cutoff_phi_PP": {
+      "shape": [
+        6501
+      ],
+      "dtype": "float64",
+      "units": "dimensionless"
+    },
+    "producer_cutoff_lensed_D_ell": {
+      "shape": [
+        1025,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "producer_cutoff_lensed_raw_cl": {
+      "shape": [
+        1025,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "producer_cutoff_sampling2_raw_cl": {
+      "shape": [
+        1025,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "producer_cutoff_sampling2_D_ell": {
+      "shape": [
+        1025,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "producer_cutoff_zero_phi_D_ell": {
+      "shape": [
+        1025,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "raw_correlation_zero_mode": {
+      "shape": [
+        3,
+        4
+      ],
+      "dtype": "float64",
+      "units": "nonstandard_correlation_zero_mode_uK2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    }
+  },
+  "correlation_zero_mode_convention": {
+    "canonical_auxiliary_raw_C0_and_D0": 0.0,
+    "source_behavior": "CAMB1.6.1 correlations uses lfacs[0]=1; returned ell0 is not physical D_ell",
+    "raw_correlation_zero_mode": [
+      [
+        0.0008265323845762836,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0008265323845804928,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "rows": [
+      "producer_cutoff_sampling1.4",
+      "producer_cutoff_sampling2.0",
+      "zero_phi_sampling1.4"
+    ],
+    "columns": [
+      "TT",
+      "EE",
+      "BB",
+      "TE"
+    ],
+    "positive_ell_correlation_output_unchanged": true,
+    "main_CAMB_arrays_unchanged": true
+  },
+  "producer_cutoff_control": {
+    "primary_lmax": 5999,
+    "phi_lmax": 6143,
+    "output_lmax": 1024,
+    "angular_range": "full [0, pi]",
+    "sampling_factor": 1.4,
+    "check_sampling_factor": 2.0,
+    "quadrature_comparison": {
+      "TT": {
+        "ell_min": 2,
+        "ell_max": 1024,
+        "max_abs_D_ell_difference": 2.041815605480224e-09,
+        "max_abs_relative_difference": 1.8760548670115895e-12
+      },
+      "EE": {
+        "ell_min": 2,
+        "ell_max": 1024,
+        "max_abs_D_ell_difference": 2.702904566831421e-11,
+        "max_abs_relative_difference": 1.229139012792757e-11
+      },
+      "BB": {
+        "ell_min": 2,
+        "ell_max": 1024,
+        "max_abs_D_ell_difference": 1.618567779804181e-11,
+        "max_abs_relative_difference": 1.1758225504365782e-09
+      },
+      "TE": {
+        "ell_min": 2,
+        "ell_max": 1024,
+        "max_abs_D_ell_difference": 1.0459189070388675e-11,
+        "max_abs_relative_difference": 8.765876913230386e-12
+      }
+    },
+    "phi_source": "Self-consistent CAMB phi_PP, exact zero above producer cutoff",
+    "purpose": "Bandlimit-matched continuum control; the actual mmDL kappa map is not substituted by CAMB phi"
+  },
+  "normalization": {
+    "target_sigma8_linear_z0": 0.8,
+    "trial_As": 2.1e-09,
+    "trial_sigma8": 0.7906362446376763,
+    "As_calibrated": 2.1500364844398247e-09,
+    "achieved_sigma8_linear_z0": 0.8000000000000018,
+    "relative_error": 2.220446049250313e-15,
+    "full_solve_count": 2,
+    "same_numerical_settings_in_both_solves": true,
+    "nonlinear_lensing_recalculated_at_final_As": true
+  },
+  "camb_actual_parameters_string": "class: <CAMBparams>\n WantCls = True\n WantTransfer = True\n WantScalars = True\n WantTensors = False\n WantVectors = False\n WantDerivedParameters = True\n Want_cl_2D_array = True\n Want_CMB = True\n Want_CMB_lensing = True\n DoLensing = True\n NonLinear = NonLinear_both\n Transfer: <TransferParams>\n   high_precision = True\n   accurate_massive_neutrinos = False\n   kmax = 10.0\n   k_per_logint = 0\n   PK_num_redshifts = 1\n   PK_redshifts = [0.0]\n want_zstar = False\n want_zdrag = False\n min_l = 2\n max_l = 6650\n max_l_tensor = 600\n max_eta_k = 133000.0\n max_eta_k_tensor = 1200.0\n ombh2 = 0.0221804\n omch2 = 0.11090200000000001\n omk = 0.0\n omnuh2 = 0.0\n H0 = 71.0\n TCMB = 2.7255\n YHe = 0.24\n num_nu_massless = 3.046\n num_nu_massive = 0\n nu_mass_eigenstates = 0\n share_delta_neff = False\n nu_mass_degeneracies = []\n nu_mass_fractions = []\n nu_mass_numbers = []\n InitPower: <InitialPowerLaw>\n   tensor_parameterization = tensor_param_rpivot\n   ns = 0.96\n   nrun = 0.0\n   nrunrun = 0.0\n   nt = -0.0\n   ntrun = -0.0\n   r = 0.0\n   pivot_scalar = 0.05\n   pivot_tensor = 0.05\n   As = 2.1500364844398247e-09\n   At = 1.0\n Recomb: <Recfast>\n   min_a_evolve_Tm = 0.0011098779505118728\n   RECFAST_fudge = 1.125\n   RECFAST_fudge_He = 0.86\n   RECFAST_Heswitch = 6\n   RECFAST_Hswitch = True\n   AGauss1 = -0.14\n   AGauss2 = 0.079\n   zGauss1 = 7.28\n   zGauss2 = 6.73\n   wGauss1 = 0.18\n   wGauss2 = 0.33\n Reion: <TanhReionization>\n   Reionization = True\n   use_optical_depth = True\n   redshift = 9.943321035157469\n   optical_depth = 0.08\n   fraction = 1.0795153889174147\n   include_helium_fullreion = True\n   helium_redshift = 3.5\n   helium_delta_redshift = 0.4\n   helium_redshiftstart = 5.5\n   tau_solve_accuracy_boost = 1.0\n   timestep_boost = 1.0\n   max_redshift = 50.0\n   delta_redshift = 0.5\n DarkEnergy: <DarkEnergyFluid>\n   w = -1.0\n   wa = 0.0\n   cs2 = 1.0\n   use_tabulated_w = False\n NonLinearModel: <Halofit>\n   Min_kh_nonlinear = 0.005\n   halofit_version = original\n   HMCode_A_baryon = 3.13\n   HMCode_eta_baryon = 0.603\n   HMCode_logT_AGN = 7.8\n Accuracy: <AccuracyParams>\n   AccuracyBoost = 2.0\n   lSampleBoost = 2.0\n   lAccuracyBoost = 2.0\n   AccuratePolarization = True\n   AccurateBB = False\n   AccurateReionization = True\n   TimeStepBoost = 1.0\n   BackgroundTimeStepBoost = 1.0\n   IntTolBoost = 1.0\n   SourcekAccuracyBoost = 1.0\n   IntkAccuracyBoost = 1.0\n   TransferkBoost = 1.0\n   NonFlatIntAccuracyBoost = 1.0\n   BessIntBoost = 1.0\n   LensingBoost = 1.0\n   NonlinSourceBoost = 1.0\n   BesselBoost = 1.0\n   LimberBoost = 1.0\n   SourceLimberBoost = 1.0\n   KmaxBoost = 1.0\n   neutrino_q_boost = 1.0\n SourceTerms: <SourceTermParams>\n   limber_windows = False\n   limber_phi_lmin = 100\n   counts_density = True\n   counts_redshift = True\n   counts_lensing = False\n   counts_velocity = True\n   counts_radial = False\n   counts_timedelay = True\n   counts_ISW = True\n   counts_potential = True\n   counts_evolve = False\n   line_phot_dipole = False\n   line_phot_quadrupole = False\n   line_basic = True\n   line_distortions = True\n   line_extra = False\n   line_reionization = False\n   use_21cm_mK = True\n z_outputs = []\n scalar_initial_condition = initial_adiabatic\n InitialConditionVector = []\n OutputNormalization = 1\n Alens = 1.0\n MassiveNuMethod = Nu_best\n DoLateRadTruncation = True\n Evolve_baryon_cs = False\n Evolve_delta_xe = False\n Evolve_delta_Ts = False\n Do21cm = False\n transfer_21cm_cl = False\n Log_lvalues = False\n use_cl_spline_template = True\n min_l_logl_sampling = 5000\n SourceWindows = []\n CustomSources: <CustomSources>\n   num_custom_sources = 0\n   c_source_func = None\n   custom_source_ell_scales = []\n ",
+  "derived_parameters": {
+    "age": 13.749539526303773,
+    "zstar": 1089.1337624708365,
+    "rstar": 147.02219873526704,
+    "thetastar": 1.0409742878588124,
+    "DAstar": 14.123518750657913,
+    "zdrag": 1058.6493299633446,
+    "rdrag": 149.80530047825258,
+    "kd": 0.13810143668143962,
+    "thetad": 0.1610678142684973,
+    "zeq": 3179.971707775513,
+    "keq": 0.009705870897969095,
+    "thetaeq": 0.8546570649492647,
+    "thetarseq": 0.4710820184777704
+  },
+  "background_Omega_z0": {
+    "K": 0.0,
+    "cdm": 0.22000000000000003,
+    "baryon": 0.044,
+    "photon": 4.905723721178445e-05,
+    "neutrino": 3.3936270512500836e-05,
+    "nu": 0.0,
+    "de": 0.7359170064922756
+  },
+  "checks": {
+    "ell_index_exact": true,
+    "float64_finite": true,
+    "unlensed_BB_exact_zero": true,
+    "auto_spectra_nonnegative": true,
+    "TE_covariance_positive_semidefinite": true,
+    "C_ell_D_ell_conversion_exact": true,
+    "phi_PP_conversion_exact": true,
+    "producer_cutoff_exact": true,
+    "cutoff_control_finite": true,
+    "cutoff_control_C_ell_D_ell_roundtrip": true,
+    "cutoff_control_phi_cutoff_exact": true,
+    "zero_phi_D_ell_identity_exact": true,
+    "canonical_auxiliary_ell0_zero": true,
+    "nonstandard_correlations_zero_modes_retained": true
+  },
+  "lmax_internal_actual": 6650,
+  "max_eta_k_actual": 133000.0,
+  "versions": {
+    "camb": "1.6.1",
+    "numpy": "1.26.4",
+    "python": "3.12.11"
+  },
+  "source_records": [
+    {
+      "filename": "Sehgal2010_simulations.pdf",
+      "sha256": "33571fc58edeac2f7ffa1217137286470d17fd75aa430af1fd6576016b22f163",
+      "bytes": 4007524,
+      "url": "https://arxiv.org/pdf/0908.0540",
+      "origin": "Verified copy of existing primary-source archive"
+    },
+    {
+      "filename": "sehgal.py",
+      "sha256": "1db6a7da2276b29548694f7f8bb6b45fd5ad3855a5a2e538f2ceef9a96a0f366",
+      "bytes": 41041,
+      "url": "https://raw.githubusercontent.com/dwhan89/cosmikyu/927c56f76a9c9f7c517a86a52586b8958c308328/cosmikyu/sehgal.py",
+      "origin": "Verified copy of existing primary-source archive"
+    },
+    {
+      "filename": "bode_almost_wmap5_lmax_1e4_scalCls.dat",
+      "sha256": "3b3aee929b5ed0585d4290373cddae1338d4842e39ff9629bea5b2e4e2b9fd4d",
+      "bytes": 824468,
+      "url": "https://raw.githubusercontent.com/dwhan89/cosmikyu/927c56f76a9c9f7c517a86a52586b8958c308328/resources/bode_almost_wmap5_lmax_1e4_scalCls.dat",
+      "origin": "Verified copy of existing primary-source archive"
+    },
+    {
+      "filename": "CAMB_1.6.1_model.py",
+      "sha256": "16326b432841ade1d7ff375512646e43adad302fda22a3603776784d5bc08862",
+      "bytes": 49451,
+      "url": "https://raw.githubusercontent.com/cmbant/CAMB/1.6.1/camb/model.py",
+      "origin": "Official CAMB version-tag source"
+    },
+    {
+      "filename": "CAMB_1.6.1_results.py",
+      "sha256": "4f69299514d36b998a374c3f1799c357ba90c99fd36b66273b5a4dac119a0a3c",
+      "bytes": 84931,
+      "url": "https://raw.githubusercontent.com/cmbant/CAMB/1.6.1/camb/results.py",
+      "origin": "Official CAMB version-tag source"
+    },
+    {
+      "filename": "CAMB_1.6.1_correlations.py",
+      "sha256": "052d34aa018815f45d06341767227c6e900d5868abe8190200988dda93666c24",
+      "bytes": 32201,
+      "url": "https://raw.githubusercontent.com/cmbant/CAMB/1.6.1/camb/correlations.py",
+      "origin": "Official CAMB version-tag source"
+    },
+    {
+      "filename": "CAMB_1.6.1_nonlinear.py",
+      "url": "https://raw.githubusercontent.com/cmbant/CAMB/1.6.1/camb/nonlinear.py",
+      "sha256": "1dc8ea9afb068f450f4724b10887faea91cecd0b075b0029c10daae7571e69db",
+      "bytes": 4112,
+      "provenance": "Official CAMB 1.6.1 version-tagged source; fetched for nonlinear-model audit"
+    }
+  ],
+  "source_manifest_sha256": "60dcb46ebbad6474f95fa531b1cfd07232f50bd84d9ec3c2f5341d76771d4786",
+  "builder_sha256": "3977a4c0ddb5f92098b14d6e4ef9dc12049adc6f445e3e0e0a7627a47c72c6f2",
+  "installed_camb_source_sha256": {
+    "model": "16326b432841ade1d7ff375512646e43adad302fda22a3603776784d5bc08862",
+    "results": "4f69299514d36b998a374c3f1799c357ba90c99fd36b66273b5a4dac119a0a3c",
+    "correlations": "052d34aa018815f45d06341767227c6e900d5868abe8190200988dda93666c24"
+  },
+  "artifact_manifest": {
+    "sehgal2010_theory.npz": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/theory/outputs/sehgal2010_theory.npz",
+      "bytes": 1143204,
+      "sha256": "0a334b85c91c73465a2dd3f9a26c7c52d08ae3303f855e8f0817cb827557e9bc"
+    },
+    "sehgal2010_unlensed_rawCl.dat": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/theory/outputs/sehgal2010_unlensed_rawCl.dat",
+      "bytes": 660868,
+      "sha256": "32989c6c38f08a14bc7b9db7d71bd8daf9d425ee7792f33ac8742a3003b71938"
+    },
+    "sehgal2010_lensed_rawCl.dat": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/theory/outputs/sehgal2010_lensed_rawCl.dat",
+      "bytes": 661468,
+      "sha256": "a7646380df0f04e3d9f32414f9c3879577fbab11fc73ebbe1f8b9daafa126ef8"
+    }
+  },
+  "host": "aliws006.ihep.ac.cn",
+  "slurm_job_id": "225108",
+  "elapsed_seconds": 49.84898201562464,
+  "scope": "Self-consistent CAMB primary and continuum nonlinear-lensing reference for the stated completion. Producer remaps the scalar primary with separately stored mmDL kappa; CAMB phi is not substituted for that map.",
+  "limitations": [
+    "Complete original Sehgal CAMB ini and exact CMB tau are not recovered.",
+    "The scalar-only completion sets primordial BB to zero.",
+    "Full CAMB lensed arrays retain the calculated high-ell power; producer arrays explicitly cut primary at 5999.",
+    "CAMB continuum phi does not include the released map finite-box, replication, GAN or particle effects.",
+    "Numerical settings are declared; a resolution/accuracy convergence claim requires separate controls."
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "scope": "Local cross-check of downloaded native audit, separate frequency sidecars, current package source hashes, and terminal scheduler/log evidence; no full native FITS downloaded.",
+  "native_audit": {
+    "path": "evidence/cluster_runtime_package_audit/native_integration/native_integration_audit.json",
+    "bytes": 31019,
+    "sha256": "883d0eee70747962638bb9779ab272238d3d16e38fc54c6b326844343880b816"
+  },
+  "source_modules_matching_current_release": 8,
+  "validation_script_matches_executed_SHA": true,
+  "observation_and_noise_sidecars": [
+    {
+      "path": "evidence/cluster_runtime_package_audit/native_integration/output_sidecars/95/observation_00000_noise00000_G.json",
+      "bytes": 16446,
+      "sha256": "47dfe69d6bee7692b4dedbf94873f23469047bd24095f69f15399557dde51adc"
+    },
+    {
+      "path": "evidence/cluster_runtime_package_audit/native_integration/noise_sidecars/95/noise_00000.json",
+      "bytes": 3275,
+      "sha256": "b769b8e98e8deb11a5abeea3c7f41df220f35b24ce141fc8c3695c5e71b98f81"
+    },
+    {
+      "path": "evidence/cluster_runtime_package_audit/native_integration/output_sidecars/150/observation_00000_noise00000_G.json",
+      "bytes": 12474,
+      "sha256": "1404d3054d7535751f994f0c894f781c8e0788f8b74b3f0dd427f28b97d8c924"
+    },
+    {
+      "path": "evidence/cluster_runtime_package_audit/native_integration/noise_sidecars/150/noise_00000.json",
+      "bytes": 3298,
+      "sha256": "3b0e9ae72875fdb19f830f79fc6bc6753805abc5123488ec70138e4f01b3c0e8"
+    }
+  ],
+  "four_cache_sidecars": {
+    "ame": {
+      "path": "evidence/cluster_runtime_package_audit/native_integration/cache_sidecars/fg_ame_a1_95GHz_nside2048_G.json",
+      "bytes": 2436,
+      "sha256": "bec921ed70cbcdde26a74934706a3b424963c1bbbeaf8a24a176e38c77eab062"
+    },
+    "dust": {
+      "path": "evidence/cluster_runtime_package_audit/native_integration/cache_sidecars/fg_dust_d9_95GHz_nside2048_G.json",
+      "bytes": 1471,
+      "sha256": "bccace633bbe83e563941cdc1ea92a1ef1e8d4665379406ca919708b9c127e9a"
+    },
+    "freefree": {
+      "path": "evidence/cluster_runtime_package_audit/native_integration/cache_sidecars/fg_freefree_f1_95GHz_nside2048_G.json",
+      "bytes": 1409,
+      "sha256": "ccb3907d69cdfe00cef92d84672f536e069833044f0fc71ced124208bbc538c8"
+    },
+    "synchrotron": {
+      "path": "evidence/cluster_runtime_package_audit/native_integration/cache_sidecars/fg_synchrotron_s4_95GHz_nside2048_G.json",
+      "bytes": 1472,
+      "sha256": "f372705a5bbb8dcbe26dccd6bab19be568632212d748d7c3e64aa85916c88871"
+    }
+  },
+  "producer_job": {
+    "id": 224659,
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed": "00:08:55",
+    "node": "aliws011",
+    "batch_MaxRSS": "4886140K"
+  },
+  "independent_validator_job": {
+    "id": 224801,
+    "state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed": "00:02:27",
+    "node": "aliws005",
+    "cpus": 4,
+    "requested_memory": "16G",
+    "batch_MaxRSS": "1467452K",
+    "dependency": "afterok:224659"
+  },
+  "terminal_sacct": {
+    "path": "evidence/cluster_runtime_package_audit/native_integration/native_jobs_sacct.log",
+    "bytes": 253,
+    "sha256": "550bca4629603d71307310e6d766fbbaa6d4e9a2f1afe8f1a78c710dbb95520e"
+  },
+  "producer_log": {
+    "path": "evidence/cluster_runtime_package_audit/native_integration/native_observation_test_224659.log",
+    "bytes": 1407,
+    "sha256": "668db73243faeaf67b182945d22871999682e3e358719f179e7d05c049d635ae"
+  },
+  "validator_log": {
+    "path": "evidence/cluster_runtime_package_audit/native_integration/native_validation_224801.log",
+    "bytes": 522,
+    "sha256": "3fc4ee86a9c8fffd850e37b80ee0a463ee3d8c04d869e5068a260fc85a34397d"
+  },
+  "full_observation_values_checked": 301989888,
+  "values_per_output": 150994944,
+  "outside_original_nearest_rotated_mask_pixels_per_field": 31258295,
+  "mask_outside_TQU_exactzero": true,
+  "Gal_cache_actual_hits": 4,
+  "Gal_cache_generation_or_remote_template_resolution_allowed": false,
+  "cache_templates_created": 0,
+  "unpolarized_Q_U_zero": [
+    "freefree",
+    "ame"
+  ],
+  "claims": "Missing-header source G is owner-declared, not physical coordinate certification; no legacy-seed reproduction or native beam recomputation was performed."
+}

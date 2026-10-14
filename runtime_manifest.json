@@ -1,0 +1,92 @@
+{
+  "release": "ali_sky 1.0",
+  "status": "PASS_SCOPED_RUNTIME_CHECKS",
+  "scope": "Fresh Linux runtime build, relocation/import/dependency checks, matching five-rank MPI gather, offline template resolution, six configuration normalizations and nine independently generated small-map noise tests. No production NSIDE2048 campaign or cross-node MPI certification is implied.",
+  "built_from_existing_environment": false,
+  "runtime_archive": {
+    "cluster_path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/runtime.tar.gz",
+    "delivery_name": "ali_sky_runtime_1.0.tar.gz",
+    "bundle_name": "runtime.tar.gz",
+    "bytes": 437390603,
+    "sha256": "fa263b88f8f101e71d0f7de31cc68593202fa5d52ee7d5dc55b279d7dd94c577",
+    "format": "conda-pack tar.gz; run conda-unpack once at final prefix"
+  },
+  "template_archive": {
+    "cluster_path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/templates.tar.gz",
+    "bytes": 1144278846,
+    "sha256": "f57b1ceb72915a30e1f2581240f9539f7a8c2ef679b0958ecd78baac1843573e",
+    "uncompressed_template_bytes": 1258391174,
+    "template_count": 7,
+    "presets": [
+      "d9",
+      "s4",
+      "a1",
+      "f1"
+    ],
+    "nside": 2048,
+    "bundle_directory": "template_cache"
+  },
+  "tested_host": "lxlogin003.ihep.ac.cn",
+  "tested_platform": "Linux-5.14.0-687.34.1.el9_8.x86_64-x86_64-with-glibc2.34",
+  "tested_libc": [
+    "glibc",
+    "2.34"
+  ],
+  "python": "3.12.11",
+  "versions": {
+    "numpy": "2.2.5",
+    "scipy": "1.14.1",
+    "healpy": "1.19.0",
+    "astropy": "7.2.0",
+    "pysm3": "3.4.4",
+    "numba": "0.61.2",
+    "mpi4py": "4.1.1",
+    "h5py": "3.13.0",
+    "setuptools": "80.9.0"
+  },
+  "MPI": {
+    "vendor": "Open MPI",
+    "version": "5.0.8",
+    "tested_ranks": 5,
+    "tested_hosts": 1,
+    "gather_status": "PASS",
+    "startup_diagnostics": "OpenMPI reported network-interface pairing warnings on the login host; the five-rank local gather completed successfully."
+  },
+  "checks": {
+    "pip_check": "No broken requirements found.",
+    "relocation": "PASS",
+    "offline_templates": "7 of 7 resolve to supplied template_cache paths",
+    "scalar_transform": "independently constructed NSIDE8 all-ones map; lmax16 iter3 polFalse; finite",
+    "noise_unittest": "9 tests, OK",
+    "configuration_examples": "PASS",
+    "shell_syntax": "bash -n passed four launcher/setup files"
+  },
+  "source_snapshot_sha256_tested": {
+    "ali_sky/__init__.py": "5b7997b7b9c1858678326bbc40a47816415e1f7f13ae9189f5d38b71870b60ec",
+    "ali_sky/cli.py": "40dc4686350186eb5dca990979ed00d5ae7423b070bc74959a4fcf3e3f83a1c2",
+    "ali_sky/config.py": "fe646f269bd2c88382831999605a402d36c79a1ee46624e92332daf6a27bbd1d",
+    "ali_sky/coordinates.py": "545b4b3de3118341edbcdca8f7c7e92f01bef9d84d1bfded3e5cb72d5ee0aaf9",
+    "ali_sky/foregrounds.py": "0ecc3f0e32e368a50301cb76b5923b535d148874f36f31723804fdc7805bebce",
+    "ali_sky/io.py": "bd91795b9511d6cb7cb63c67b0f23f9578f3fa35d076cb7cfc66d6e224f2e3ff",
+    "ali_sky/noise.py": "9b0543558ae715516c427d345445a333acb79fc1fe64690580dc3854992fcef0",
+    "ali_sky/observation.py": "d499bf1ef12761644c1ed589c4f585a6104d595983634785bf482c89b90299b4",
+    "ali_sky/sed.py": "b706b34041d1eb305600c17101055837435bcb597cd4f11787ed100afc395662",
+    "tests/test_noise.py": "64b50bdd810c9f7b561d5eaab0468bdff9f3e46e502eb49bef7fd32d95b37489",
+    "tests/test_observation.py": "da80538c05a2ad69df2d3e1844d412601dcd279cfa6b6e6dfced693780e16d40"
+  },
+  "evidence_and_launcher_sha256": {
+    "environment.yml": "0f9bf363cc9470dba1987b6334049afaabac6b043c707da6d12b9e3147ceba73",
+    "conda-linux-64.explicit.txt": "b5f21fe5a6ca8b2c82d6be52c7be862bc5880cf3f033b1ffee492e620b1cb89f",
+    "requirements-runtime.txt": "c48703e9f7195381071c5a8bb1523e60766c843f455e211aa0c24018d256187f",
+    "setup_env.sh": "9b411c5841e74aaea3f277ec5d99b7e9d5c8b0e75a885b88ddaa990a84aa97cc",
+    "_runtime_env.sh": "99991c9ceef6cbc0bc3ff75427675f2ae294d3e21e6e0aa9caaf8fab6b3f3b59",
+    "run_noise.sh": "b14ba6ee0aa20ce0cb90050939485dd7572f28c4db337e13f7687c2b3df12fe5",
+    "run_observe.sh": "2258eb9a64ff409660b12de73964da4c669ba93e4d3ca89fc938a62094321305",
+    "runtime_evidence/relocation_probe.py": "ed6974569408a3dbea1d83654180bdd8ebb1341f5a006f50f0557ed6997e0364",
+    "runtime_evidence/runtime_relocation_mpi_probe.json": "463dcbbbe3f06b3a0209943bb33557f5223f8e446237738d7c29cb3743a37640",
+    "runtime_evidence/runtime_noise_unittest.log": "f4e06272d6fb764c8682f4da59e1ccb323bf4dadbd43241cc96a64336502ee80",
+    "runtime_evidence/runtime_examples_validation.json": "bfd099eff81082b30f7cdec13e504d3563efcc2617f551e9b34710cd0cc6042f",
+    "runtime_evidence/template_manifest.json": "8006e67180c92ed8b1faba878770e0363f98d5a94a8c8e9d58bf186c6d6fcded",
+    "runtime_evidence/relocation_test.log": "bdaf5e13cba26c7d924a013c71af56d035065d8532f0269e2ecc6177c638ce1f"
+  }
+}

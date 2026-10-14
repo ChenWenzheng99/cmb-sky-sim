@@ -1,0 +1,97 @@
+{
+  "status": "PASS",
+  "scope": "one new native2048 full-sky scalar T/Q/U realization; complete serialization and model-convention conformance only",
+  "not_claimed": [
+    "reproduction of the original unrecorded random seeds",
+    "native2048 map bitexact comparison with original producer",
+    "Monte Carlo spectrum validation"
+  ],
+  "MPI_ranks": 1,
+  "frequency_GHz": 150,
+  "output_nside": 2048,
+  "generation_nside": 2048,
+  "coordinate": "G",
+  "shape": [
+    3,
+    50331648
+  ],
+  "lmax": 6142,
+  "output": {
+    "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_noise_test/LAT/150/noise_00000.fits",
+    "bytes": 1207967040,
+    "mtime_ns": 1791699410000000000,
+    "sha256": "4b8d0888c501580970c44560335f062a090eed8ceac7cb46cc2a1ed849ec64ac",
+    "coordinate": "G",
+    "coordinate_from_FITS_header": true,
+    "assumed_coordinate_if_header_missing": null,
+    "unit_assumption_if_header_missing": null
+  },
+  "sidecar": {
+    "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_noise_test/LAT/150/noise_00000.json",
+    "bytes": 3272,
+    "mtime_ns": 1791699413000000000,
+    "sha256": "7d7575071c2680811ed9e3270a122bdc8118824db66f0e0d9084014ccfff00c0"
+  },
+  "manifest": {
+    "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_noise_test/noise_campaign.json",
+    "bytes": 1183,
+    "mtime_ns": 1791699413000000000,
+    "sha256": "2593dba7718484c1ed3545bc8aa2b129a543ff2f809a267fb2d17c789c907505"
+  },
+  "full_map_statistics": [
+    {
+      "field": "T",
+      "pixels": 50331648,
+      "finite_count": 50331648,
+      "unseen_count": 0,
+      "min": -715.7144326846764,
+      "max": 937.7119336045507
+    },
+    {
+      "field": "Q",
+      "pixels": 50331648,
+      "finite_count": 50331648,
+      "unseen_count": 0,
+      "min": -30.403891840970786,
+      "max": 26.439647797798365
+    },
+    {
+      "field": "U",
+      "pixels": 50331648,
+      "finite_count": 50331648,
+      "unseen_count": 0,
+      "min": -27.868809072165284,
+      "max": 27.318155957712584
+    }
+  ],
+  "FITS_checksums": [
+    {
+      "HDU": 0,
+      "checksum": 1,
+      "datasum": 1
+    },
+    {
+      "HDU": 1,
+      "checksum": 1,
+      "datasum": 1
+    }
+  ],
+  "legacy_indexed_scalar_spectra_bitexact_to_source_formula": true,
+  "versions": {
+    "python": "3.12.11",
+    "numpy": "2.2.5",
+    "healpy": "1.19.0"
+  },
+  "SLURM": {
+    "SLURM_JOB_ID": "224657",
+    "SLURMD_NODENAME": "aliws014",
+    "SLURM_CPUS_PER_TASK": "32"
+  },
+  "OMP_NUM_THREADS": "32",
+  "package_noise": {
+    "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/ali_sky/noise.py",
+    "bytes": 16510,
+    "mtime_ns": 1791699312000000000,
+    "sha256": "9b0543558ae715516c427d345445a333acb79fc1fe64690580dc3854992fcef0"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "presets": [
+    "d9",
+    "s4",
+    "a1",
+    "f1"
+  ],
+  "nside": 2048,
+  "pysm_version": "3.4.4",
+  "files": [
+    {
+      "logical_name": "dust_gnilc/gnilc_dust_template_nside2048_2023.02.10.fits",
+      "bytes": 603987840,
+      "sha256": "d388b5f9641decfa5c75318fbe0d80a010b9d8f58a91be0009040cb50e777bfb",
+      "url": "https://portal.nersc.gov/project/cmb/pysm-data/dust_gnilc/gnilc_dust_template_nside2048_2023.02.10.fits"
+    },
+    {
+      "logical_name": "synch/synch_template_nside2048_2023.02.25.fits",
+      "bytes": 603987840,
+      "sha256": "12f0702e40d319161310c1838371ddcbd7933a4413808b208e67f559af25d6cc",
+      "url": "https://portal.nersc.gov/project/cmb/pysm-data/synch/synch_template_nside2048_2023.02.25.fits"
+    },
+    {
+      "logical_name": "pysm_2/ame_t_new.fits",
+      "bytes": 12591360,
+      "sha256": "6ca7906748b34e6f29ac94d37dc63838af90ae00f04935ae8c1a6bffb280ca0c",
+      "url": "https://portal.nersc.gov/project/cmb/pysm-data/pysm_2/ame_t_new.fits"
+    },
+    {
+      "logical_name": "pysm_2/ame_nu_peak_0.fits",
+      "bytes": 12591360,
+      "sha256": "cc7b319d49e14a56d72e515e94fc3a2833d776d166390348a81b009617eb0906",
+      "url": "https://portal.nersc.gov/project/cmb/pysm-data/pysm_2/ame_nu_peak_0.fits"
+    },
+    {
+      "logical_name": "pysm_2/emissivity.txt",
+      "bytes": 50054,
+      "sha256": "e2b59c3297782ca153397522c633b68a9c32c4b76054b6b3ccba3ab0231a8a84",
+      "url": "https://portal.nersc.gov/project/cmb/pysm-data/pysm_2/emissivity.txt"
+    },
+    {
+      "logical_name": "pysm_2/ame2_t_new.fits",
+      "bytes": 12591360,
+      "sha256": "2e754506839233778dc73e297fba6c15bc1215e8c364a5156be0e254ab38cab2",
+      "url": "https://portal.nersc.gov/project/cmb/pysm-data/pysm_2/ame2_t_new.fits"
+    },
+    {
+      "logical_name": "pysm_2/ff_t_new.fits",
+      "bytes": 12591360,
+      "sha256": "dee78cf249fc884924d9d892bd63b02e09760ca056ff7c5b0c92b6259cc028ee",
+      "url": "https://portal.nersc.gov/project/cmb/pysm-data/pysm_2/ff_t_new.fits"
+    }
+  ],
+  "total_bytes": 1258391174
+}

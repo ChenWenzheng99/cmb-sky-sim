@@ -1,0 +1,2126 @@
+{
+  "status": "PASS",
+  "runtime_python": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+  "versions": {
+    "python": "3.12.11 | packaged by conda-forge | (main, Jun  4 2025, 14:45:31) [GCC 13.3.0]",
+    "numpy": "2.2.5",
+    "healpy": "1.19.0"
+  },
+  "package_noise": {
+    "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/ali_sky/noise.py",
+    "bytes": 16510,
+    "mtime_ns": 1791699040000000000,
+    "sha256": "9b0543558ae715516c427d345445a333acb79fc1fe64690580dc3854992fcef0"
+  },
+  "campaigns": [
+    {
+      "nside": 8,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "manifest": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1/noise_campaign.json",
+        "bytes": 7381,
+        "mtime_ns": 1791699310000000000,
+        "sha256": "ba144ee648ec9336a1079594b838f5394b6cf394f8f6abcc89fbd67183a6841a"
+      },
+      "FITS_count": 12,
+      "actual_worker_ranks_in_log": [
+        0
+      ],
+      "comparisons": [
+        {
+          "frequency_GHz": 27.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1/LAT/27/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699297000000000,
+            "sha256": "81c2dfbd3b4d69d860a8d350d5b6037609060997eb280f80598ac004b46566d1",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 27.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1/LAT/27/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699297000000000,
+            "sha256": "bcf71912a273c63bf92c6a7590cbde7a1f12894d0b445ec515824787ec2fc07f",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 40.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1/LAT/40/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699297000000000,
+            "sha256": "4247a47fcd12f437343aaecc63e804bc8305041cf648de041910eea8843e7026",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 40.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1/LAT/40/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699297000000000,
+            "sha256": "576b8c70e8fe2feb4a612a83adda01694fab69304b7622c13a51b0a6a97f79bb",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 90.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1/LAT/90/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699297000000000,
+            "sha256": "6db2bff2bc771659859b39d38df44c865b41763dd1be705352ce1079c8293ef5",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 90.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1/LAT/90/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699297000000000,
+            "sha256": "f845755f5313e4999f00c77561a4c5aa378a0460353d352c2aa462c0cb8bb751",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 150.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1/LAT/150/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699297000000000,
+            "sha256": "0869d6ec9519ba18a17aca0aedc220adbfe3ba05483cfdcd59afdc15fea66884",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 150.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1/LAT/150/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699297000000000,
+            "sha256": "c30406580d1155cca1f2ea963ca5205a862bfc43196dcaa71581839ca0db265f",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 225.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1/LAT/225/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699297000000000,
+            "sha256": "4c094f52f1338c0c80719d927cff0a74fa517759eb1a58b9e65612966b31790c",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 225.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1/LAT/225/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699297000000000,
+            "sha256": "ef96a5f0d5c9b14d11d012f83ebfb233c70d334d6e7d0fbdcc7d646f41c83429",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 280.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1/LAT/280/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699297000000000,
+            "sha256": "07610ceb57f5914767431c02c4ba937f4165259adbe91fa8ff7b18768b913f98",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 280.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1/LAT/280/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699297000000000,
+            "sha256": "dce4aabf7deca02698d0a7bab99364722c2f006ad72f0628bc3ded465532c902",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        }
+      ],
+      "all_tasks_resume_reused": true,
+      "changed_seed_rejected_all12": true,
+      "existing_outputs_unmodified_after_rejection": true
+    },
+    {
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "manifest": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5/noise_campaign.json",
+        "bytes": 7381,
+        "mtime_ns": 1791699326000000000,
+        "sha256": "6405cf661dc60436ef1ba6684f61adf9b0bf71c5afa467c8f4a2a95e3a6946e6"
+      },
+      "FITS_count": 12,
+      "actual_worker_ranks_in_log": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "comparisons": [
+        {
+          "frequency_GHz": 27.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5/LAT/27/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699313000000000,
+            "sha256": "a5a3720d80f90fa864b2c2f13e9d0adb82a1a6ec86810a47690df8ed6793ac97",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 27.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5/LAT/27/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699313000000000,
+            "sha256": "e53d6ae6fc6e6a48540ebd6ad1601cba3dc370c71cacc5f480e487c8a1c0df17",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 40.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5/LAT/40/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699313000000000,
+            "sha256": "ed22b7a671a774ea97ff094bd31aaebde0cd320e781286e78fd439c74c8f3902",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 40.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5/LAT/40/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699313000000000,
+            "sha256": "ea3ffe993401b6b0b6c54c2cde90dfa1ba86cad5570e0a01df898b5d81ec0045",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 90.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5/LAT/90/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699313000000000,
+            "sha256": "3c36fe74060301ccae0c82146131047aee46518bc7c60f69ee894653ba8408ab",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 90.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5/LAT/90/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699313000000000,
+            "sha256": "32ce7557297bb28e61eb1a8e56fac29a006b1b393a16bc938b11554ce3f99de4",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 150.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5/LAT/150/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699313000000000,
+            "sha256": "bd5e7c3dd894f422ee21a2341e864bc5f9c4072780bd0f894a13b90a16017c30",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 150.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5/LAT/150/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699313000000000,
+            "sha256": "7255a92797dd20f5f4074a91ee900cd76b0af0ceb028651f94e35965902cfc6e",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 225.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5/LAT/225/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699313000000000,
+            "sha256": "68e8f43e4f50753ab7ccf143ff3e84a7a0468351c81878b80a4ce55dfd42e5b0",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 225.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5/LAT/225/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699313000000000,
+            "sha256": "41f534e9abd4ec43a525879a800f9e8b2828e2dd5299f7f819b9290d8098d1cb",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 280.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5/LAT/280/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699313000000000,
+            "sha256": "43aa5ea0aab4af2d93c2a444641ee51c074bfa55f7f8607beaa9f12464f4fdc9",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 280.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5/LAT/280/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699313000000000,
+            "sha256": "ea500871e06c69511f80a37c7c2dd786b5998ee306989be9bc897871589b4575",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        }
+      ],
+      "all_tasks_resume_reused": true,
+      "changed_seed_rejected_all12": true,
+      "existing_outputs_unmodified_after_rejection": true
+    },
+    {
+      "nside": 8,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "manifest": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered/noise_campaign.json",
+        "bytes": 7511,
+        "mtime_ns": 1791699343000000000,
+        "sha256": "507832391470fd3f486f4aad9131a51b7b57363c9791fedf8b0aed78bb973636"
+      },
+      "FITS_count": 12,
+      "actual_worker_ranks_in_log": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "comparisons": [
+        {
+          "frequency_GHz": 27.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered/LAT/27/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699330000000000,
+            "sha256": "ba4714bd0a31d521f0225e12a8b043a491c2cc02f6b45d9861f053a5f6c911b0",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 27.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered/LAT/27/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699330000000000,
+            "sha256": "b876248cdee4147f7d629750362dde5339a5a8a025bf35308b989faa2b4828f2",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 40.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered/LAT/40/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699330000000000,
+            "sha256": "ee2efc4331b460145f28ed30a9c1780df9e46bff4a2442655e7c914fd8a5049b",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 40.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered/LAT/40/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699330000000000,
+            "sha256": "cbe5f714d1de0858e5b2cc7de68e151871595ffe7beb83d709b76121449699ff",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 90.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered/LAT/90/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699330000000000,
+            "sha256": "ee1573f65f3a68f17b2649f6be3b0b03796de432e8daae6a70d9544f906ab315",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 90.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered/LAT/90/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699330000000000,
+            "sha256": "62da31012db89566d0b0cdc5d979590fd4a183970871178ef359fe8e5a056211",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 150.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered/LAT/150/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699330000000000,
+            "sha256": "d82d7ce4d49585db9409cc38b2409c4a6e2cf43ca2966578e7e08ac4fa91c607",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 150.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered/LAT/150/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699330000000000,
+            "sha256": "ff0079b6699121134dfe5b2da08890ef6900a7c68958c9f704b243fa74017947",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 225.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered/LAT/225/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699330000000000,
+            "sha256": "ebbefbf82c5e27c06cf9a05b12454b6750f16b559bd35ba825151fbc23a6926f",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 225.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered/LAT/225/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699330000000000,
+            "sha256": "ed9414a0aa226e300757001a1e56130e7966772c16e3f5482c8fa7309ba6d66d",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 280.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered/LAT/280/noise_00000.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699330000000000,
+            "sha256": "d9c20b6544123f91cfe418e878e0ceedba6b4991ab34273cdca3ffd3a98b8e32",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 280.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            768
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered/LAT/280/noise_00001.fits",
+            "bytes": 25920,
+            "mtime_ns": 1791699330000000000,
+            "sha256": "3daae4ec237ab02d06e0fb00b078efd56a644af79d00a95ec381fa1e7f74bbc8",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        }
+      ],
+      "all_tasks_resume_reused": true,
+      "changed_seed_rejected_all12": true,
+      "existing_outputs_unmodified_after_rejection": true
+    },
+    {
+      "nside": 16,
+      "MPI_ranks": 1,
+      "task_order_reversed": false,
+      "manifest": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1/noise_campaign.json",
+        "bytes": 7395,
+        "mtime_ns": 1791699359000000000,
+        "sha256": "13d411d1b10eff9976489593f82c135cebe60f026e6f40609e6a5e0a379a17e8"
+      },
+      "FITS_count": 12,
+      "actual_worker_ranks_in_log": [
+        0
+      ],
+      "comparisons": [
+        {
+          "frequency_GHz": 27.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1/LAT/27/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699347000000000,
+            "sha256": "e6619f617f716bd1f5e6b3068995df60a2ae313bae865628b271c0870496cd43",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 27.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1/LAT/27/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699347000000000,
+            "sha256": "c822cc5ef67a07b604da77ea51e467aa1e3bc558e394648356e9bf9293bc5b51",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 40.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1/LAT/40/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699347000000000,
+            "sha256": "084a2381b7b3ce2a0a2b67848bb7e95e12417d5b42258f1c7bb481bf5a97b8d8",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 40.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1/LAT/40/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699347000000000,
+            "sha256": "4bf951e253659bd0ed81f496f105cd3651887d4a091a5667de29fb710109f4e6",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 90.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1/LAT/90/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699347000000000,
+            "sha256": "083575a2b84909439c3be8ad3d5b960a50ce8d96c8fd9aa83ffb361886646ebd",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 90.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1/LAT/90/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699347000000000,
+            "sha256": "0165e1bfbbc7eb539a586835dc8df3e446865357e83bfaab15d0820531700e90",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 150.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1/LAT/150/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699347000000000,
+            "sha256": "af870a81062fb78956c34089e33f58feca918e56c726f87f8f08845aade5c5e2",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 150.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1/LAT/150/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699347000000000,
+            "sha256": "e8dc0ec6fa303a066b590a67ca0dbdfb9d96239097fa8d630a404d6a9da1e2e7",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 225.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1/LAT/225/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699347000000000,
+            "sha256": "2a0954d70db4a0a09b2b858d8dcb98b5872b75f4895c82ad64b390998e2193fa",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 225.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1/LAT/225/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699347000000000,
+            "sha256": "5803a20edafe9bef9e4f910bc42f7533025d824111492455d7550e89e6b48609",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 280.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1/LAT/280/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699347000000000,
+            "sha256": "7ddebd35e7dec1fd7e08a6fcc70ef4d21bac5664645620bd7c7493e60f81f48d",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 280.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1/LAT/280/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699347000000000,
+            "sha256": "b9fe42e127f1a548f529febc99760f1c3c46e38aa1dacafd1d1530c57618bacb",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        }
+      ],
+      "all_tasks_resume_reused": true,
+      "changed_seed_rejected_all12": true,
+      "existing_outputs_unmodified_after_rejection": true
+    },
+    {
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": false,
+      "manifest": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5/noise_campaign.json",
+        "bytes": 7395,
+        "mtime_ns": 1791699375000000000,
+        "sha256": "e0daa1a9b524f540fe2b118f1ee6c79afc0dba596fb218b1eb4158b30703cde6"
+      },
+      "FITS_count": 12,
+      "actual_worker_ranks_in_log": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "comparisons": [
+        {
+          "frequency_GHz": 27.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5/LAT/27/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699363000000000,
+            "sha256": "66c6e84477cbc4e4bafc0feaa5f9f4a40a416fd896dee8271537243ab96bbc7f",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 27.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5/LAT/27/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699363000000000,
+            "sha256": "0f241d2ae56fb6d941a53452b939ee8f15cde5480062b91a68131774a7c339a7",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 40.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5/LAT/40/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699363000000000,
+            "sha256": "e9034ad752ae2f68a541f98e1cdc2fe3b4b4cb08b4ee67e98fdaa0964855d017",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 40.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5/LAT/40/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699363000000000,
+            "sha256": "784f4bc0251dfd893fb7be824645fa112de10d67c5c9ba800db1e12988d05a3f",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 90.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5/LAT/90/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699364000000000,
+            "sha256": "1728c10f2844457a52f6e69f9d6cebbfa0d935176da8fad856c8754e03ae35d5",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 90.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5/LAT/90/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699363000000000,
+            "sha256": "282e92c6cf17602ace8b6a14ab7030ad8a5f7e4dc74506c4f83ad466b7e5b9cb",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 150.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5/LAT/150/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699363000000000,
+            "sha256": "033d6a165748b589f4848acaa7f2a687bfc0effb4b4472f68cbdd92902f530c5",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 150.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5/LAT/150/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699363000000000,
+            "sha256": "16fe89c2b7b1d5d3df16beec98d72448f3c66afdeac23dd0514e63baf3d2b76f",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 225.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5/LAT/225/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699364000000000,
+            "sha256": "46182c8cc0f4a79031bb2de8b6708a649956baeb1c2398b8c9394cca0710584f",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 225.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5/LAT/225/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699364000000000,
+            "sha256": "ecbe5f3b61be06210b48fa9492133e1a08883f5920b0face72c2e0474a514e1e",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 280.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5/LAT/280/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699363000000000,
+            "sha256": "f4b6667dd257fbfcbcc28f51f61695dfbec433b66362563c15f5831e0e4f0cc7",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 280.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5/LAT/280/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699364000000000,
+            "sha256": "08f851b4179358225d8e6a899d6e50a2cde53d24594927e32bf2a65faf27d356",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        }
+      ],
+      "all_tasks_resume_reused": true,
+      "changed_seed_rejected_all12": true,
+      "existing_outputs_unmodified_after_rejection": true
+    },
+    {
+      "nside": 16,
+      "MPI_ranks": 5,
+      "task_order_reversed": true,
+      "manifest": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered/noise_campaign.json",
+        "bytes": 7525,
+        "mtime_ns": 1791699390000000000,
+        "sha256": "e4977c066631b1be30bd8d9c58224e0280f261f65307d5f4047f91098c69f52e"
+      },
+      "FITS_count": 12,
+      "actual_worker_ranks_in_log": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "comparisons": [
+        {
+          "frequency_GHz": 27.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered/LAT/27/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699379000000000,
+            "sha256": "515a7e6473a57370890c942259dd2bb970d2370241d415ca7c52de21af854ece",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 27.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered/LAT/27/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699379000000000,
+            "sha256": "177851b299326d067e253fb9c80bbc0da48e154a03b66aed8ce362d6bfe282fc",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 40.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered/LAT/40/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699379000000000,
+            "sha256": "6d888e1353d5082dd1d8f7524015ccd59590042dd434f0307cbd80615c125e8f",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 40.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered/LAT/40/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699379000000000,
+            "sha256": "aa053791bd7c2713ba44e57c1d4f932010c521792fa9afc048704f4f28b8c377",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 90.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered/LAT/90/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699379000000000,
+            "sha256": "9689bfcdc3bf5173a484210c11168eb7be4636a73835da180aa1ff4ee20a2583",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 90.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered/LAT/90/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699379000000000,
+            "sha256": "4aa5dafcfdc2b7fabef42cd18af30f1db4441bfd345bf95a00ee531964a94442",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 150.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered/LAT/150/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699379000000000,
+            "sha256": "49d6d8e24814316319e12e35d0e0e3732cfcc8d9b0a8eba58d53a189558b31e3",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 150.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered/LAT/150/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699379000000000,
+            "sha256": "2e17b344e70c4d7bb9806f358d3ad12dbf8de877f9a827bd7cd43e99d2100a6f",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 225.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered/LAT/225/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699379000000000,
+            "sha256": "e17c75f0a29eda64fd24ff271f86eaebab0edf261340622b93c1a95289a74344",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 225.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered/LAT/225/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699379000000000,
+            "sha256": "b53924648df07295879d87024e00e415d1c68b4b209149c404753d504206506e",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 280.0,
+          "id": 0,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered/LAT/280/noise_00000.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699379000000000,
+            "sha256": "fc507cdf5cff27aacf0c1979da36a48e885d908c1a78e7957b1b7d445b003614",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        },
+        {
+          "frequency_GHz": 280.0,
+          "id": 1,
+          "pixels_bitexact": true,
+          "seeds_bitexact": true,
+          "shape": [
+            3,
+            3072
+          ],
+          "output": {
+            "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered/LAT/280/noise_00001.fits",
+            "bytes": 80640,
+            "mtime_ns": 1791699379000000000,
+            "sha256": "16b8dddac811d30df2c1fe3ce1311dd59595d1123b5105943897968ead7e2f8f",
+            "coordinate": "G",
+            "coordinate_from_FITS_header": true,
+            "assumed_coordinate_if_header_missing": null,
+            "unit_assumption_if_header_missing": null
+          }
+        }
+      ],
+      "all_tasks_resume_reused": true,
+      "changed_seed_rejected_all12": true,
+      "existing_outputs_unmodified_after_rejection": true
+    }
+  ],
+  "process_runs": [
+    {
+      "name": "mpi5_probe",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/mpiexec",
+        "-n",
+        "5",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-c",
+        "from mpi4py import MPI;import json,os,socket;c=MPI.COMM_WORLD;a=c.gather({'rank':c.rank,'size':c.size,'pid':os.getpid(),'host':socket.gethostname()},root=0);print(json.dumps(a)) if c.rank==0 else None"
+      ],
+      "returncode": 0,
+      "seconds": 1.8726850938983262,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/mpi5_probe.log",
+        "bytes": 3919,
+        "mtime_ns": 1791699288000000000,
+        "sha256": "eb4644bfefeb1c00b47787e4ede6d1091b558ced113df606c6b11a800557d4fd"
+      }
+    },
+    {
+      "name": "unit_noise_fresh_runtime",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/tests",
+        "-p",
+        "test_noise.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "seconds": 2.840262421872467,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/unit_noise_fresh_runtime.log",
+        "bytes": 1202,
+        "mtime_ns": 1791699291000000000,
+        "sha256": "fb4474d7162d02093e4fcd45203e29b4c9b8e905ad35310ec8bf65ab7e96f7f5"
+      }
+    },
+    {
+      "name": "nside8_mpi1",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1.json"
+      ],
+      "returncode": 0,
+      "seconds": 6.277242674957961,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside8_mpi1.log",
+        "bytes": 2113,
+        "mtime_ns": 1791699297000000000,
+        "sha256": "c510b4e0b2de5bfaeb00ca8691cc3ee1213dab7395215e804d8feb8ec5085b67"
+      }
+    },
+    {
+      "name": "nside8_mpi1_resume",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1.json"
+      ],
+      "returncode": 0,
+      "seconds": 4.470209755934775,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside8_mpi1_resume.log",
+        "bytes": 2113,
+        "mtime_ns": 1791699302000000000,
+        "sha256": "c510b4e0b2de5bfaeb00ca8691cc3ee1213dab7395215e804d8feb8ec5085b67"
+      }
+    },
+    {
+      "name": "nside8_mpi1_changed_seed_rejected",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1_changed_seed.json"
+      ],
+      "returncode": 1,
+      "seconds": 4.289559426950291,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside8_mpi1_changed_seed_rejected.log",
+        "bytes": 4049,
+        "mtime_ns": 1791699306000000000,
+        "sha256": "f9d4afead9ce1903bee8d64b2c552b9b2e9ae7a8fe4dfc20c9d21b99c47c6893"
+      }
+    },
+    {
+      "name": "nside8_mpi1_restore_complete_resume",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi1.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.597763773985207,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside8_mpi1_restore_complete_resume.log",
+        "bytes": 2113,
+        "mtime_ns": 1791699310000000000,
+        "sha256": "c510b4e0b2de5bfaeb00ca8691cc3ee1213dab7395215e804d8feb8ec5085b67"
+      }
+    },
+    {
+      "name": "nside8_mpi5",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.7685428648255765,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside8_mpi5.log",
+        "bytes": 5213,
+        "mtime_ns": 1791699314000000000,
+        "sha256": "d4aeef5d13a0080c6954110200c920f337f215b9a1ce203668215a6196e29301"
+      }
+    },
+    {
+      "name": "nside8_mpi5_resume",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.961381244007498,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside8_mpi5_resume.log",
+        "bytes": 5213,
+        "mtime_ns": 1791699318000000000,
+        "sha256": "3478be7f274d69776c2d2f1dcd72b70795e465bf3bd28334c8b51747b27284f1"
+      }
+    },
+    {
+      "name": "nside8_mpi5_changed_seed_rejected",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_changed_seed.json"
+      ],
+      "returncode": 1,
+      "seconds": 4.221292791888118,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside8_mpi5_changed_seed_rejected.log",
+        "bytes": 7513,
+        "mtime_ns": 1791699322000000000,
+        "sha256": "38fa8d4ebd688517c3797aa40feca95af9af6632de871f4113345d58a0b4270e"
+      }
+    },
+    {
+      "name": "nside8_mpi5_restore_complete_resume",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5.json"
+      ],
+      "returncode": 0,
+      "seconds": 4.34586386801675,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside8_mpi5_restore_complete_resume.log",
+        "bytes": 5193,
+        "mtime_ns": 1791699326000000000,
+        "sha256": "ad555a24d701c94dd18013c948434fb15dbff0e5488a216a0d6e4d6f8f5b44b7"
+      }
+    },
+    {
+      "name": "nside8_mpi5_reordered",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.788585831876844,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside8_mpi5_reordered.log",
+        "bytes": 5343,
+        "mtime_ns": 1791699330000000000,
+        "sha256": "994223b5bcb7a72234d07290ba385df05b82e2d6dca395f321052782a7691f41"
+      }
+    },
+    {
+      "name": "nside8_mpi5_reordered_resume",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.8699635618831962,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside8_mpi5_reordered_resume.log",
+        "bytes": 5343,
+        "mtime_ns": 1791699334000000000,
+        "sha256": "c9f02dcf651fd619b78eda7834cf683afb274dee0443938255366eaa41b67d21"
+      }
+    },
+    {
+      "name": "nside8_mpi5_reordered_changed_seed_rejected",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered_changed_seed.json"
+      ],
+      "returncode": 1,
+      "seconds": 4.505451417062432,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside8_mpi5_reordered_changed_seed_rejected.log",
+        "bytes": 7623,
+        "mtime_ns": 1791699339000000000,
+        "sha256": "830c5ce86b054d26c7a87c60b2f1f06bce1720b3a11ad2f6e0e22fc916a407d4"
+      }
+    },
+    {
+      "name": "nside8_mpi5_reordered_restore_complete_resume",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside8_mpi5_reordered.json"
+      ],
+      "returncode": 0,
+      "seconds": 4.4946392071433365,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside8_mpi5_reordered_restore_complete_resume.log",
+        "bytes": 5343,
+        "mtime_ns": 1791699343000000000,
+        "sha256": "ca2f4eaecb1752da1a7545e94b1dc5ba51f443c58385116cab1f8fd701f318b1"
+      }
+    },
+    {
+      "name": "nside16_mpi1",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1.json"
+      ],
+      "returncode": 0,
+      "seconds": 4.081422571092844,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside16_mpi1.log",
+        "bytes": 2126,
+        "mtime_ns": 1791699348000000000,
+        "sha256": "afcf8042b5537289a3f70ae39b532a951ead6fe36310ba0f6df81dcbeec2c249"
+      }
+    },
+    {
+      "name": "nside16_mpi1_resume",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1.json"
+      ],
+      "returncode": 0,
+      "seconds": 4.495213691145182,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside16_mpi1_resume.log",
+        "bytes": 2126,
+        "mtime_ns": 1791699352000000000,
+        "sha256": "afcf8042b5537289a3f70ae39b532a951ead6fe36310ba0f6df81dcbeec2c249"
+      }
+    },
+    {
+      "name": "nside16_mpi1_changed_seed_rejected",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1_changed_seed.json"
+      ],
+      "returncode": 1,
+      "seconds": 3.4423985711764544,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside16_mpi1_changed_seed_rejected.log",
+        "bytes": 4062,
+        "mtime_ns": 1791699356000000000,
+        "sha256": "460730f855b1f52eb97e61ca0619e6870415a2d5626287191fe1bd90d9c4a348"
+      }
+    },
+    {
+      "name": "nside16_mpi1_restore_complete_resume",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi1.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.453894899925217,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside16_mpi1_restore_complete_resume.log",
+        "bytes": 2126,
+        "mtime_ns": 1791699359000000000,
+        "sha256": "afcf8042b5537289a3f70ae39b532a951ead6fe36310ba0f6df81dcbeec2c249"
+      }
+    },
+    {
+      "name": "nside16_mpi5",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5.json"
+      ],
+      "returncode": 0,
+      "seconds": 4.728427764028311,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside16_mpi5.log",
+        "bytes": 5226,
+        "mtime_ns": 1791699364000000000,
+        "sha256": "dfb1e1cebf8d311e64d8b773260f7e72273a426ce91640291f29a444b0bb7996"
+      }
+    },
+    {
+      "name": "nside16_mpi5_resume",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.6448236890137196,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside16_mpi5_resume.log",
+        "bytes": 5226,
+        "mtime_ns": 1791699368000000000,
+        "sha256": "7d37c2d9197f9b67d6a2c4c93e4248d1c74714054531b575291f0cb2bcbf886c"
+      }
+    },
+    {
+      "name": "nside16_mpi5_changed_seed_rejected",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_changed_seed.json"
+      ],
+      "returncode": 1,
+      "seconds": 3.603967048926279,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside16_mpi5_changed_seed_rejected.log",
+        "bytes": 7526,
+        "mtime_ns": 1791699372000000000,
+        "sha256": "bed7110978df77ef9264e0e481c63ef5228fbe0bbd39ec38a3b1c36c72d8c4a8"
+      }
+    },
+    {
+      "name": "nside16_mpi5_restore_complete_resume",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.6429250948131084,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside16_mpi5_restore_complete_resume.log",
+        "bytes": 5226,
+        "mtime_ns": 1791699375000000000,
+        "sha256": "ebd678d599fac3ff1bfd9c1b9cd24360a2c54903f1b0a0781396424b3217532b"
+      }
+    },
+    {
+      "name": "nside16_mpi5_reordered",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.7903049727901816,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside16_mpi5_reordered.log",
+        "bytes": 5356,
+        "mtime_ns": 1791699379000000000,
+        "sha256": "920be481c46e448890a3a2f1654570a741e56df6f1fc7b06d2a22315081daaf6"
+      }
+    },
+    {
+      "name": "nside16_mpi5_reordered_resume",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.653342643054202,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside16_mpi5_reordered_resume.log",
+        "bytes": 5356,
+        "mtime_ns": 1791699383000000000,
+        "sha256": "f43634b3f8837f519fbe42c9c528e7cc7d5be6fc1c525a8c5cc1cca32fe82bb1"
+      }
+    },
+    {
+      "name": "nside16_mpi5_reordered_changed_seed_rejected",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered_changed_seed.json"
+      ],
+      "returncode": 1,
+      "seconds": 3.805683132028207,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside16_mpi5_reordered_changed_seed_rejected.log",
+        "bytes": 7656,
+        "mtime_ns": 1791699387000000000,
+        "sha256": "36e5570f4239b0ecf344c47128ef5fe9bf704c3c3348d15867c61ac9b9884f2f"
+      }
+    },
+    {
+      "name": "nside16_mpi5_reordered_restore_complete_resume",
+      "command": [
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+        "-m",
+        "ali_sky.cli",
+        "noise",
+        "--config",
+        "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/nside16_mpi5_reordered.json"
+      ],
+      "returncode": 0,
+      "seconds": 3.7118680560961366,
+      "log": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/noise_runtime_audit/logs/nside16_mpi5_reordered_restore_complete_resume.log",
+        "bytes": 5356,
+        "mtime_ns": 1791699390000000000,
+        "sha256": "ac7d920c980bf3ef8662470fe97374e3b480b53a583ff34a86c65a6df68d122e"
+      }
+    }
+  ],
+  "scope": "fresh small native NSIDE8/16; no resampling; 6 LAT bands x IDs0,1",
+  "MPI_probe": [
+    {
+      "rank": 0,
+      "size": 5,
+      "pid": 1784344,
+      "host": "lxlogin003.ihep.ac.cn"
+    },
+    {
+      "rank": 1,
+      "size": 5,
+      "pid": 1784345,
+      "host": "lxlogin003.ihep.ac.cn"
+    },
+    {
+      "rank": 2,
+      "size": 5,
+      "pid": 1784346,
+      "host": "lxlogin003.ihep.ac.cn"
+    },
+    {
+      "rank": 3,
+      "size": 5,
+      "pid": 1784347,
+      "host": "lxlogin003.ihep.ac.cn"
+    },
+    {
+      "rank": 4,
+      "size": 5,
+      "pid": 1784348,
+      "host": "lxlogin003.ihep.ac.cn"
+    }
+  ],
+  "comparison_count": 72
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS_FRESH_OFFLINE_INSTALL_AND_LIGHTWEIGHT_CONTROLS",
+  "prefix": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/cmb_sehgal2010_install_probe_20261011/runtime",
+  "python": "3.12.11",
+  "lenspyx_vendored_source_files_checked": 43,
+  "lenspyx_installed_Python_data_files_checked": 41,
+  "lenspyx_source_only_Fortran_files": 2,
+  "new_native_maps_generated_by_this_probe": false,
+  "scope": "Fresh offline extraction, wheel install, isolated imports, tiny convention tests and copied theory input audit; native ten-map spectra are separately validated."
+}

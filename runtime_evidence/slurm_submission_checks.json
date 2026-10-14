@@ -1,0 +1,40 @@
+{
+  "status": "PASS_MOCK_SUBMISSION_CHECKS",
+  "scope": "Local argument/resource/dispatch checks using fake sbatch and fake launcher. No real job was submitted and no runtime/numerical source changed.",
+  "checks": [
+    {
+      "check": "noise_default_resources_and_literal_argv",
+      "status": "PASS"
+    },
+    {
+      "check": "observe_default_resources_and_literal_argv",
+      "status": "PASS"
+    },
+    {
+      "check": "resource_override_equals_config_and_mandatory_exclusions",
+      "status": "PASS"
+    },
+    {
+      "check": "five_invalid_invocations_rejected_before_mock_submission",
+      "status": "PASS"
+    },
+    {
+      "check": "standalone_help",
+      "status": "PASS"
+    },
+    {
+      "check": "worker_serial_dispatch_literal_args_threads_and_allocation_fallback",
+      "status": "PASS"
+    },
+    {
+      "check": "bash_syntax",
+      "status": "PASS"
+    }
+  ],
+  "source_sha256": {
+    "submit_noise.sh": "5406a790f5f389ebf0acc948ce4fb9b54f8324f6d62a3a4670677ec5b50b03d5",
+    "submit_observe.sh": "8bee8fb6b1482cdfecf01865782d99d46093a3b54d7dc93f697a7cfb74fe92d4",
+    "_submit_job.sh": "695228505eb1f1dcf31e9df8de95ebd5442823964bf9755e92439ceff1a99c7e",
+    "slurm_worker.sh": "97f2056a12b36ef98ca008a37594b103758e135cd9744addfb76ff839128aad9"
+  }
+}

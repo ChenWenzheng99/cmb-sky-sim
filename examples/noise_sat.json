@@ -1,0 +1,13 @@
+{
+  "instrument": "SAT",
+  "nside": 2048,
+  "frequencies_GHz": [27, 40, 90, 150, 225, 280],
+  "start_id": 0,
+  "n_realizations": 50,
+  "seed": 20261011,
+  "scale_factor": 1,
+  "coordinate": "G",
+  "mpi_ranks": 5,
+  "output_dir": "../outputs/noise_sat",
+  "overwrite": false
+}

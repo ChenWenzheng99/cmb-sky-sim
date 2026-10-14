@@ -1,0 +1,29 @@
+{
+  "status": "PASS_ZERO_MODE_CONVENTION_MOCK_CHECKS",
+  "scope": "Three analytic mock tests across builder/helper; no CAMB calculation or SHT, not numeric cosmology certification.",
+  "tests": 3,
+  "source_proof": {
+    "filename": "CAMB_1.6.1_correlations.py",
+    "line": 282,
+    "statement": "lfacs[0] = 1",
+    "url": "https://github.com/cmbant/CAMB/blob/1.6.1/camb/correlations.py#L282"
+  },
+  "checks": [
+    "unmodified special correlation ell0 retained",
+    "canonical auxiliary raw C0/D0 zero",
+    "positive ell bitwise unchanged",
+    "positive ell raw/D roundtrip",
+    "input arrays unchanged",
+    "typed finite JSON zero-mode values",
+    "mock zero-lensing identity",
+    "invalid return rejected"
+  ],
+  "files": {
+    "build_sehgal2010_theory.py": "3977a4c0ddb5f92098b14d6e4ef9dc12049adc6f445e3e0e0a7627a47c72c6f2",
+    "relens_primary_with_pp.py": "9e6a8e369ae3ce97020f3b29c3b025ec85afb3d3c183a4eeffdf0b4eb8e51216",
+    "test_theory_conventions.py": "c3c35ac86f7af4d7e7109745dae2d4b29c4d63a6504f0b61fbd51dd1a8f3409a",
+    "sehgal2010_config.json": "f26943ea571abf7c02336faf99b18d929339a03a6d698ebd6e659f2eed8d0686"
+  },
+  "configuration_canonical_sha256": "b40e260629cf1360acabb914a4155f83078d5a741aa6920a25b75c8d0f99a9da",
+  "checked_utc": "2026-10-11T07:44:47.886828+00:00"
+}

@@ -1,0 +1,30 @@
+{
+  "schema": "sehgal2010_cmb_release_v1",
+  "release_name": "cmb_sehgal2010_release_1.0",
+  "release_date": "2026-10-11",
+  "installed_cluster_root": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010",
+  "data_root": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/A_NEW_WORK_ILC/mmDL_maps_2048",
+  "output_pattern": "{realization_id:05d}/lensedcmb_new_{realization_id:05d}.fits",
+  "completed_count": 500,
+  "nside": 2048,
+  "old_CMB_and_kappa_preservation": "All500 original size/mtime_ns/inode records unchanged; generation never writes original paths. This audit does not rehash all original pixel data.",
+  "map_full_checks": "Every producer verifies full serialized-map finite/statistics/checksums/hash; all500 metadata/header/source/small-input contracts independently audited.",
+  "spectral_validation": "Native10 IDs0..9; 25<=ell<1000, Deltaell25, mean and sample SD ddof1, no downgrade; TT/EE/TE primary gate PASS and BB explicitly reported.",
+  "BB_amplitude_offset_percent_vs_self_consistent_CAMB": -0.6661733323202634,
+  "BB_amplitude_offset_percent_vs_conditional_actual_kappa": -0.03949753796567146,
+  "cosmology_note": "Published Sehgal2010 parameters with declared tau/neutrino/helium/TCMB/recombination completion settings; original full CAMB ini not recovered.",
+  "offline_dependencies": "Immutable packed base plus7 hashed wheel overrides; fresh isolated installation and lightweight controls completed0:0 in job225812.",
+  "external_input": "Stored repository kappa maps; no private author utility-code dependency",
+  "included_maps": false,
+  "frozen_core_source_sha256": {
+    "production/lensed_CMB_generation.py": "d1704baf4c18ef641fca1440266634289b2ea0d31a42e2670f38ff18c9d2dfac",
+    "production/original_snapshot/lensed_CMB_generation.py": "ab7c9bb4dfc0f1bcdfbbb04cf7658a8feb73837193618a8013067111de141d21",
+    "theory/build_sehgal2010_theory.py": "3977a4c0ddb5f92098b14d6e4ef9dc12049adc6f445e3e0e0a7627a47c72c6f2",
+    "theory/relens_primary_with_pp.py": "9e6a8e369ae3ce97020f3b29c3b025ec85afb3d3c183a4eeffdf0b4eb8e51216",
+    "validation/measure_native_cmb.py": "879baedd170f9911f73d3fa556b3fbceae635f2e4e8610ac53d824c2118d7d81"
+  },
+  "completed_id_range_inclusive": [
+    0,
+    499
+  ]
+}

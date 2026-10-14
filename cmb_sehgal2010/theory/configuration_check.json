@@ -1,0 +1,61 @@
+{
+  "schema": "sehgal2010_camb_theory_v1",
+  "expected_camb_version": "1.6.1",
+  "published_parameters": {
+    "Omega_b": 0.044,
+    "Omega_m": 0.264,
+    "Omega_Lambda_rounded": 0.736,
+    "h": 0.71,
+    "ns": 0.96,
+    "sigma8_linear_z0": 0.8,
+    "source": "https://arxiv.org/abs/0908.0540",
+    "location": "Section 1, printed page 2; arXiv 0908.0540v3"
+  },
+  "completion_assumptions": {
+    "tau": 0.08,
+    "tau_status": "Explicit CAMB completion, motivated by approximate gas-model optical depth in Sehgal2010 Section 2.4.2; original CAMB tau has not been recovered",
+    "mnu_eV": 0.0,
+    "num_massive_neutrinos": 0,
+    "N_eff": 3.046,
+    "YHe": 0.24,
+    "TCMB_K": 2.7255,
+    "pivot_scalar_Mpc_inverse": 0.05,
+    "r": 0.0,
+    "nrun": 0.0,
+    "nrunrun": 0.0,
+    "Omega_K": 0.0,
+    "w": -1.0,
+    "wa": 0.0,
+    "reionization": "CAMB TanhReionization default shape with explicit optical depth",
+    "recombination": "CAMB default Recfast",
+    "status": "These choices define this calculation; they are not a recovered original Sehgal/Bode CAMB ini"
+  },
+  "calculation": {
+    "table_lmax": 6500,
+    "lens_margin": 150,
+    "k_eta_max_per_internal_ell": 20.0,
+    "matter_kmax_Mpc_inverse": 5.0,
+    "accuracy_boost": 2.0,
+    "l_accuracy_boost": 2.0,
+    "l_sample_boost": 2.0,
+    "lens_potential_accuracy": 2,
+    "cutoff_control_output_lmax": 1024,
+    "cutoff_control_sampling_factor": 1.4,
+    "cutoff_control_check_sampling_factor": 2.0,
+    "accurate_BB": false,
+    "halofit_version": "original",
+    "halofit_reference": "Smith et al. 2003; https://arxiv.org/abs/astro-ph/0207664",
+    "trial_As": 2.1e-09,
+    "sigma8_relative_tolerance": 1e-06,
+    "normalization": "Two complete CAMB solves with identical numerical settings: As_final=As_trial*(0.8/sigma8_trial)^2; recompute nonlinear lensing at final As"
+  },
+  "producer_cutoffs": {
+    "nside": 2048,
+    "primary_lmax": 5999,
+    "kappa_deflection_lmax": 6143,
+    "primary_margin_below_3nside_minus_1": 144,
+    "basis": "Matched original retained generator; theoretical table support does not change the producer bandlimit"
+  },
+  "output_dir": "outputs",
+  "source_manifest": "source_evidence/source_manifest.json"
+}

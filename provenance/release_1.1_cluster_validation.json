@@ -1,0 +1,185 @@
+{
+  "status": "PASS_SCOPED_CURRENT_SOURCE_RUNTIME_CHECKS",
+  "release": "ali_sky 1.1.0",
+  "source_root": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.1",
+  "python": "3.12.11 | packaged by conda-forge | (main, Jun  4 2025, 14:45:31) [GCC 13.3.0]",
+  "python_executable": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.1/runtime/bin/python",
+  "runtime_dependency_reuse": "Existing immutable 1.0 runtime, read-only; no new environment relocation claimed",
+  "host": "lxlogin003.ihep.ac.cn",
+  "versions": {
+    "numpy": "2.2.5",
+    "healpy": "1.19.0",
+    "astropy": "7.2.0",
+    "scipy": "1.14.1",
+    "pysm3": "3.4.4",
+    "mpi4py": "4.1.1"
+  },
+  "MPI_vendor": [
+    "Open MPI",
+    [
+      5,
+      0,
+      8
+    ]
+  ],
+  "test_count": 32,
+  "test_command": [
+    "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.1/runtime/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-v"
+  ],
+  "test_exit_code": 0,
+  "test_log": {
+    "path": "provenance/release_1.1_cluster_tests.log",
+    "sha256": "3111303e499dc1ee58dae0d191095cdb6e5f32f575c998e2bb9f4f28f2d9e1b2"
+  },
+  "example_configurations": [
+    {
+      "path": "examples/custom_95_150.json",
+      "mode": "observe",
+      "frequencies_GHz": [
+        95.0,
+        150.0
+      ],
+      "output_dir": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.1/outputs/custom_95_150",
+      "coordinate": "G"
+    },
+    {
+      "path": "examples/noise_lat.json",
+      "mode": "noise",
+      "frequencies_GHz": [
+        27.0,
+        40.0,
+        90.0,
+        150.0,
+        225.0,
+        280.0
+      ],
+      "output_dir": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.1/outputs/noise_lat",
+      "coordinate": "G"
+    },
+    {
+      "path": "examples/noise_sat.json",
+      "mode": "noise",
+      "frequencies_GHz": [
+        27.0,
+        40.0,
+        90.0,
+        150.0,
+        225.0,
+        280.0
+      ],
+      "output_dir": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.1/outputs/noise_sat",
+      "coordinate": "G"
+    },
+    {
+      "path": "examples/observe_lat150.json",
+      "mode": "observe",
+      "frequencies_GHz": [
+        150.0
+      ],
+      "output_dir": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.1/outputs/observe_lat150",
+      "coordinate": "G"
+    },
+    {
+      "path": "examples/use_existing_noise.json",
+      "mode": "observe",
+      "frequencies_GHz": [
+        150.0
+      ],
+      "output_dir": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.1/outputs/use_existing_noise",
+      "coordinate": "G"
+    },
+    {
+      "path": "examples/with_mask.json",
+      "mode": "observe",
+      "frequencies_GHz": [
+        150.0
+      ],
+      "output_dir": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.1/outputs/with_mask",
+      "coordinate": "G"
+    }
+  ],
+  "tested_sources": [
+    {
+      "path": "ali_sky/__init__.py",
+      "sha256": "185f37b08a7438607f45a0c77b8e590c754fb4b20061802434e5790eb69b48b0"
+    },
+    {
+      "path": "ali_sky/cli.py",
+      "sha256": "40dc4686350186eb5dca990979ed00d5ae7423b070bc74959a4fcf3e3f83a1c2"
+    },
+    {
+      "path": "ali_sky/config.py",
+      "sha256": "fe646f269bd2c88382831999605a402d36c79a1ee46624e92332daf6a27bbd1d"
+    },
+    {
+      "path": "ali_sky/coordinates.py",
+      "sha256": "545b4b3de3118341edbcdca8f7c7e92f01bef9d84d1bfded3e5cb72d5ee0aaf9"
+    },
+    {
+      "path": "ali_sky/foregrounds.py",
+      "sha256": "0ecc3f0e32e368a50301cb76b5923b535d148874f36f31723804fdc7805bebce"
+    },
+    {
+      "path": "ali_sky/io.py",
+      "sha256": "220d7a78b4381025aeb2a573139ef6cf773a261a67b850246edd437cdc2f03e6"
+    },
+    {
+      "path": "ali_sky/noise.py",
+      "sha256": "9b0543558ae715516c427d345445a333acb79fc1fe64690580dc3854992fcef0"
+    },
+    {
+      "path": "ali_sky/observation.py",
+      "sha256": "ae58d58e9e62b9440d600d96a93139dec89cf0626968b0607713d58947f47dc3"
+    },
+    {
+      "path": "ali_sky/sed.py",
+      "sha256": "b706b34041d1eb305600c17101055837435bcb597cd4f11787ed100afc395662"
+    },
+    {
+      "path": "tests/test_noise.py",
+      "sha256": "64b50bdd810c9f7b561d5eaab0468bdff9f3e46e502eb49bef7fd32d95b37489"
+    },
+    {
+      "path": "tests/test_observation.py",
+      "sha256": "08d51908cb0263c00d64d84b2511fe7340eecd3851cd0f371a7d18945f8d63aa"
+    }
+  ],
+  "default_CMB_provenance": {
+    "selected_path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/A_NEW_WORK_ILC/mmDL_maps_2048/00000/lensedcmb_new_00000.fits",
+    "legacy_path_present_but_ignored": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/A_NEW_WORK_ILC/mmDL_maps_2048/00000/lensedcmb_00000.fits",
+    "header": {
+      "NSIDE": 2048,
+      "ORDERING": "RING",
+      "COORDSYS": "G",
+      "POLCCONV": "COSMO",
+      "TUNIT1": "uK_CMB",
+      "TUNIT2": "uK_CMB",
+      "TUNIT3": "uK_CMB",
+      "REALID": 0,
+      "RNGSEED": 3130196835,
+      "UNLLMAX": 5999,
+      "DEFLMAX": 6143,
+      "THSHA": "0a334b85c91c73465a2dd3f9a26c7c52d08ae3303f855e8f0817cb827557e9bc",
+      "KPSHA": "8e145f1f6e759147c5a9d94d5433b0685c1e7a9695af810ef51b0ebf022873ca"
+    },
+    "sidecar": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/A_NEW_WORK_ILC/mmDL_maps_2048/00000/lensedcmb_new_00000.json",
+      "sha256": "f850ace992c0f08b9aae6cd9f718147c3190fd35abdbf0f71e138ab3d7025778"
+    },
+    "pixel_data_read": false,
+    "full_FITS_sha256_recomputed": false,
+    "primary": "Sehgal2010 CAMB primary, r=0",
+    "lensing": "Corresponding actual mmDL kappa",
+    "frame_caveat": "A headerless local kappa frame is not physically re-certified by this producer. The owner's G declaration differs from the upstream native mmDL ICRS provenance; no unrecorded intermediate rotation is inferred."
+  },
+  "scope_limits": [
+    "Complete software suite and example normalization; no native observation production rerun.",
+    "Published CMB header and sidecar checks do not independently certify the headerless source kappa physical frame."
+  ]
+}

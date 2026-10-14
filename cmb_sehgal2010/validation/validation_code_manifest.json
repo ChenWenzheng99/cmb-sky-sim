@@ -1,0 +1,54 @@
+{
+  "scope": "Validation code and nine analytic-array tests frozen before native pilot results; no maps/CAMB/Slurm execution",
+  "unit_tests": {
+    "passed": 9,
+    "returncode": 0,
+    "log": "unit_tests.log"
+  },
+  "files": {
+    "design.md": {
+      "bytes": 8781,
+      "sha256": "29df1eb01256e715c72816a565e2c1cb91a2258a95b7f9e5e65d61c8fecede1d"
+    },
+    "measure_native_cmb.py": {
+      "bytes": 7727,
+      "sha256": "879baedd170f9911f73d3fa556b3fbceae635f2e4e8610ac53d824c2118d7d81"
+    },
+    "plot_pilot.py": {
+      "bytes": 5924,
+      "sha256": "2e2e30fff2834a9c11049e23b2f52cabf52d194d18caaa5cfdc163e30d569511"
+    },
+    "prior_BB_expectation.json": {
+      "bytes": 2625,
+      "sha256": "156dde733f12b6c51db5a5e00b132f8140bf00e2f05cd59a3afd3725db654e69"
+    },
+    "spectral_statistics.py": {
+      "bytes": 7150,
+      "sha256": "7be994c699209e539352b325382005d6e3faff6fede3b5e565291fbe485b468f"
+    },
+    "summarize_kappa_inputs.py": {
+      "bytes": 3892,
+      "sha256": "31e88adf342f60c69cfaea67c5cbe98f1ac3238835ed2877616c9316d12ad600"
+    },
+    "summarize_pilot.py": {
+      "bytes": 9214,
+      "sha256": "21aa1da16a2d1a99f632e1863928d441e7bbffc814c6d85580729c45536567b1"
+    },
+    "test_validation.py": {
+      "bytes": 8196,
+      "sha256": "5e3756a990221ed2e6b168dacb9113d554b82cc728b7e55bdea23deb940f0093"
+    },
+    "unit_tests.log": {
+      "bytes": 1144,
+      "sha256": "12776ac48644a42857ad7a24ee8e585c9b3771378dd5de831a9d0f7a93ae7dee"
+    },
+    "validate_inputs.py": {
+      "bytes": 18032,
+      "sha256": "61a7a553659a6850fd0e68178f6d5d6b169536e366a7abe3f4877e7b66f6b002"
+    },
+    "validation_policy.json": {
+      "bytes": 1448,
+      "sha256": "bc2645d9159004ded7f6387e5c64b1fc3795e89b7b6c09e12e44e93ff4530aa9"
+    }
+  }
+}

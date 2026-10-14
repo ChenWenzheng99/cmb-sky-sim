@@ -1,0 +1,89 @@
+{
+  "status": "PASS_SCOPED_SOURCE_CHECKS",
+  "release": "ali_sky 1.1.0",
+  "scope": "Complete 32-test software suite with independent small native-grid fixtures; no repeated native2048 sky campaign or scientific certification.",
+  "test_command": [
+    "/home/chen/anaconda3/bin/python",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "/home/chen/output/data_paper/release_package/tests",
+    "-v"
+  ],
+  "working_directory": "/home/chen/output/data_paper/release_package",
+  "test_count": 32,
+  "observation_test_count": 23,
+  "noise_test_count": 9,
+  "exit_code": 0,
+  "python": "3.13.5 | packaged by Anaconda, Inc. | (main, Jun 12 2025, 16:09:02) [GCC 11.2.0]",
+  "host": "CHINAMI-M3GP8PN",
+  "versions": {
+    "numpy": "2.1.3",
+    "healpy": "1.19.0",
+    "astropy": "7.0.0",
+    "scipy": "1.14.1",
+    "pysm3": "3.4.4"
+  },
+  "tested_sources": [
+    {
+      "path": "ali_sky/__init__.py",
+      "sha256": "185f37b08a7438607f45a0c77b8e590c754fb4b20061802434e5790eb69b48b0"
+    },
+    {
+      "path": "ali_sky/cli.py",
+      "sha256": "40dc4686350186eb5dca990979ed00d5ae7423b070bc74959a4fcf3e3f83a1c2"
+    },
+    {
+      "path": "ali_sky/config.py",
+      "sha256": "fe646f269bd2c88382831999605a402d36c79a1ee46624e92332daf6a27bbd1d"
+    },
+    {
+      "path": "ali_sky/coordinates.py",
+      "sha256": "545b4b3de3118341edbcdca8f7c7e92f01bef9d84d1bfded3e5cb72d5ee0aaf9"
+    },
+    {
+      "path": "ali_sky/foregrounds.py",
+      "sha256": "0ecc3f0e32e368a50301cb76b5923b535d148874f36f31723804fdc7805bebce"
+    },
+    {
+      "path": "ali_sky/io.py",
+      "sha256": "220d7a78b4381025aeb2a573139ef6cf773a261a67b850246edd437cdc2f03e6"
+    },
+    {
+      "path": "ali_sky/noise.py",
+      "sha256": "9b0543558ae715516c427d345445a333acb79fc1fe64690580dc3854992fcef0"
+    },
+    {
+      "path": "ali_sky/observation.py",
+      "sha256": "ae58d58e9e62b9440d600d96a93139dec89cf0626968b0607713d58947f47dc3"
+    },
+    {
+      "path": "ali_sky/sed.py",
+      "sha256": "b706b34041d1eb305600c17101055837435bcb597cd4f11787ed100afc395662"
+    },
+    {
+      "path": "tests/test_noise.py",
+      "sha256": "64b50bdd810c9f7b561d5eaab0468bdff9f3e46e502eb49bef7fd32d95b37489"
+    },
+    {
+      "path": "tests/test_observation.py",
+      "sha256": "08d51908cb0263c00d64d84b2511fe7340eecd3851cd0f371a7d18945f8d63aa"
+    }
+  ],
+  "test_log": {
+    "path": "provenance/release_1.1_local_tests.log",
+    "sha256": "377a4c64918fb8fc59dcbd42650ad2f26f725db4395125664535358cf2d35301"
+  },
+  "cmb_selection": {
+    "read_sky": "lensedcmb_new_{id:05d}.fits",
+    "preflight": "lensedcmb_new_{id:05d}.fits",
+    "legacy_fallback": false,
+    "model": "Sehgal2010 CAMB primary, r=0; actual per-ID mmDL kappa remapping",
+    "new_tests": [
+      "test_sehgal_release_cmb_ignores_discrepant_legacy_map",
+      "test_legacy_cmb_does_not_replace_missing_sehgal_release_map"
+    ]
+  },
+  "noise_numerical_source_unchanged": true
+}

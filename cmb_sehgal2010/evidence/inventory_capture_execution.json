@@ -1,0 +1,22 @@
+{
+  "command": [
+    "ssh",
+    "-S",
+    "/home/chen/.ssh/cm-cbext20260928",
+    "-o",
+    "BatchMode=yes",
+    "-o",
+    "ConnectTimeout=15",
+    "chenwz@lxlogin.ihep.ac.cn",
+    "python3 - capture --root /sharefs/alicpt/users/chenwz/Testarea/FORECAST/A_NEW_WORK_ILC/mmDL_maps_2048 --external-tool-sha256 5b3555a27d545996dec1d83eceef429ae958eaf57267611554b0ac11f6f93925"
+  ],
+  "elapsed_seconds": 9.275975311174989,
+  "existing_new_fits_count": 0,
+  "exit_code": 0,
+  "helper_sha256": "5b3555a27d545996dec1d83eceef429ae958eaf57267611554b0ac11f6f93925",
+  "kappa_count": 500,
+  "large_source_files_hashed": false,
+  "old_cmb_count": 500,
+  "output_path": "/home/chen/output/data_paper/cmb_sehgal2010_release/evidence/before_source_inventory.json",
+  "output_sha256": "581fe26bb3e84a18ad2e3ece6154ae2cfbe8058efbfe55bb2bc16daa78c58f49"
+}

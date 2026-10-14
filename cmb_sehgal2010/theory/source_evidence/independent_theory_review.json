@@ -1,0 +1,386 @@
+{
+  "status": "PASS_INDEPENDENT_THEORY_ARTIFACT_REVIEW",
+  "scope": "Read-only independent artifact, normalization, formula/support/source-hash checks; no repeated CAMB/SHT and no certification of original Sehgal exact ini, map production or continuum-vs-nonGaussian-map identity.",
+  "job_accounting": [
+    "225108|COMPLETED|0:0|00:00:51|aliws006",
+    "225108.batch|COMPLETED|0:0|00:00:51|aliws006",
+    "225109|COMPLETED|0:0|00:00:15|aliws021",
+    "225109.batch|COMPLETED|0:0|00:00:15|aliws021"
+  ],
+  "normalization": {
+    "target_sigma8_linear_z0": 0.8,
+    "trial_As": 2.1e-09,
+    "trial_sigma8": 0.7906362446376763,
+    "As_calibrated": 2.1500364844398247e-09,
+    "achieved_sigma8_linear_z0": 0.8000000000000018,
+    "relative_error": 2.220446049250313e-15,
+    "full_solve_count": 2,
+    "same_numerical_settings_in_both_solves": true,
+    "nonlinear_lensing_recalculated_at_final_As": true
+  },
+  "versions": {
+    "camb": "1.6.1",
+    "numpy": "1.26.4",
+    "python": "3.12.11"
+  },
+  "published_parameters_verified_against_primary": {
+    "Omega_b": 0.044,
+    "Omega_m": 0.264,
+    "Omega_Lambda_rounded": 0.736,
+    "h": 0.71,
+    "ns": 0.96,
+    "sigma8_linear_z0": 0.8,
+    "source": "https://arxiv.org/abs/0908.0540",
+    "location": "Section 1, printed page 2; arXiv 0908.0540v3"
+  },
+  "explicit_completion_assumptions": {
+    "tau": 0.08,
+    "tau_status": "Explicit CAMB completion, motivated by approximate gas-model optical depth in Sehgal2010 Section 2.4.2; original CAMB tau has not been recovered",
+    "mnu_eV": 0.0,
+    "num_massive_neutrinos": 0,
+    "N_eff": 3.046,
+    "YHe": 0.24,
+    "TCMB_K": 2.7255,
+    "pivot_scalar_Mpc_inverse": 0.05,
+    "r": 0.0,
+    "nrun": 0.0,
+    "nrunrun": 0.0,
+    "Omega_K": 0.0,
+    "w": -1.0,
+    "wa": 0.0,
+    "reionization": "CAMB TanhReionization default shape with explicit optical depth",
+    "recombination": "CAMB default Recfast",
+    "status": "These choices define this calculation; they are not a recovered original Sehgal/Bode CAMB ini"
+  },
+  "configuration_canonical_sha256": "b40e260629cf1360acabb914a4155f83078d5a741aa6920a25b75c8d0f99a9da",
+  "builder_sha256": "3977a4c0ddb5f92098b14d6e4ef9dc12049adc6f445e3e0e0a7627a47c72c6f2",
+  "manifest_sha256": "3662ac4b44e758e323aad77beed5cbee2752ff6a1712dfe7ab985f4856aa3aca",
+  "artifact_manifest": {
+    "sehgal2010_theory.npz": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/theory/outputs/sehgal2010_theory.npz",
+      "bytes": 1143204,
+      "sha256": "0a334b85c91c73465a2dd3f9a26c7c52d08ae3303f855e8f0817cb827557e9bc"
+    },
+    "sehgal2010_unlensed_rawCl.dat": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/theory/outputs/sehgal2010_unlensed_rawCl.dat",
+      "bytes": 660868,
+      "sha256": "32989c6c38f08a14bc7b9db7d71bd8daf9d425ee7792f33ac8742a3003b71938"
+    },
+    "sehgal2010_lensed_rawCl.dat": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/ali_sky_release_1.0/cmb_sehgal2010/theory/outputs/sehgal2010_lensed_rawCl.dat",
+      "bytes": 661468,
+      "sha256": "a7646380df0f04e3d9f32414f9c3879577fbab11fc73ebbe1f8b9daafa126ef8"
+    }
+  },
+  "installed_source_sha_matches_version_tag": {
+    "model": true,
+    "results": true,
+    "correlations": true
+  },
+  "array_contract": {
+    "ell": {
+      "shape": [
+        6501
+      ],
+      "dtype": "int64",
+      "units": "dimensionless"
+    },
+    "unlensed_raw_cl": {
+      "shape": [
+        6501,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "lensed_raw_cl": {
+      "shape": [
+        6501,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "unlensed_D_ell": {
+      "shape": [
+        6501,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "lensed_D_ell": {
+      "shape": [
+        6501,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "phi_raw_cl": {
+      "shape": [
+        6501
+      ],
+      "dtype": "float64",
+      "units": "dimensionless"
+    },
+    "phi_PP": {
+      "shape": [
+        6501
+      ],
+      "dtype": "float64",
+      "units": "dimensionless"
+    },
+    "producer_unlensed_raw_cl": {
+      "shape": [
+        6501,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "producer_cutoff_ell": {
+      "shape": [
+        1025
+      ],
+      "dtype": "int64",
+      "units": "dimensionless"
+    },
+    "producer_cutoff_phi_PP": {
+      "shape": [
+        6501
+      ],
+      "dtype": "float64",
+      "units": "dimensionless"
+    },
+    "producer_cutoff_lensed_D_ell": {
+      "shape": [
+        1025,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "producer_cutoff_lensed_raw_cl": {
+      "shape": [
+        1025,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "producer_cutoff_sampling2_raw_cl": {
+      "shape": [
+        1025,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "producer_cutoff_sampling2_D_ell": {
+      "shape": [
+        1025,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "producer_cutoff_zero_phi_D_ell": {
+      "shape": [
+        1025,
+        4
+      ],
+      "dtype": "float64",
+      "units": "uK_CMB^2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    },
+    "raw_correlation_zero_mode": {
+      "shape": [
+        3,
+        4
+      ],
+      "dtype": "float64",
+      "units": "nonstandard_correlation_zero_mode_uK2",
+      "columns": [
+        "TT",
+        "EE",
+        "BB",
+        "TE"
+      ]
+    }
+  },
+  "checks": {
+    "source_artifact_configuration_hashes": true,
+    "raw_CMB_uK2_zero_based_TT_EE_BB_TE": true,
+    "finite_float64_shapes": true,
+    "raw_D_conversion": true,
+    "dimensionless_phi_PP_conversion": true,
+    "primary_BB_exact_zero": true,
+    "primary5999_and_phi6143_exact_cutoff": true,
+    "theory6500_internal6650_eta133000_support": true,
+    "auxiliary1024_control_support": true,
+    "canonical_auxiliary_zero_mode": true,
+    "unmodified_library_zero_modes_retained": true,
+    "zero_phi_identity_bitwise_exact": true,
+    "DAT_NPZ_bitwise_equal": true,
+    "two_full_solve_As_calibration_and_sigma8_tolerance": true,
+    "actual_cosmology_completion_and_original_Halofit_verified": true
+  },
+  "PSD": {
+    "unlensed_raw_cl": {
+      "maximum_TE_squared_over_TT_EE": 0.4443424796282335,
+      "positive_and_negative_TE_present": true
+    },
+    "lensed_raw_cl": {
+      "maximum_TE_squared_over_TT_EE": 0.4397665328228344,
+      "positive_and_negative_TE_present": true
+    },
+    "producer_cutoff_lensed_raw_cl": {
+      "maximum_TE_squared_over_TT_EE": 0.43976730575605805,
+      "positive_and_negative_TE_present": true
+    },
+    "producer_cutoff_sampling2_raw_cl": {
+      "maximum_TE_squared_over_TT_EE": 0.43976730575584466,
+      "positive_and_negative_TE_present": true
+    }
+  },
+  "quadrature_1p4_vs_2p0_39_bins_25_to_999": {
+    "TT": {
+      "maximum_absolute_fraction": 1.6747714326470486e-12
+    },
+    "EE": {
+      "maximum_absolute_fraction": 5.0989212851959564e-12
+    },
+    "BB": {
+      "maximum_absolute_fraction": 6.456911672003685e-10
+    },
+    "TE": {
+      "maximum_absolute_fraction": 7.387424005855792e-13
+    }
+  },
+  "cutoff_fulltheta_vs_full_CAMB_39_bins_25_to_999": {
+    "TT": {
+      "median_cutoff_over_full_percent": 0.0004776652609228549,
+      "maximum_absolute_fraction": 1.9909652409166867e-05
+    },
+    "EE": {
+      "median_cutoff_over_full_percent": 0.0005676499979845318,
+      "maximum_absolute_fraction": 1.8473910938565652e-05
+    },
+    "BB": {
+      "median_cutoff_over_full_percent": 0.0027300176845379553,
+      "maximum_absolute_fraction": 0.00020383430347759024
+    },
+    "TE": {
+      "median_cutoff_over_full_percent": 0.00040131607252913426,
+      "maximum_absolute_fraction": 3.761062255391856e-05
+    }
+  },
+  "cutoff_comparison_limitation": "This compares a full-theta producer-cutoff continuum evaluation with main CAMB lensed output; differences can include both cutoff and the different numerical lensing implementation. It is not an isolated physical cutoff-only cause or observed map residual.",
+  "raw_correlation_zero_mode": [
+    [
+      0.0008265323845762836,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0008265323845804928,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  ],
+  "source_zero_mode_proof": "CAMB1.6.1_correlations.py line282 lfacs[0]=1",
+  "checked_utc": "2026-10-11T07:51:25.295624+00:00",
+  "actual_CAMB_parameters_independently_checked": {
+    "H0": 71.0,
+    "ombh2": 0.0221804,
+    "omch2": 0.11090200000000001,
+    "TCMB": 2.7255,
+    "YHe": 0.24,
+    "num_nu_massless": 3.046,
+    "num_nu_massive": 0.0,
+    "ns": 0.96,
+    "r": 0.0,
+    "pivot_scalar": 0.05,
+    "As": 2.1500364844398247e-09,
+    "optical_depth": 0.08,
+    "max_l": 6650.0,
+    "max_eta_k": 133000.0
+  },
+  "background_Omega_z0": {
+    "K": 0.0,
+    "cdm": 0.22000000000000003,
+    "baryon": 0.044,
+    "photon": 4.905723721178445e-05,
+    "neutrino": 3.3936270512500836e-05,
+    "nu": 0.0,
+    "de": 0.7359170064922756
+  }
+}

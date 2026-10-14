@@ -1,0 +1,102 @@
+{
+  "status": "PASS",
+  "scope": "six JSON normalization checks; no production maps generated",
+  "examples": [
+    {
+      "example": "custom_95_150.json",
+      "mode": "observe",
+      "count": 1,
+      "frequencies_GHz": [
+        95.0,
+        150.0
+      ],
+      "coordinate": "G",
+      "mpi_ranks": 5,
+      "custom_noise": true,
+      "source_sha256": "41767dd269e26870c363518f3440a205fa5f4228c10b282c608c5d47c1e58432"
+    },
+    {
+      "example": "noise_lat.json",
+      "mode": "noise",
+      "count": 50,
+      "frequencies_GHz": [
+        27.0,
+        40.0,
+        90.0,
+        150.0,
+        225.0,
+        280.0
+      ],
+      "coordinate": "G",
+      "mpi_ranks": 5,
+      "custom_noise": null,
+      "source_sha256": "709f2bbec46cc35817e7550c2f64b8f4a5faeb493259969791bd7f534095b84d"
+    },
+    {
+      "example": "noise_sat.json",
+      "mode": "noise",
+      "count": 50,
+      "frequencies_GHz": [
+        27.0,
+        40.0,
+        90.0,
+        150.0,
+        225.0,
+        280.0
+      ],
+      "coordinate": "G",
+      "mpi_ranks": 5,
+      "custom_noise": null,
+      "source_sha256": "71bb7c5df59050500e94a6b96cf4b3c303f4943f7172ef76fae5fbe690440eb3"
+    },
+    {
+      "example": "observe_lat150.json",
+      "mode": "observe",
+      "count": 1,
+      "frequencies_GHz": [
+        150.0
+      ],
+      "coordinate": "G",
+      "mpi_ranks": 5,
+      "custom_noise": false,
+      "source_sha256": "64704f9dfa4152bc66fe86f91438559afe14457d1b7eb500f1ea09636787bebd"
+    },
+    {
+      "example": "use_existing_noise.json",
+      "mode": "observe",
+      "count": 1,
+      "frequencies_GHz": [
+        150.0
+      ],
+      "coordinate": "G",
+      "mpi_ranks": 5,
+      "custom_noise": false,
+      "source_sha256": "9ef99895aa8bf42de14a13826aeb0c6439382c34f2fda4fce409e7518f00f0ff"
+    },
+    {
+      "example": "with_mask.json",
+      "mode": "observe",
+      "count": 1,
+      "frequencies_GHz": [
+        150.0
+      ],
+      "coordinate": "G",
+      "mpi_ranks": 5,
+      "custom_noise": false,
+      "source_sha256": "6dade025e4411f8d23057bc87342970466075601e8a0ad6782cc0554d26493db"
+    }
+  ],
+  "source_snapshot_sha256": {
+    "ali_sky/__init__.py": "5b7997b7b9c1858678326bbc40a47816415e1f7f13ae9189f5d38b71870b60ec",
+    "ali_sky/cli.py": "40dc4686350186eb5dca990979ed00d5ae7423b070bc74959a4fcf3e3f83a1c2",
+    "ali_sky/config.py": "fe646f269bd2c88382831999605a402d36c79a1ee46624e92332daf6a27bbd1d",
+    "ali_sky/coordinates.py": "545b4b3de3118341edbcdca8f7c7e92f01bef9d84d1bfded3e5cb72d5ee0aaf9",
+    "ali_sky/foregrounds.py": "0ecc3f0e32e368a50301cb76b5923b535d148874f36f31723804fdc7805bebce",
+    "ali_sky/io.py": "bd91795b9511d6cb7cb63c67b0f23f9578f3fa35d076cb7cfc66d6e224f2e3ff",
+    "ali_sky/noise.py": "9b0543558ae715516c427d345445a333acb79fc1fe64690580dc3854992fcef0",
+    "ali_sky/observation.py": "d499bf1ef12761644c1ed589c4f585a6104d595983634785bf482c89b90299b4",
+    "ali_sky/sed.py": "b706b34041d1eb305600c17101055837435bcb597cd4f11787ed100afc395662",
+    "tests/test_noise.py": "64b50bdd810c9f7b561d5eaab0468bdff9f3e46e502eb49bef7fd32d95b37489",
+    "tests/test_observation.py": "da80538c05a2ad69df2d3e1844d412601dcd279cfa6b6e6dfced693780e16d40"
+  }
+}

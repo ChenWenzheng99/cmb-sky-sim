@@ -1,0 +1,248 @@
+{
+  "status": "PASS",
+  "scope": "Independent source audit and local fixture software tests; separate cluster runtime/PySM smoke is owned by the root agent and is not asserted by this report.",
+  "command": "OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 PYTHONPATH=release_package /home/chen/anaconda3/bin/python -m unittest discover -s release_package/tests -v",
+  "tests": {
+    "total": 30,
+    "noise": 9,
+    "observation": 21,
+    "all_passed": true,
+    "elapsed_seconds": 1.16
+  },
+  "versions": {
+    "python": "3.13.5",
+    "numpy": "2.1.3",
+    "healpy": "1.19.0",
+    "astropy": "7.0.0"
+  },
+  "software_contract_checks": {
+    "native_fixture_nsides": [
+      8,
+      16
+    ],
+    "production_maps_read_or_downgraded": false,
+    "exact_band_over_148_fallback": true,
+    "SED_amplitude_formula_independent": true,
+    "all_SED_148_identity": true,
+    "tSZ_225_negative": true,
+    "native_resolution_rejection": true,
+    "source_units_and_nonfinite_UNSEEN_rejection": true,
+    "matched_noise_ID_never_wrapped": true,
+    "legacy_complete_RING_index_validation": true,
+    "same_G_grid_no_rotation": true,
+    "G_to_C_all_components_and_mask": true,
+    "Q_U_basis_matches_healpy_Rotator_rotate_map_pixel": true,
+    "nearest_mask_values_preserved": true,
+    "unknown_mask_frame_rejected": true,
+    "owner_G_declaration_retains_historical_ICRS_and_not_verified_flag": true,
+    "joint_TEB_Gaussian_and_custom_beam": true,
+    "noise_not_beamed": true,
+    "mask_applied_once": true,
+    "PySM_mock_thermodynamic_conversion_and_native_G": true,
+    "PySM_cache_source_templates_hash_and_directory_identity": true,
+    "unpolarized_PySM_explicit_zero_Q_U": true,
+    "conditional_automatic_MPI_noise_configuration_notice": true,
+    "provided_or_disabled_noise_not_generated": true,
+    "failed_auto_noise_stops_observation": true,
+    "matching_Python_MPI_launcher_command": true,
+    "original_noise_model_and_synfast_legacy_match": true,
+    "rank_order_independent_versioned_seed_policy": true,
+    "noise_verified_safe_resume_and_global_RNG_restore": true,
+    "generic_or_RJ_uK_units_rejected": true
+  },
+  "test_sources": [
+    {
+      "path": "release_package/tests/test_observation.py",
+      "bytes": 29006,
+      "sha256": "a622207af8bc1114636bc333744058a58fd0af0be0fd40a40c1007026a6b0bd6"
+    },
+    {
+      "path": "release_package/tests/test_noise.py",
+      "bytes": 13257,
+      "sha256": "64b50bdd810c9f7b561d5eaab0468bdff9f3e46e502eb49bef7fd32d95b37489"
+    }
+  ],
+  "tested_package_sources": [
+    {
+      "path": "release_package/ali_sky/__init__.py",
+      "bytes": 72,
+      "sha256": "5b7997b7b9c1858678326bbc40a47816415e1f7f13ae9189f5d38b71870b60ec"
+    },
+    {
+      "path": "release_package/ali_sky/cli.py",
+      "bytes": 6448,
+      "sha256": "40dc4686350186eb5dca990979ed00d5ae7423b070bc74959a4fcf3e3f83a1c2"
+    },
+    {
+      "path": "release_package/ali_sky/config.py",
+      "bytes": 8864,
+      "sha256": "fe646f269bd2c88382831999605a402d36c79a1ee46624e92332daf6a27bbd1d"
+    },
+    {
+      "path": "release_package/ali_sky/coordinates.py",
+      "bytes": 2107,
+      "sha256": "545b4b3de3118341edbcdca8f7c7e92f01bef9d84d1bfded3e5cb72d5ee0aaf9"
+    },
+    {
+      "path": "release_package/ali_sky/foregrounds.py",
+      "bytes": 5070,
+      "sha256": "0ecc3f0e32e368a50301cb76b5923b535d148874f36f31723804fdc7805bebce"
+    },
+    {
+      "path": "release_package/ali_sky/io.py",
+      "bytes": 6172,
+      "sha256": "a30c37e88fc0b8b61acbb3977f23b1fbca4d2a5cb2140ac929f9a42517a1ba59"
+    },
+    {
+      "path": "release_package/ali_sky/noise.py",
+      "bytes": 16510,
+      "sha256": "9b0543558ae715516c427d345445a333acb79fc1fe64690580dc3854992fcef0"
+    },
+    {
+      "path": "release_package/ali_sky/observation.py",
+      "bytes": 9575,
+      "sha256": "d499bf1ef12761644c1ed589c4f585a6104d595983634785bf482c89b90299b4"
+    },
+    {
+      "path": "release_package/ali_sky/sed.py",
+      "bytes": 1595,
+      "sha256": "b706b34041d1eb305600c17101055837435bcb597cd4f11787ed100afc395662"
+    }
+  ],
+  "test_log": {
+    "path": "evidence/cluster_runtime_package_audit/local_unit_tests.log",
+    "bytes": 4693,
+    "sha256": "bdb080cd10bbf54089e25f354d2964fe9785bc597532afe4ec45f09527a95a2c"
+  },
+  "read_only_inventory": {
+    "path": "evidence/cluster_runtime_package_audit/live_noise_inventory.json",
+    "bytes": 14767,
+    "sha256": "5074f10e200e374c1c86362bd406864cc5de467567475cd6443b1916f1b0a684"
+  },
+  "inventory_conclusion": {
+    "instruments": [
+      "SAT",
+      "LAT"
+    ],
+    "frequencies_GHz": [
+      27,
+      40,
+      90,
+      150,
+      225,
+      280
+    ],
+    "realization_IDs": [
+      0,
+      49
+    ],
+    "files_per_group": 50,
+    "total_files": 600,
+    "total_bytes": 1449551539200,
+    "value_scan_scope": "12 ID0 NPY headers; filename/stat checks of all600, no scan of all600 pixel values"
+  },
+  "resolved_findings": [
+    {
+      "finding": "CIB response arbitrary dimensional normalization falls below the generic tSZ-null tolerance.",
+      "resolution": "Null tolerance restricted to tSZ; nonzero finite check for all source responses; independent seven-band ratios passed."
+    },
+    {
+      "finding": "PySM cache identity omitted template context and did not verify current template inputs.",
+      "resolution": "Template-directory context included in key; cache hits verify current input template bytes and SHA; stale input and changed directory fixture controls passed."
+    }
+  ],
+  "coordinate_provenance": {
+    "default": "G according to owner declaration on2026-10-11",
+    "physical_G_independently_verified": false,
+    "historical_provider_trace": "C/ICRS retained without alteration",
+    "missing_FITS_header_test_requires_source_frame_verified_false": true,
+    "map_transfer": "Native-grid bilinear pixel interpolation with spin-two Q+iU tangent-basis phase; identity when effective input/output frame equal",
+    "mask_transfer": "Native nearest-source-pixel lookup"
+  },
+  "limitations": [
+    "Freshfixture controls do not regenerate or certify the full source archive.",
+    "New keyed seed policy cannot recover unrecorded legacy random seeds.",
+    "SeedSequence output is uint32 with legacy Q/U offsets modulo2^32; rank-independent reproducibility does not guarantee collision-free seeds for arbitrary task collections.",
+    "Coordinate tests certify the stated transfer and declaration metadata, not the physical frame of missing-header warehouse files.",
+    "PySM mock verifies code/cache contracts; actual bundled template model execution and portable MPI relocation need separate cluster smoke evidence."
+  ],
+  "paper_figure_guard": {
+    "status": "PASS",
+    "count": 12,
+    "formal_figure_count": 6,
+    "selection_basis": "The six current manuscript figures enumerated by evidence/validation_report.json: processing_flow and fig01--fig05; historical225GHz observation is excluded.",
+    "selection_record": {
+      "path": "evidence/validation_report.json",
+      "bytes": 50692,
+      "sha256": "8098f8ebcf768d6c9b9adb684ecebc83d921b60e2fb7021cc3e47c2cd97e98da"
+    },
+    "baseline_manifest": {
+      "path": "backups/pre_release_editorial_20261011/artifact_manifest.json",
+      "bytes": 151136,
+      "sha256": "f3634f79970541a29d9d8dfc887026b3b76bb81b43a9b5efbe7013e87c45c19b"
+    },
+    "files": [
+      {
+        "path": "figures/processing_flow.pdf",
+        "bytes": 28461,
+        "sha256": "39116bfa718812cba3a31f3be6d13c62588f63aefd937fad5e134100ef335906"
+      },
+      {
+        "path": "figures/processing_flow.png",
+        "bytes": 270408,
+        "sha256": "1a6ad3f2d693b490432ce4b1ffbd6ecfbf7985995de21099c4decbfc47ba22bd"
+      },
+      {
+        "path": "figures/fig01_component_maps.pdf",
+        "bytes": 7302981,
+        "sha256": "35efed3d50ba417a862da63fe7321f426ec5656fd9449c1c57fb79e9182ebd60"
+      },
+      {
+        "path": "figures/fig01_component_maps.png",
+        "bytes": 12748853,
+        "sha256": "3ded4fb65fd8cc2b50d1f552678c1d09fae900ee3f1f152db5ba5fe7e8cfd6a6"
+      },
+      {
+        "path": "figures/fig02_cmb_spectra.pdf",
+        "bytes": 31340,
+        "sha256": "b85848e3fca7900caf159ca4f524c51562b5f48aaf23a76e289a737fed1834d1"
+      },
+      {
+        "path": "figures/fig02_cmb_spectra.png",
+        "bytes": 585440,
+        "sha256": "374163e5b7febd716fa83604fba19b2f8fc9dbf8bde7e6191804770fde78ae74"
+      },
+      {
+        "path": "figures/fig03_correlations.pdf",
+        "bytes": 24892,
+        "sha256": "0f88d0387aacf0a81d0ea77d1fa0534199dd454033bf1786d8297ceb504b1524"
+      },
+      {
+        "path": "figures/fig03_correlations.png",
+        "bytes": 157253,
+        "sha256": "c2e9bdb4e903cf57171e45d085f9e2ff99f1826288756597d8d8d6e620aba8b5"
+      },
+      {
+        "path": "figures/fig04_observation_150.pdf",
+        "bytes": 985899,
+        "sha256": "e949e5b602401f40a190ba9410d39ee316c0949d61fbb86c303c587e6c028c4f"
+      },
+      {
+        "path": "figures/fig04_observation_150.png",
+        "bytes": 1445944,
+        "sha256": "3e2a393bdaad48ccede57496637073ed1d903ce6c763ba230b40c5baeb70d567"
+      },
+      {
+        "path": "figures/fig05_noise_validation.pdf",
+        "bytes": 22594,
+        "sha256": "f21bb5a86ccf167fe42591d533cab9524c96ccb2bf182c65e9eb14b9f3df3f61"
+      },
+      {
+        "path": "figures/fig05_noise_validation.png",
+        "bytes": 270957,
+        "sha256": "e0b112dc6ec6748c84c9ac53fa81a753a2f38f9a27951ab94ff6972b16afc618"
+      }
+    ]
+  },
+  "latest_IO_contract": "Only explicit uK_CMB/microK_CMB are accepted for existing unit headers; unknown missing-header source units require explicit assumption. New non-overwrite FITS commit uses atomic same-directory hard-link creation."
+}

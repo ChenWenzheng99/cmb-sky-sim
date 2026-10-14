@@ -1,0 +1,51 @@
+[
+  {
+    "filename": "Sehgal2010_simulations.pdf",
+    "sha256": "33571fc58edeac2f7ffa1217137286470d17fd75aa430af1fd6576016b22f163",
+    "bytes": 4007524,
+    "url": "https://arxiv.org/pdf/0908.0540",
+    "origin": "Verified copy of existing primary-source archive"
+  },
+  {
+    "filename": "sehgal.py",
+    "sha256": "1db6a7da2276b29548694f7f8bb6b45fd5ad3855a5a2e538f2ceef9a96a0f366",
+    "bytes": 41041,
+    "url": "https://raw.githubusercontent.com/dwhan89/cosmikyu/927c56f76a9c9f7c517a86a52586b8958c308328/cosmikyu/sehgal.py",
+    "origin": "Verified copy of existing primary-source archive"
+  },
+  {
+    "filename": "bode_almost_wmap5_lmax_1e4_scalCls.dat",
+    "sha256": "3b3aee929b5ed0585d4290373cddae1338d4842e39ff9629bea5b2e4e2b9fd4d",
+    "bytes": 824468,
+    "url": "https://raw.githubusercontent.com/dwhan89/cosmikyu/927c56f76a9c9f7c517a86a52586b8958c308328/resources/bode_almost_wmap5_lmax_1e4_scalCls.dat",
+    "origin": "Verified copy of existing primary-source archive"
+  },
+  {
+    "filename": "CAMB_1.6.1_model.py",
+    "sha256": "16326b432841ade1d7ff375512646e43adad302fda22a3603776784d5bc08862",
+    "bytes": 49451,
+    "url": "https://raw.githubusercontent.com/cmbant/CAMB/1.6.1/camb/model.py",
+    "origin": "Official CAMB version-tag source"
+  },
+  {
+    "filename": "CAMB_1.6.1_results.py",
+    "sha256": "4f69299514d36b998a374c3f1799c357ba90c99fd36b66273b5a4dac119a0a3c",
+    "bytes": 84931,
+    "url": "https://raw.githubusercontent.com/cmbant/CAMB/1.6.1/camb/results.py",
+    "origin": "Official CAMB version-tag source"
+  },
+  {
+    "filename": "CAMB_1.6.1_correlations.py",
+    "sha256": "052d34aa018815f45d06341767227c6e900d5868abe8190200988dda93666c24",
+    "bytes": 32201,
+    "url": "https://raw.githubusercontent.com/cmbant/CAMB/1.6.1/camb/correlations.py",
+    "origin": "Official CAMB version-tag source"
+  },
+  {
+    "filename": "CAMB_1.6.1_nonlinear.py",
+    "url": "https://raw.githubusercontent.com/cmbant/CAMB/1.6.1/camb/nonlinear.py",
+    "sha256": "1dc8ea9afb068f450f4724b10887faea91cecd0b075b0029c10daae7571e69db",
+    "bytes": 4112,
+    "provenance": "Official CAMB 1.6.1 version-tagged source; fetched for nonlinear-model audit"
+  }
+]

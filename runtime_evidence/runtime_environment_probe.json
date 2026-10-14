@@ -1,0 +1,41 @@
+{
+  "python": "3.12.11",
+  "platform": "Linux-5.14.0-687.34.1.el9_8.x86_64-x86_64-with-glibc2.34",
+  "executable": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/env_py312/bin/python",
+  "packages": {
+    "numpy": "2.2.5",
+    "scipy": "1.14.1",
+    "healpy": "1.19.0",
+    "astropy": "7.2.0",
+    "pysm3": "3.4.4",
+    "numba": "0.61.2",
+    "mpi4py": "4.1.1",
+    "h5py": "3.13.0",
+    "toml": "0.10.2",
+    "conda-pack": "0.8.1"
+  },
+  "MPI_vendor": [
+    "Open MPI",
+    [
+      5,
+      0,
+      8
+    ]
+  ],
+  "MPI_library": "Open MPI v5.0.8, package: Open MPI conda@fd1695381c62 Distribution, ident: 5.0.8, repo rev: v5.0.8, May 30, 2025\u0000",
+  "template_resolution": {
+    "dust_gnilc/gnilc_dust_template_nside2048_2023.02.10.fits": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/dust_gnilc/gnilc_dust_template_nside2048_2023.02.10.fits",
+    "synch/synch_template_nside2048_2023.02.25.fits": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/synch/synch_template_nside2048_2023.02.25.fits",
+    "pysm_2/ame_t_new.fits": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ame_t_new.fits",
+    "pysm_2/ame_nu_peak_0.fits": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ame_nu_peak_0.fits",
+    "pysm_2/emissivity.txt": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/emissivity.txt",
+    "pysm_2/ame2_t_new.fits": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ame2_t_new.fits",
+    "pysm_2/ff_t_new.fits": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ff_t_new.fits"
+  },
+  "healpy_scalar_smoke": {
+    "nside": 8,
+    "lmax": 16,
+    "finite": true,
+    "monopole_Cl": 12.566307234917726
+  }
+}

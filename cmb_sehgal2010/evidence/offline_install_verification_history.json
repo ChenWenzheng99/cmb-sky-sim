@@ -1,0 +1,12 @@
+{
+  "scope": "Offline installation packaging verification; scientific sources and wheels unchanged",
+  "initial_job": 225559,
+  "initial_job_exit": "1:0",
+  "initial_phase_results": "Offline installation, pinned imports, lightweight convention tests and theory input audit passed. Last source verifier incorrectly required two source-only F90 files inside the installed wheel.",
+  "initial_script_sha256": "85ac45c18db20e778623ad9531e64b3ffec1edc2e25cb4c32539b082bb8ff2d8",
+  "final_job": 225812,
+  "final_job_exit": "0:0",
+  "final_script_sha256": "6712b8a0fb2a2c4e86877c7207142d683915b013c23100e49db08bd2e8e6c24e",
+  "correction": "Validate43 original vendor source files and41 installed Python/data execution files; preserve two raw F90 files in vendor and confirm the active ducc synthesis/pointing/polarization-rotation route. No numerical source modification or wheel rebuild.",
+  "fresh_install_prefix": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/releases/cmb_sehgal2010_install_probe_20261011/runtime"
+}

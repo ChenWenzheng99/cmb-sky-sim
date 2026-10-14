@@ -1,0 +1,79 @@
+{
+  "cli_help": {
+    "exit_code": 0,
+    "log": {
+      "bytes": 1863,
+      "path": "/home/chen/output/data_paper/cmb_sehgal2010_release/production/cli_help.log",
+      "sha256": "7f2cc0fb43f91203954e61a4c146627baf84bfe7a7b6490d368ecd9313610497"
+    }
+  },
+  "coordinate_policy": "Actual source COORDSYS first; headerless input owner G declaration with caveat; no map rotation",
+  "gate": "Root native pilot and independent science validation required before campaign execution",
+  "jobs_submitted": false,
+  "local_versions": {
+    "astropy": "7.0.0",
+    "healpy": "1.19.0",
+    "numpy": "2.1.3",
+    "python": "3.13.5"
+  },
+  "map_output_estimates": {
+    "additional_FITS_bytes_500": 603983520000,
+    "large_alm_files_saved": false,
+    "number_of_IDs": 500,
+    "per_ID_float64_TQU_bytes": 1207967040
+  },
+  "native_pilot_suggested_request": {
+    "conservative_memory_GB": 64,
+    "cpus": 16,
+    "memory_GB": 32,
+    "scope": "Planning estimate only; pilot resource logs must determine campaign resources",
+    "time_minutes": 60
+  },
+  "producer": {
+    "bytes": 40661,
+    "path": "/home/chen/output/data_paper/cmb_sehgal2010_release/production/lensed_CMB_generation.py",
+    "sha256": "d1704baf4c18ef641fca1440266634289b2ea0d31a42e2670f38ff18c9d2dfac"
+  },
+  "requested_cluster_runtime": {
+    "astropy": "runtime-pinned by root",
+    "camb_for_theory": "1.6.1",
+    "ducc0": "0.38.0",
+    "healpy": "1.19.0",
+    "lenspyx": "original vendored 2.0.0 source, not public 2.0.52",
+    "numpy": "2.2.5",
+    "python": "3.12"
+  },
+  "source_snapshot": {
+    "bytes": 3000,
+    "path": "/home/chen/output/data_paper/cmb_sehgal2010_release/production/original_snapshot/lensed_CMB_generation.py",
+    "sha256": "ab7c9bb4dfc0f1bcdfbbb04cf7658a8feb73837193618a8013067111de141d21"
+  },
+  "status": "PREPARED_FOR_NATIVE_PILOT_NOT_GENERATED",
+  "test_module": {
+    "bytes": 14667,
+    "path": "/home/chen/output/data_paper/cmb_sehgal2010_release/production/test_production.py",
+    "sha256": "579bc275213cc3b45888dfc5288571b9888cd6e3e0335b9fc8d8cc030d83897d"
+  },
+  "tests": {
+    "count": 13,
+    "exit_code": 0,
+    "log": {
+      "bytes": 1987,
+      "path": "/home/chen/output/data_paper/cmb_sehgal2010_release/production/test_production.log",
+      "sha256": "1be7d7be152cbc168db67a433a1ab3f9a5a5a019bc99bc72617d3b808284b0cb"
+    },
+    "scope": "Low-L harmonic/RNG and temporary small-FITS IO controls, not native remapping certification"
+  },
+  "verified_original_lenspyx_api": {
+    "alm2lenmap_keywords": [
+      "geometry",
+      "epsilon",
+      "verbose",
+      "nthreads",
+      "pol"
+    ],
+    "nthreads_explicit": true,
+    "source_path": "/sharefs/alicpt/users/chenwz/download/lenspyx-2.0.0/lenspyx/lensing.py"
+  },
+  "writes_performed": "Only new production code, immutable source copy, local logs and synthetic temporary unit-test files; no source-tree new CMB maps"
+}

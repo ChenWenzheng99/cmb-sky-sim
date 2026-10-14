@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-14",
+  "scope": "GitHub distribution packaging and portable-runtime checks; no production maps regenerated",
+  "software_versions": {
+    "ali_sky": "1.1.0",
+    "cmb_extension": "1.0"
+  },
+  "unit_tests": {
+    "noise_and_observation": 32,
+    "cmb_theory": 3,
+    "cmb_production": 13,
+    "cmb_validation": 9,
+    "total": 57,
+    "result": "PASS"
+  },
+  "fresh_runtime_installations": {
+    "base": "PASS",
+    "cmb_extension": "PASS"
+  },
+  "mpi_five_rank_gather": {
+    "ranks": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "vendor": "Open MPI 5.0.8",
+    "result": "PASS",
+    "note": "The local host emitted network-interface pairing warnings; the five-rank gather completed."
+  },
+  "checks": {
+    "thirteen_numerical_sources_identical_to_original_packages": true,
+    "recorded_theory_input_and_output_hashes": "PASS",
+    "noise_and_observation_example_configurations": "PASS",
+    "launcher_help_and_shell_syntax": "PASS",
+    "asset_hashes_and_seven_wheels": "PASS",
+    "bootstrap_valid_local_fetch_and_invalid_input_refusal": "PASS"
+  },
+  "limits": [
+    "The 57 tests use small synthetic fixtures where numerical input is needed; they do not replace the archived native-NSIDE2048 validation.",
+    "This packaging check did not repeat the 50-realization scientific validation or a production cluster job.",
+    "Historical validation records preserve their original scope and paths.",
+    "Large sky maps and upstream PySM template files are not contained in this GitHub distribution."
+  ]
+}

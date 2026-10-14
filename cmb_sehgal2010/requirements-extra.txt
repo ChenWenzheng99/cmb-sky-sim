@@ -1,0 +1,9 @@
+# Offline overrides of the immutable Ali_sky Python 3.12 base runtime.
+# Install with --no-index --no-deps using the bundled audited wheels.
+numpy==1.26.4
+camb==1.6.1
+ducc0==0.38.0
+contourpy==1.3.3
+sympy==1.14.0
+mpmath==1.3.0
+lenspyx==2.0.0

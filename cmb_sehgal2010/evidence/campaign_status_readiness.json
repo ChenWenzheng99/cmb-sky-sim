@@ -1,0 +1,59 @@
+{
+  "baseline_comparison_fields": [
+    "bytes",
+    "mtime_ns",
+    "inode"
+  ],
+  "before_inventory": {
+    "bytes": 401594,
+    "path": "/home/chen/output/data_paper/cmb_sehgal2010_release/evidence/before_source_inventory.json",
+    "sha256": "581fe26bb3e84a18ad2e3ece6154ae2cfbe8058efbfe55bb2bc16daa78c58f49"
+  },
+  "bounded_IO": {
+    "complete_JSON_and_input_spectra_SHA256_recomputed": true,
+    "kappa_hashes": false,
+    "new_FITS_data_checksums_recomputed": false,
+    "new_FITS_pixel_data_read": false,
+    "new_map_hashes": false,
+    "old_map_hashes": false
+  },
+  "capture_counts": {
+    "directory_ids_exact_0_499": true,
+    "kappa": 500,
+    "new_fits": 0,
+    "old_cmb": 500
+  },
+  "capture_execution": {
+    "bytes": 837,
+    "path": "/home/chen/output/data_paper/cmb_sehgal2010_release/evidence/inventory_capture_execution.json",
+    "sha256": "a5329ff7210ebaca05a2dc08e5a1f94741848a17be1e08ea5a012c243e0c5afb"
+  },
+  "cli_help": {
+    "bytes": 768,
+    "path": "/home/chen/output/data_paper/cmb_sehgal2010_release/evidence/campaign_status_cli_help.log",
+    "sha256": "4c1ceb9ca85d3c0fe242f4aeda2fcc8709a9c0a0aa55ffa5242a2ca3afd6ae35"
+  },
+  "helper": {
+    "bytes": 23931,
+    "path": "/home/chen/output/data_paper/cmb_sehgal2010_release/evidence/campaign_status.py",
+    "sha256": "5b3555a27d545996dec1d83eceef429ae958eaf57267611554b0ac11f6f93925"
+  },
+  "no_jobs_submitted": true,
+  "scientific_validation_is_separate": true,
+  "source_maps_written": false,
+  "status": "READY_FOR_ROOT_POST_CAMPAIGN_EXECUTION",
+  "test_module": {
+    "bytes": 4615,
+    "path": "/home/chen/output/data_paper/cmb_sehgal2010_release/evidence/test_campaign_status.py",
+    "sha256": "f11887574f3d3265dc78f574b8c7910e6b60c2fec8e603cf94f445542cdea1d0"
+  },
+  "tests": {
+    "count": 4,
+    "exit_code": 0,
+    "log": {
+      "bytes": 740,
+      "path": "/home/chen/output/data_paper/cmb_sehgal2010_release/evidence/test_campaign_status.log",
+      "sha256": "a13541ca5ad0ee5295d38e165f8a0e7c3b7647d9bd3b8ed0815e7e40e68b3a7f"
+    }
+  }
+}

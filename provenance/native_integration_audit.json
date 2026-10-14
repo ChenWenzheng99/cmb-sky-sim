@@ -1,0 +1,931 @@
+{
+  "status": "PASS",
+  "scope": "Read-only native2048 forward observation integration, all pixels and provenance; no repeated harmonic transform or sky/noise generation",
+  "producer_job": 224659,
+  "producer_sacct": "JobID|State|ExitCode|Elapsed|MaxRSS|AllocCPUS|NodeList\n224659|COMPLETED|0:0|00:08:55||30|aliws011\n224659.batch|COMPLETED|0:0|00:08:55|4886140K|30|aliws011\n",
+  "validator_job": "224801",
+  "host": "aliws005.ihep.ac.cn",
+  "versions": {
+    "python": "3.12.11",
+    "numpy": "2.2.5",
+    "healpy": "1.19.0"
+  },
+  "nside": 2048,
+  "frequencies_GHz": [
+    95,
+    150
+  ],
+  "sky_ids": [
+    0
+  ],
+  "noise_ids": [
+    0
+  ],
+  "observations": {
+    "95.0": {
+      "file": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_observation_test/outputs/95/observation_00000_noise00000_G.fits",
+        "bytes": 1207967040,
+        "mtime_ns": 1791699730000000000,
+        "sha256": "77df883d95eb2f2bbaf48fabd252bcb4cec53fbf6da8c64a82cc6b25bd41a0b8"
+      },
+      "header": {
+        "NSIDE": 2048,
+        "ORDERING": "RING",
+        "COORDSYS": "G",
+        "POLCCONV": "COSMO",
+        "FREQGHZ": 95.0,
+        "TFIELDS": 3
+      },
+      "checksum": [
+        {
+          "HDU": 0,
+          "checksum": 1,
+          "datasum": 1
+        },
+        {
+          "HDU": 1,
+          "checksum": 1,
+          "datasum": 1
+        }
+      ],
+      "shape": [
+        3,
+        50331648
+      ],
+      "fields": [
+        {
+          "field": "T",
+          "pixels": 50331648,
+          "finite_count": 50331648,
+          "unseen_count": 0,
+          "nonzero_count": 19073353,
+          "minimum": -688.3717864889069,
+          "maximum": 559.4146331731318,
+          "mean": 9.231682682021143,
+          "population_std": 71.62102932733202
+        },
+        {
+          "field": "Q",
+          "pixels": 50331648,
+          "finite_count": 50331648,
+          "unseen_count": 0,
+          "nonzero_count": 19073353,
+          "minimum": -31.156886530172756,
+          "maximum": 34.405174438593306,
+          "mean": 0.11959369939969505,
+          "population_std": 3.838395601735084
+        },
+        {
+          "field": "U",
+          "pixels": 50331648,
+          "finite_count": 50331648,
+          "unseen_count": 0,
+          "nonzero_count": 19073353,
+          "minimum": -33.904262964445444,
+          "maximum": 32.203864504082574,
+          "mean": -0.07893045916428802,
+          "population_std": 3.8131519521801867
+        }
+      ],
+      "all_150994944_values_finite": true,
+      "source_checks": {
+        "cmb": {
+          "source_frequency_GHz": null,
+          "factor_independent": 1.0,
+          "factor_recorded": 1.0,
+          "coordinate_operation": "none",
+          "source_frame_verified": false
+        },
+        "tsz": {
+          "source_frequency_GHz": 148.0,
+          "factor_independent": 1.5878130004409823,
+          "factor_recorded": 1.5878130004409827,
+          "coordinate_operation": "none",
+          "source_frame_verified": false
+        },
+        "cib": {
+          "source_frequency_GHz": 148.0,
+          "factor_independent": 0.43001835499911556,
+          "factor_recorded": 0.43001835499911556,
+          "coordinate_operation": "none",
+          "source_frame_verified": false
+        },
+        "radio": {
+          "source_frequency_GHz": 148.0,
+          "factor_independent": 2.5673353646017834,
+          "factor_recorded": 2.5673353646017834,
+          "coordinate_operation": "none",
+          "source_frame_verified": false
+        },
+        "ksz": {
+          "source_frequency_GHz": null,
+          "factor_independent": 1.0,
+          "factor_recorded": 1.0,
+          "coordinate_operation": "none",
+          "source_frame_verified": false
+        }
+      }
+    },
+    "150.0": {
+      "file": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_observation_test/outputs/150/observation_00000_noise00000_G.fits",
+        "bytes": 1207967040,
+        "mtime_ns": 1791699894000000000,
+        "sha256": "f0d11b0573ae1049b13201129022dfa25cace5cd46f8663fa89014514c8de7d8"
+      },
+      "header": {
+        "NSIDE": 2048,
+        "ORDERING": "RING",
+        "COORDSYS": "G",
+        "POLCCONV": "COSMO",
+        "FREQGHZ": 150.0,
+        "TFIELDS": 3
+      },
+      "checksum": [
+        {
+          "HDU": 0,
+          "checksum": 1,
+          "datasum": 1
+        },
+        {
+          "HDU": 1,
+          "checksum": 1,
+          "datasum": 1
+        }
+      ],
+      "shape": [
+        3,
+        50331648
+      ],
+      "fields": [
+        {
+          "field": "T",
+          "pixels": 50331648,
+          "finite_count": 50331648,
+          "unseen_count": 0,
+          "nonzero_count": 19073353,
+          "minimum": -682.4497099772307,
+          "maximum": 1270.3728412688597,
+          "mean": 85.57761325453889,
+          "population_std": 199.11381958325833
+        },
+        {
+          "field": "Q",
+          "pixels": 50331648,
+          "finite_count": 50331648,
+          "unseen_count": 0,
+          "nonzero_count": 19073353,
+          "minimum": -36.332331767404234,
+          "maximum": 45.85282825508479,
+          "mean": 0.28689110845964566,
+          "population_std": 3.9384398469814013
+        },
+        {
+          "field": "U",
+          "pixels": 50331648,
+          "finite_count": 50331648,
+          "unseen_count": 0,
+          "nonzero_count": 19073353,
+          "minimum": -38.8895115256205,
+          "maximum": 36.03964454580273,
+          "mean": -0.14416629784914758,
+          "population_std": 3.806691563064272
+        }
+      ],
+      "all_150994944_values_finite": true,
+      "source_checks": {
+        "cmb": {
+          "source_frequency_GHz": null,
+          "factor_independent": 1.0,
+          "factor_recorded": 1.0,
+          "coordinate_operation": "none",
+          "source_frame_verified": false
+        },
+        "tsz": {
+          "source_frequency_GHz": 148.0,
+          "factor_independent": 0.9743205781224148,
+          "factor_recorded": 0.9743205781224143,
+          "coordinate_operation": "none",
+          "source_frame_verified": false
+        },
+        "cib": {
+          "source_frequency_GHz": 148.0,
+          "factor_independent": 1.0290746746085968,
+          "factor_recorded": 1.0290746746085968,
+          "coordinate_operation": "none",
+          "source_frame_verified": false
+        },
+        "radio": {
+          "source_frequency_GHz": 148.0,
+          "factor_independent": 0.9773451774392266,
+          "factor_recorded": 0.9773451774392266,
+          "coordinate_operation": "none",
+          "source_frame_verified": false
+        },
+        "ksz": {
+          "source_frequency_GHz": null,
+          "factor_independent": 1.0,
+          "factor_recorded": 1.0,
+          "coordinate_operation": "none",
+          "source_frame_verified": false
+        }
+      }
+    }
+  },
+  "mask": {
+    "source_frame": "C",
+    "output_frame": "G",
+    "independent_transfer": "G->C rotation matrix on target pixel vectors; nearest native C index",
+    "all_output_TQU_outside_strict_zero": true,
+    "outside_pixels_per_field": 31258295,
+    "sky_fraction": 0.378953476746877,
+    "shape": [
+      2048,
+      50331648
+    ]
+  },
+  "noise_campaign": {
+    "status": "COMPLETE",
+    "configuration": {
+      "nside": 2048,
+      "seed": 202610111,
+      "instrument": "LAT",
+      "scale_factor": 1,
+      "coordinate": "G",
+      "overwrite": false,
+      "mpi_ranks": 5,
+      "channels": [
+        {
+          "frequency_GHz": 95.0,
+          "nlev_uK_arcmin": 6.0,
+          "beam_fwhm_arcmin": 2.0,
+          "N_red_T": 0.0,
+          "l_knee_T": 1.0,
+          "alpha_knee_T": 0.0,
+          "n_red_P": 6.0,
+          "l_knee_P": 1.0,
+          "alpha_knee_P": 0.0,
+          "include_red": false
+        },
+        {
+          "frequency_GHz": 150.0,
+          "nlev_uK_arcmin": 5.0,
+          "beam_fwhm_arcmin": 1.4,
+          "N_red_T": 4.756468797564688e-05,
+          "l_knee_T": 1000.0,
+          "alpha_knee_T": -3.5,
+          "n_red_P": 5.0,
+          "l_knee_P": 700.0,
+          "alpha_knee_P": -1.4,
+          "include_red": true
+        }
+      ],
+      "ids": [
+        0
+      ],
+      "output_dir": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_observation_test/outputs/generated_noise",
+      "mode": "noise"
+    },
+    "MPI_ranks": 5,
+    "tasks": [
+      {
+        "frequency_GHz": 95.0,
+        "id": 0,
+        "output": {
+          "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_observation_test/outputs/generated_noise/LAT/95/noise_00000.fits",
+          "bytes": 1207967040,
+          "mtime_ns": 1791699508000000000,
+          "sha256": "3f43f5ea2708157729d9da2d1726c907a0cfe19f5b5afe82dd79705b2ab3ca64"
+        },
+        "reused": false
+      },
+      {
+        "frequency_GHz": 150.0,
+        "id": 0,
+        "output": {
+          "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_observation_test/outputs/generated_noise/LAT/150/noise_00000.fits",
+          "bytes": 1207967040,
+          "mtime_ns": 1791699507000000000,
+          "sha256": "e8fbe523d9a6ea472e1793885e6401d1704315a666b938e5ced808a8f7a301bb"
+        },
+        "reused": false
+      }
+    ],
+    "errors": []
+  },
+  "generated_noise_scans": [
+    {
+      "file": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_observation_test/outputs/generated_noise/LAT/95/noise_00000.fits",
+        "bytes": 1207967040,
+        "mtime_ns": 1791699508000000000,
+        "sha256": "3f43f5ea2708157729d9da2d1726c907a0cfe19f5b5afe82dd79705b2ab3ca64"
+      },
+      "header": {
+        "NSIDE": 2048,
+        "ORDERING": "RING",
+        "COORDSYS": "G",
+        "POLCCONV": "COSMO",
+        "FREQGHZ": 95.0,
+        "TFIELDS": 3
+      },
+      "checksum": [
+        {
+          "HDU": 0,
+          "checksum": 1,
+          "datasum": 1
+        },
+        {
+          "HDU": 1,
+          "checksum": 1,
+          "datasum": 1
+        }
+      ],
+      "shape": [
+        3,
+        50331648
+      ],
+      "fields": [
+        {
+          "field": "T",
+          "pixels": 50331648,
+          "finite_count": 50331648,
+          "unseen_count": 0,
+          "nonzero_count": 50331648,
+          "minimum": -17.22486900079274,
+          "maximum": 16.460438762425078,
+          "mean": 2.484785604931802e-05,
+          "population_std": 3.0251587646622533
+        },
+        {
+          "field": "Q",
+          "pixels": 50331648,
+          "finite_count": 50331648,
+          "unseen_count": 0,
+          "nonzero_count": 50331648,
+          "minimum": -24.05860248410278,
+          "maximum": 22.623395832114795,
+          "mean": -4.256530639697255e-05,
+          "population_std": 4.276718227749314
+        },
+        {
+          "field": "U",
+          "pixels": 50331648,
+          "finite_count": 50331648,
+          "unseen_count": 0,
+          "nonzero_count": 50331648,
+          "minimum": -23.35544712277275,
+          "maximum": 23.440864398064523,
+          "mean": -0.001421137718277419,
+          "population_std": 4.276979430023585
+        }
+      ],
+      "all_150994944_values_finite": true
+    },
+    {
+      "file": {
+        "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_observation_test/outputs/generated_noise/LAT/150/noise_00000.fits",
+        "bytes": 1207967040,
+        "mtime_ns": 1791699507000000000,
+        "sha256": "e8fbe523d9a6ea472e1793885e6401d1704315a666b938e5ced808a8f7a301bb"
+      },
+      "header": {
+        "NSIDE": 2048,
+        "ORDERING": "RING",
+        "COORDSYS": "G",
+        "POLCCONV": "COSMO",
+        "FREQGHZ": 150.0,
+        "TFIELDS": 3
+      },
+      "checksum": [
+        {
+          "HDU": 0,
+          "checksum": 1,
+          "datasum": 1
+        },
+        {
+          "HDU": 1,
+          "checksum": 1,
+          "datasum": 1
+        }
+      ],
+      "shape": [
+        3,
+        50331648
+      ],
+      "fields": [
+        {
+          "field": "T",
+          "pixels": 50331648,
+          "finite_count": 50331648,
+          "unseen_count": 0,
+          "nonzero_count": 50331648,
+          "minimum": -410.5378530106831,
+          "maximum": 857.0616544093359,
+          "mean": 197.52057700577382,
+          "population_std": 245.14804887753482
+        },
+        {
+          "field": "Q",
+          "pixels": 50331648,
+          "finite_count": 50331648,
+          "unseen_count": 0,
+          "nonzero_count": 50331648,
+          "minimum": -20.57451454963343,
+          "maximum": 21.69815429178536,
+          "mean": -0.052050991869568596,
+          "population_std": 3.8349643451716338
+        },
+        {
+          "field": "U",
+          "pixels": 50331648,
+          "finite_count": 50331648,
+          "unseen_count": 0,
+          "nonzero_count": 50331648,
+          "minimum": -21.1354762055839,
+          "maximum": 20.14344635641029,
+          "mean": 0.07431539296025208,
+          "population_std": 3.8365020548146753
+        }
+      ],
+      "all_150994944_values_finite": true
+    }
+  ],
+  "Galactic_95GHz_cache": [
+    {
+      "component": "dust",
+      "scan": {
+        "file": {
+          "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_observation_test/cache/galactic/780575c39270b040/fg_dust_d9_95GHz_nside2048_G.fits",
+          "bytes": 1207967040,
+          "mtime_ns": 1791699540000000000,
+          "sha256": "cbd3567e0a7abef40f6db13d46cd9bdf4046683f3fef7e6a2b8a0d52d09d7bb7"
+        },
+        "header": {
+          "NSIDE": 2048,
+          "ORDERING": "RING",
+          "COORDSYS": "G",
+          "POLCCONV": "COSMO",
+          "FREQGHZ": 95.0,
+          "TFIELDS": 3
+        },
+        "checksum": [
+          {
+            "HDU": 0,
+            "checksum": 1,
+            "datasum": 1
+          },
+          {
+            "HDU": 1,
+            "checksum": 1,
+            "datasum": 1
+          }
+        ],
+        "shape": [
+          3,
+          50331648
+        ],
+        "fields": [
+          {
+            "field": "T",
+            "pixels": 50331648,
+            "finite_count": 50331648,
+            "unseen_count": 0,
+            "nonzero_count": 50331648,
+            "minimum": 6.337480705934428,
+            "maximum": 12154.683041412056,
+            "mean": 67.42913401297069,
+            "population_std": 189.79075777589964
+          },
+          {
+            "field": "Q",
+            "pixels": 50331648,
+            "finite_count": 50331648,
+            "unseen_count": 0,
+            "nonzero_count": 50331648,
+            "minimum": -137.95459581895574,
+            "maximum": 284.0588500822939,
+            "mean": 1.7313781998555484,
+            "population_std": 4.793141121894084
+          },
+          {
+            "field": "U",
+            "pixels": 50331648,
+            "finite_count": 50331648,
+            "unseen_count": 0,
+            "nonzero_count": 50331648,
+            "minimum": -168.94022951569073,
+            "maximum": 804.2487165206629,
+            "mean": -0.17119372317194823,
+            "population_std": 2.8686152527950655
+          }
+        ],
+        "all_150994944_values_finite": true
+      },
+      "cache_hit": true,
+      "output_bytes_unchanged": true,
+      "output_sha_unchanged": true,
+      "input_templates": [
+        {
+          "logical_name": "dust_gnilc/gnilc_dust_template_nside2048_2023.02.10.fits",
+          "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/dust_gnilc/gnilc_dust_template_nside2048_2023.02.10.fits",
+          "bytes": 603987840,
+          "mtime_ns": 1713918420000000000,
+          "sha256": "d388b5f9641decfa5c75318fbe0d80a010b9d8f58a91be0009040cb50e777bfb"
+        }
+      ]
+    },
+    {
+      "component": "synchrotron",
+      "scan": {
+        "file": {
+          "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_observation_test/cache/galactic/9032bb34ad6a55d3/fg_synchrotron_s4_95GHz_nside2048_G.fits",
+          "bytes": 1207967040,
+          "mtime_ns": 1791699558000000000,
+          "sha256": "f03d1da14b85455f4a2729a601b453f39d9d757e13e0606ea41c2a04d871e1fd"
+        },
+        "header": {
+          "NSIDE": 2048,
+          "ORDERING": "RING",
+          "COORDSYS": "G",
+          "POLCCONV": "COSMO",
+          "FREQGHZ": 95.0,
+          "TFIELDS": 3
+        },
+        "checksum": [
+          {
+            "HDU": 0,
+            "checksum": 1,
+            "datasum": 1
+          },
+          {
+            "HDU": 1,
+            "checksum": 1,
+            "datasum": 1
+          }
+        ],
+        "shape": [
+          3,
+          50331648
+        ],
+        "fields": [
+          {
+            "field": "T",
+            "pixels": 50331648,
+            "finite_count": 50331648,
+            "unseen_count": 0,
+            "nonzero_count": 50331648,
+            "minimum": 0.6282391787551543,
+            "maximum": 47.69734460366242,
+            "mean": 1.9877238611819854,
+            "population_std": 2.014551034582194
+          },
+          {
+            "field": "Q",
+            "pixels": 50331648,
+            "finite_count": 50331648,
+            "unseen_count": 0,
+            "nonzero_count": 50331648,
+            "minimum": -4.115533989203373,
+            "maximum": 13.957401426026566,
+            "mean": 0.1921637732480137,
+            "population_std": 0.6562247961637074
+          },
+          {
+            "field": "U",
+            "pixels": 50331648,
+            "finite_count": 50331648,
+            "unseen_count": 0,
+            "nonzero_count": 50331648,
+            "minimum": -6.052510377959066,
+            "maximum": 2.88547521345508,
+            "mean": -0.003558703602737339,
+            "population_std": 0.35865374325242155
+          }
+        ],
+        "all_150994944_values_finite": true
+      },
+      "cache_hit": true,
+      "output_bytes_unchanged": true,
+      "output_sha_unchanged": true,
+      "input_templates": [
+        {
+          "logical_name": "synch/synch_template_nside2048_2023.02.25.fits",
+          "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/synch/synch_template_nside2048_2023.02.25.fits",
+          "bytes": 603987840,
+          "mtime_ns": 1713918566000000000,
+          "sha256": "12f0702e40d319161310c1838371ddcbd7933a4413808b208e67f559af25d6cc"
+        }
+      ]
+    },
+    {
+      "component": "freefree",
+      "scan": {
+        "file": {
+          "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_observation_test/cache/galactic/563394542ec5c90f/fg_freefree_f1_95GHz_nside2048_G.fits",
+          "bytes": 1207967040,
+          "mtime_ns": 1791699572000000000,
+          "sha256": "fa53a8bc9639f31485b0531f264f04268244834f41409d2ff18d38de6819eda0"
+        },
+        "header": {
+          "NSIDE": 2048,
+          "ORDERING": "RING",
+          "COORDSYS": "G",
+          "POLCCONV": "COSMO",
+          "FREQGHZ": 95.0,
+          "TFIELDS": 3
+        },
+        "checksum": [
+          {
+            "HDU": 0,
+            "checksum": 1,
+            "datasum": 1
+          },
+          {
+            "HDU": 1,
+            "checksum": 1,
+            "datasum": 1
+          }
+        ],
+        "shape": [
+          3,
+          50331648
+        ],
+        "fields": [
+          {
+            "field": "T",
+            "pixels": 50331648,
+            "finite_count": 50331648,
+            "unseen_count": 0,
+            "nonzero_count": 50331648,
+            "minimum": 1.786882242920503e-05,
+            "maximum": 26047.463424410238,
+            "mean": 25.386024390786474,
+            "population_std": 217.32020483195075
+          },
+          {
+            "field": "Q",
+            "pixels": 50331648,
+            "finite_count": 50331648,
+            "unseen_count": 0,
+            "nonzero_count": 0,
+            "minimum": 0.0,
+            "maximum": 0.0,
+            "mean": 0.0,
+            "population_std": 0.0
+          },
+          {
+            "field": "U",
+            "pixels": 50331648,
+            "finite_count": 50331648,
+            "unseen_count": 0,
+            "nonzero_count": 0,
+            "minimum": 0.0,
+            "maximum": 0.0,
+            "mean": 0.0,
+            "population_std": 0.0
+          }
+        ],
+        "all_150994944_values_finite": true
+      },
+      "cache_hit": true,
+      "output_bytes_unchanged": true,
+      "output_sha_unchanged": true,
+      "input_templates": [
+        {
+          "logical_name": "pysm_2/ff_t_new.fits",
+          "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ff_t_new.fits",
+          "bytes": 12591360,
+          "mtime_ns": 1730352636000000000,
+          "sha256": "dee78cf249fc884924d9d892bd63b02e09760ca056ff7c5b0c92b6259cc028ee"
+        }
+      ]
+    },
+    {
+      "component": "ame",
+      "scan": {
+        "file": {
+          "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_observation_test/cache/galactic/5f192514a6f53df3/fg_ame_a1_95GHz_nside2048_G.fits",
+          "bytes": 1207967040,
+          "mtime_ns": 1791699594000000000,
+          "sha256": "7bd52851243a1d7b565aebe337e00570b610c076a73ef1613c844267f869088b"
+        },
+        "header": {
+          "NSIDE": 2048,
+          "ORDERING": "RING",
+          "COORDSYS": "G",
+          "POLCCONV": "COSMO",
+          "FREQGHZ": 95.0,
+          "TFIELDS": 3
+        },
+        "checksum": [
+          {
+            "HDU": 0,
+            "checksum": 1,
+            "datasum": 1
+          },
+          {
+            "HDU": 1,
+            "checksum": 1,
+            "datasum": 1
+          }
+        ],
+        "shape": [
+          3,
+          50331648
+        ],
+        "fields": [
+          {
+            "field": "T",
+            "pixels": 50331648,
+            "finite_count": 50331648,
+            "unseen_count": 0,
+            "nonzero_count": 49905856,
+            "minimum": 0.0,
+            "maximum": 467.10435568897833,
+            "mean": 0.12214209028059791,
+            "population_std": 0.8047351152744429
+          },
+          {
+            "field": "Q",
+            "pixels": 50331648,
+            "finite_count": 50331648,
+            "unseen_count": 0,
+            "nonzero_count": 0,
+            "minimum": 0.0,
+            "maximum": 0.0,
+            "mean": 0.0,
+            "population_std": 0.0
+          },
+          {
+            "field": "U",
+            "pixels": 50331648,
+            "finite_count": 50331648,
+            "unseen_count": 0,
+            "nonzero_count": 0,
+            "minimum": 0.0,
+            "maximum": 0.0,
+            "mean": 0.0,
+            "population_std": 0.0
+          }
+        ],
+        "all_150994944_values_finite": true
+      },
+      "cache_hit": true,
+      "output_bytes_unchanged": true,
+      "output_sha_unchanged": true,
+      "input_templates": [
+        {
+          "logical_name": "pysm_2/ame2_t_new.fits",
+          "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ame2_t_new.fits",
+          "bytes": 12591360,
+          "mtime_ns": 1730352529000000000,
+          "sha256": "2e754506839233778dc73e297fba6c15bc1215e8c364a5156be0e254ab38cab2"
+        },
+        {
+          "logical_name": "pysm_2/ame_nu_peak_0.fits",
+          "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ame_nu_peak_0.fits",
+          "bytes": 12591360,
+          "mtime_ns": 1730352517000000000,
+          "sha256": "cc7b319d49e14a56d72e515e94fc3a2833d776d166390348a81b009617eb0906"
+        },
+        {
+          "logical_name": "pysm_2/ame_t_new.fits",
+          "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ame_t_new.fits",
+          "bytes": 12591360,
+          "mtime_ns": 1730352514000000000,
+          "sha256": "6ca7906748b34e6f29ac94d37dc63838af90ae00f04935ae8c1a6bffb280ca0c"
+        },
+        {
+          "logical_name": "pysm_2/emissivity.txt",
+          "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/emissivity.txt",
+          "bytes": 50054,
+          "mtime_ns": 1730352518000000000,
+          "sha256": "e2b59c3297782ca153397522c633b68a9c32c4b76054b6b3ccba3ab0231a8a84"
+        }
+      ]
+    }
+  ],
+  "template_tree": {
+    "dust_gnilc/gnilc_dust_template_nside2048_2023.02.10.fits": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/dust_gnilc/gnilc_dust_template_nside2048_2023.02.10.fits",
+      "bytes": 603987840,
+      "mtime_ns": 1713918420000000000,
+      "sha256": "d388b5f9641decfa5c75318fbe0d80a010b9d8f58a91be0009040cb50e777bfb"
+    },
+    "pysm_2/ame2_t_new.fits": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ame2_t_new.fits",
+      "bytes": 12591360,
+      "mtime_ns": 1730352529000000000,
+      "sha256": "2e754506839233778dc73e297fba6c15bc1215e8c364a5156be0e254ab38cab2"
+    },
+    "pysm_2/ame_nu_peak_0.fits": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ame_nu_peak_0.fits",
+      "bytes": 12591360,
+      "mtime_ns": 1730352517000000000,
+      "sha256": "cc7b319d49e14a56d72e515e94fc3a2833d776d166390348a81b009617eb0906"
+    },
+    "pysm_2/ame_t_new.fits": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ame_t_new.fits",
+      "bytes": 12591360,
+      "mtime_ns": 1730352514000000000,
+      "sha256": "6ca7906748b34e6f29ac94d37dc63838af90ae00f04935ae8c1a6bffb280ca0c"
+    },
+    "pysm_2/emissivity.txt": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/emissivity.txt",
+      "bytes": 50054,
+      "mtime_ns": 1730352518000000000,
+      "sha256": "e2b59c3297782ca153397522c633b68a9c32c4b76054b6b3ccba3ab0231a8a84"
+    },
+    "pysm_2/ff_t_new.fits": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/pysm_2/ff_t_new.fits",
+      "bytes": 12591360,
+      "mtime_ns": 1730352636000000000,
+      "sha256": "dee78cf249fc884924d9d892bd63b02e09760ca056ff7c5b0c92b6259cc028ee"
+    },
+    "synch/synch_template_nside2048_2023.02.25.fits": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/synch/synch_template_nside2048_2023.02.25.fits",
+      "bytes": 603987840,
+      "mtime_ns": 1713918566000000000,
+      "sha256": "12f0702e40d319161310c1838371ddcbd7933a4413808b208e67f559af25d6cc"
+    },
+    "template_manifest.json": {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/template_cache/template_manifest.json",
+      "bytes": 2050,
+      "mtime_ns": 1791698370000000000,
+      "sha256": "8006e67180c92ed8b1faba878770e0363f98d5a94a8c8e9d58bf186c6d6fcded"
+    }
+  },
+  "generation_prohibited_during_cache_hit": true,
+  "extra_templates_created": 0,
+  "source_files": [
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/ali_sky/io.py",
+      "bytes": 6172,
+      "mtime_ns": 1791699312000000000,
+      "sha256": "a30c37e88fc0b8b61acbb3977f23b1fbca4d2a5cb2140ac929f9a42517a1ba59"
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/ali_sky/config.py",
+      "bytes": 8864,
+      "mtime_ns": 1791699312000000000,
+      "sha256": "fe646f269bd2c88382831999605a402d36c79a1ee46624e92332daf6a27bbd1d"
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/ali_sky/coordinates.py",
+      "bytes": 2107,
+      "mtime_ns": 1791699312000000000,
+      "sha256": "545b4b3de3118341edbcdca8f7c7e92f01bef9d84d1bfded3e5cb72d5ee0aaf9"
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/ali_sky/foregrounds.py",
+      "bytes": 5070,
+      "mtime_ns": 1791699312000000000,
+      "sha256": "0ecc3f0e32e368a50301cb76b5923b535d148874f36f31723804fdc7805bebce"
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/ali_sky/sed.py",
+      "bytes": 1595,
+      "mtime_ns": 1791699312000000000,
+      "sha256": "b706b34041d1eb305600c17101055837435bcb597cd4f11787ed100afc395662"
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/ali_sky/noise.py",
+      "bytes": 16510,
+      "mtime_ns": 1791699312000000000,
+      "sha256": "9b0543558ae715516c427d345445a333acb79fc1fe64690580dc3854992fcef0"
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/ali_sky/observation.py",
+      "bytes": 9575,
+      "mtime_ns": 1791699312000000000,
+      "sha256": "d499bf1ef12761644c1ed589c4f585a6104d595983634785bf482c89b90299b4"
+    },
+    {
+      "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/ali_sky/cli.py",
+      "bytes": 6448,
+      "mtime_ns": 1791699312000000000,
+      "sha256": "40dc4686350186eb5dca990979ed00d5ae7423b070bc74959a4fcf3e3f83a1c2"
+    }
+  ],
+  "validator_source": {
+    "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_observation_test/validate_native_integration.py",
+    "bytes": 21442,
+    "mtime_ns": 1791699966000000000,
+    "sha256": "24bdb4de13b6549e89291b8525320e81616a6ecd46666d6005ecf9623c6cb6c1"
+  },
+  "configuration": {
+    "path": "/sharefs/alicpt/users/chenwz/Testarea/FORECAST/data_paper_release_runtime_20261011/native_observation_config.json",
+    "bytes": 784,
+    "mtime_ns": 1791699313000000000,
+    "sha256": "052d423f410222d840c6b45ecfb52d687390d74afd22a34b69ab150d5a8260f1"
+  },
+  "coordinate_claim": "Effective missing-header repository G is the owner declaration; historical upstream C/ICRS is retained. This check does not independently certify physical Galactic input coordinates.",
+  "limits": [
+    "No native beam SHT recomputation, cosmic-variance/noise Monte Carlo certification or legacy-seed recovery is claimed.",
+    "95GHz and150GHz beam/depth settings are the explicit integration configuration, including custom values.",
+    "The automatic MPI manifest reports COMM_WORLD size5; two frequency tasks leave three ranks idle."
+  ],
+  "elapsed_seconds": 141.61611427459866
+}

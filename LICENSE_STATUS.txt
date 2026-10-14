@@ -1,0 +1,16 @@
+Release-license status
+
+The authors have not yet selected a license for the original project code or
+data. Public availability of this repository does not assign MIT, CC BY or
+another blanket license. Contact Yang Liu (liuy92@ihep.ac.cn) or Hong Li
+(hongli@ihep.ac.cn) about reuse permissions pending a formal license decision.
+
+Third-party software retains its own license and notices. The runtime and
+CMB wheel archives preserve package metadata; additional source notices are
+in third_party_notices/ and docs/SOURCE_LICENSE_NOTES.txt. CAMB 1.6.1 includes
+its stated publication and bug-reporting conditions; lenspyx 2.0.0 includes
+its bug-reporting condition. Consult the complete notices for those packages.
+
+The TB-scale map archive and upstream PySM template data are separate inputs.
+This repository distributes template URLs and checksums, not those templates.
+Their download availability is not treated as a blanket redistribution grant.
